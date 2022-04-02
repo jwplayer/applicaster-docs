@@ -1,4 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
+title: Just the Docs
+description: A Jekyll theme for documentation
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
