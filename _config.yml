@@ -1,8 +1,14 @@
 remote_theme: just-the-docs/just-the-docs
 title: JW Player - Applicaster Documentation
 description: A Jekyll theme for documentation
+# Define Jekyll collections
+collections:
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
 just_the_docs:
-  # Define which collections are used in just-the-docs
+  # Define which Jekyll collections are used in just-the-docs
   collections:
     # Reference the "docs" collection
     docs:
