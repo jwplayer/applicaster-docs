@@ -3,7 +3,7 @@ title: JWP Applicaster Playbook
 description: A playbook for developing mobile apps using Applicaster and JW Player.
 baseurl: "/jwp-applicaster-docs" # the subpath of your site, e.g. /blog
 url: "https://marcovandeveen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+exclude: [README.md]
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
