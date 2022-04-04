@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Features
+title: Supported Features
 nav_order: 7
 ---
 
