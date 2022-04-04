@@ -2,6 +2,7 @@
 layout: default
 title: Supported features
 nav_order: 7
+parent: Reference
 ---
 
 The list of supported features can be found here:
