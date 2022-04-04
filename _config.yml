@@ -10,6 +10,7 @@ aux_links:
     - "https://www.applicaster.com"
   "JW Player": 
     - "https://www.jwplayer.com"
+color_scheme: dark
     
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
