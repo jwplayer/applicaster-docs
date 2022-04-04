@@ -1,3 +1,9 @@
+---
+layout: default
+title: Video protection
+nav_order: 1
+---
+
 ## How to setup geo blocking?
 
 Geo blocking is controlled on Applicaster's end; please ask clients not to geo-block in JWplatform otherwise it will cause a conflict. ~You can find more info below:
