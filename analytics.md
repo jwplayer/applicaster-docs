@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trailers
+title: Analytics
 nav_order: 1
 ---
 
