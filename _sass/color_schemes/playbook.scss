@@ -17,11 +17,14 @@ $table-background-color: $grey-dk-250;
 $feedback-color: darken($sidebar-color, 3%);
 
 .nav-list-link {
-  color: white;
+  color: $grey-lt-300;
 }
 .aux-nav-list-item{
-  color: white;
+  color: $grey-lt-300;
 }
 #edit-this-page{
-  color: white;
+  color: $grey-lt-300;
+}
+.search-result {
+    color: $grey-lt-300;
 }
