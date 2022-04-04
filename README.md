@@ -1,4 +1,4 @@
 Readme
 
 
-This site is about docs. See left for navigation.
+https://marcovandeveen.github.io/jwp-applicaster-docs/
