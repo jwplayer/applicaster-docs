@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Analytics
-nav_order: 1
+nav_order: 7
 ---
 
 
