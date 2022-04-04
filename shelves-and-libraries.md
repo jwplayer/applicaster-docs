@@ -5,7 +5,7 @@ nav_order: 1
 nav_exclude: false
 ---
 
-# Homepage 
+# Developing screens with shelves and libraries 
 
 ## Shelves
 The homepage contains shelves. The standard usage is:
