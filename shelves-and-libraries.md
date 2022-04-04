@@ -8,7 +8,7 @@ nav_exclude: false
 # Developing screens with shelves and libraries 
 
 ## Shelves
-The homepage contains shelves. The standard usage is:
+The shelves are typically shown on the homepage. The standard usage is:
 - shelves highlight the most relevant videos for a user
 - shelves are visualized in rows of typically 20-40 items
 - shelves have horizontal navigation
