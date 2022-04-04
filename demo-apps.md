@@ -16,3 +16,10 @@ var fun = function lang(l) {
   return true;
 }
 ```
+a json
+```
+{
+  "test": 123;
+  "test2": "test"
+}
+```
