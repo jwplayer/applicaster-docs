@@ -2,6 +2,7 @@
 layout: default
 title: Advertisements
 nav_order: 1
+nav_exclude: false
 ---
 
 ## How to setup ads? 
