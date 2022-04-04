@@ -1,8 +1,4 @@
----
-layout: default
-title: Home
-nav_order: 1
----
+
 
 This playbook is for JW Player clients that implement OTT apps with Applicaster and JW Player.
 
