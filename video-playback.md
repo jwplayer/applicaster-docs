@@ -26,6 +26,13 @@ Applicaster:
 When creating/modifying a cell style,in the image section you need to insert a key, the default is: image_base, change to the image size you desire based on the resolutions delivered on the JW feed. Default are: 320/460/640/720/1280/1920 OR a custom size based on the data dictionary 
 
 
+## How to add subtitles / captions?
+See https://support.jwplayer.com/articles/how-to-add-closed-captions. Captions will automatically appear in Applicaster Apps. 
+
+Please note that Samsung and LG using Shaka Player. Shakaplayer needs a two-letter code entere. Entering language code in the captions editor (srclang field in the API). See also Update a text track )
+
+
+
 ## Where is casting or airplay enabled in applicaster?
 It is enabled in applicasters platform, if you are interested you can read it on their documentation page here:
 https://docs.applicaster.com/plugin-development/30-guides/50-plugins/50-player#properties
