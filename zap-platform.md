@@ -5,8 +5,18 @@ parent: Concepts
 nav_order: 1
 nav_exclude: false
 ---
-{toc}
+# Zap Platform
+{: .no_toc }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+{:toc}
+</details>
+
+---
 # Zap Platform
 ## What does the Zap platform do?
 The Zapp app management platform of Applicaster shrinks the time it takes to launch rich media apps on mobile and TV platforms without sacrificing UI or tech stack requirements. Zapp is built to help your team easily make changes over time as your needs and the market change.
