@@ -6,7 +6,7 @@ nav_exclude: false
 ---
 
 # Developing screens with shelves and libraries 
-![](/img/shelves.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](/img/library.png)
+![](./img/shelves.png) &nbsp; ![](./img/library.png)
  
 ## Shelves
 The shelves are typically shown on the homepage. The standard usage is:
