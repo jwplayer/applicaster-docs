@@ -5,6 +5,7 @@ parent: Concepts
 nav_order: 1
 nav_exclude: false
 ---
+1. TOC
 {:toc}
 ---
 # Zap Platform
