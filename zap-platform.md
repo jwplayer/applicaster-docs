@@ -34,3 +34,7 @@ Applicaster applications are running natively on supported platforms. Applicaste
 ## How do Zapp apps consume data?
 All Zapp apps on all platforms consume data in the same way; All apps are composed from screens that are composed from components. Components get data from feeds. 
 
+## What is the Zapp Studio?
+This is where Layouts for all platforms (mobile and TV) are created and edited. Each layout represents the structure of your app in terms of UI/UX as well as the content hierarchy. It’s basically how your apps look, feel and function. 
+
+
