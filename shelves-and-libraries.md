@@ -4,6 +4,7 @@ title: Shelves and libraries
 nav_order: 1
 nav_exclude: false
 ---
+{:toc}
 
 # Developing screens with shelves and libraries 
 
