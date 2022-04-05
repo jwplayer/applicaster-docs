@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Demo Apps
+title: Demo apps
 nav_order: 9
 nav_exclude: false
 ---
 
-# Demo Apps
+# Demo apps
 
 Test `<inline code snippet>`
 
