@@ -5,10 +5,11 @@ parent: Concepts
 nav_order: 1
 nav_exclude: false
 ---
+# Zap Platform{: .no_toc }
 1. TOC
 {:toc}
 ---
-# Zap Platform
+
 ## What does the Zap platform do?
 The Zapp app management platform of Applicaster shrinks the time it takes to launch rich media apps on mobile and TV platforms without sacrificing UI or tech stack requirements. Zapp is built to help your team easily make changes over time as your needs and the market change.
 
@@ -17,7 +18,8 @@ Zapp enables users to configure and build media apps with remote configuration (
 You/your team will build and manage apps via the web interface to Zapp, https://zapp.applicaster.com.
 Which platforms does Applicaster Support?
 See https://docs.applicaster.com/using-zapp/supported-devices 
-Does Applicaster support web apps?
+
+## Does Applicaster support web apps?
 Applicaster doesn’t support a web app. If you need a web app JW Players opensource web app available at https://github.com/jwplayer/ott-web-app. You can host and manage this yourself or ask JW Player to do it for you 
  
 ## How is an app created in the zapp platform (applicasters platform)?
