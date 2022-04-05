@@ -16,3 +16,5 @@ Below is a step by step walkthrough:
 3 Save the ad schedule and grab the adid from there.
 4 Go in Zapp (applicasters) platform and in the playlist data feed that you want to show ads, add the schedule id to ?adId={scheduleId)
 5 Make sure you add the Google IMA plugin form the plugin gallery, if it wasn’t added before you’ll need to build the version again for the plugin to be enabled.
+
+## Ad Macros - By Alok
