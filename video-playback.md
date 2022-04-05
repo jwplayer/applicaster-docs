@@ -4,7 +4,12 @@ title: Video playback
 nav_order: 3
 nav_exclude: false
 ---
-# Video playback
+
+1.
+{:toc}
+
+
+# Video playback {: .no_toc}
 ## How does video playback happen in Applicaster for JWplayer feeds?
 By default everytime a feed is setup in Applicaster there has to be a value defined, applicaster by default defines this value as Video in the feeds that is returned from JWplatform, below is an example:
 
