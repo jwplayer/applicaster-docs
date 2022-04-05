@@ -5,17 +5,7 @@ parent: Concepts
 nav_order: 1
 nav_exclude: false
 ---
-# Zap Platform
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
 {:toc}
-</details>
-
 ---
 # Zap Platform
 ## What does the Zap platform do?
