@@ -44,3 +44,6 @@ Each media item has poster images:
 - It’s not possible to have no thumbnails.
 - The static thumbnails are automatically resized to 320px-1920px widths, keeping the image ratio stable.
 - The motion image is not used in the applicater
+
+
+## Idan
