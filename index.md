@@ -27,4 +27,4 @@ Issues, questions and pull requests are welcome on GitHub at https://github.com/
 1. Await review of your request
 
 ### Tips
-- It can take a few minutes before changes propogate
+- It can take up to 10 minutes for changes to publish after you push the changes to GitHub. 
