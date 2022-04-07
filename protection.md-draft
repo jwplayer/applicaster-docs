@@ -2,7 +2,7 @@
 layout: default
 title: Video protection
 nav_order: 8
-nav_exclude: true
+nav_exclude: 
 ---
 
 ## How to setup geo blocking?
