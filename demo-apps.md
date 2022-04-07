@@ -6,6 +6,10 @@ nav_exclude: false
 ---
 
 # Demo apps
+{: .no_toc}
+
+1. TOC
+{:toc}
 
 Test `<inline code snippet>`
 
