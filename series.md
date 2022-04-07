@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Series
-nav_order: 6
+nav_order: 600
 ---
 
 ## How to create series?
