@@ -5,9 +5,7 @@ nav_order: 400
 nav_exclude: false
 ---
 
-1.
-{:toc}
-
+1.{:toc}
 
 # Video playback {: .no_toc}
 ## How does video playback happen in Applicaster for JWplayer feeds?
