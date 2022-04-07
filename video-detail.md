@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Video detail
-nav_order: 1
+nav_order: 300
 nav_exclude: false
 ---
 
