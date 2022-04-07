@@ -23,7 +23,7 @@ There are some special shelves:
 - favorite shelf: a list of videos a user likes to watch in the future. See Watchlist
 - continue watching shelf: a list of videos a user has not completed yet. See Watchlist
 
- <img src="./img/shelves.png" width="180">
+ <img align="right" src="./img/shelves.png" width="180">
 
 
 ## Libraries
