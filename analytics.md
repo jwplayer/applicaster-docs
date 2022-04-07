@@ -3,7 +3,11 @@ layout: default
 title: Analytics
 nav_order: 800
 ---
+# Analytics
+{: .no_toc}
 
+1. TOC
+{:toc}
 
 ## How to setup JWplayer analytics?
 Please provide Applicaster SE/AM with JWPlayer analytics token for the property that is being added in Applicaster's platform. Please note that you need to provide analytics token for each of the properties that is being used in Applicaster's platform.
