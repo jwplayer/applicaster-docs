@@ -4,13 +4,12 @@ title: Shelves
 nav_order: 100
 nav_exclude: false
 ---
+# Shelves
+{: .no_toc }
 
 1. TOC
 {:toc}
 
-# Developing screens with shelves and libraries 
-{: .no_toc }
- <img src="./img/shelves.png" width="180">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/library.png" width="180" >
  
 ## Shelves
 The shelves are typically shown on the homepage. The standard usage is:
@@ -23,6 +22,9 @@ There are some special shelves:
 - featured shelf: highlight special videos, manually curated and visualized in the top of the homepage
 - favorite shelf: a list of videos a user likes to watch in the future. See Watchlist
 - continue watching shelf: a list of videos a user has not completed yet. See Watchlist
+
+ <img src="./img/shelves.png" width="180">
+
 
 ## Libraries
 A library allows viewers to browse all videos. The standard usage is:
