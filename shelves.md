@@ -12,6 +12,7 @@ nav_exclude: false
 
  
 ## Shelves
+<img align="right" src="./img/shelves.png" width="180">
 The shelves are typically shown on the homepage. The standard usage is:
 - shelves highlight the most relevant videos for a user
 - shelves are visualized in rows of typically 20-40 items
@@ -23,7 +24,7 @@ There are some special shelves:
 - favorite shelf: a list of videos a user likes to watch in the future. See Watchlist
 - continue watching shelf: a list of videos a user has not completed yet. See Watchlist
 
- <img align="right" src="./img/shelves.png" width="180">
+
 
 
 ## Libraries
