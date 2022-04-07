@@ -6,7 +6,7 @@ nav_order: 0
 # About this playbook
 This playbook is for JW Player clients that implement OTT apps with Applicaster and JW Player.
 
-This playbook is complementary tot he standard JW Player and Applicaster documentation
+This playbook is complementary tot he standard [JW Player](./reference/jw-player-docs.md) and Applicaster documentation
 
 # Contributing
 Issues, questions and pull requests are welcome on GitHub at https://github.com/marcovandeveen/jwp-applicaster-docs.
