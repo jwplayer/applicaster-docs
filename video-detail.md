@@ -6,6 +6,11 @@ nav_exclude: false
 ---
 
 # Video detail page
+{: .no_toc}
+
+1. TOC
+{:toc}
+
 ## How to create a video detail page ?
 Make sure that you have all the extra meta data like MPAA Rating, Run Time and all the other details that you want to show added as custom parameters in JWplatform.
 
