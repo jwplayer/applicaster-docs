@@ -13,6 +13,7 @@ nav_exclude: false
  
 ## Shelves
 <img align="right" src="./img/shelves.png" width="180">
+
 The shelves are typically shown on the homepage. The standard usage is:
 - shelves highlight the most relevant videos for a user
 - shelves are visualized in rows of typically 20-40 items
