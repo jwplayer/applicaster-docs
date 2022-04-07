@@ -25,6 +25,3 @@ Issues, questions and pull requests are welcome on GitHub at https://github.com/
 1. Click commit. Github will create a branch 
 1. Create a pull request of your branch
 1. Await review of your request
-
-# Status
-Draft
