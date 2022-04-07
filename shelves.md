@@ -4,10 +4,12 @@ title: Shelves
 nav_order: 100
 nav_exclude: false
 ---
+
+1. TOC
 {:toc}
 
 # Developing screens with shelves and libraries 
-
+{: .no_toc }
  <img src="./img/shelves.png" width="180">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/library.png" width="180" >
  
 ## Shelves
