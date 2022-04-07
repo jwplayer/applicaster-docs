@@ -4,6 +4,11 @@ title: Advertisements
 nav_order: 900
 nav_exclude: false
 ---
+# Advertisements
+{: .no_toc}
+
+1. TOC
+{:toc}
 
 ## How to setup ads? 
 Setup ads as you do normally within the ad schedule and select Google IMA as the ad client and VMAP is recommended over VAST. Once setup the client just needs to use the ad schedule ID which will be entered in the feed during setting up the playlists. 
