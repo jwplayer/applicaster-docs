@@ -11,7 +11,7 @@ nav_order: 200
 {:toc}
 
 ## What is a library screen?
-<img align="right" src="./img/shelves.png" width="200">
+<img align="right" src="./img/library.png" width="200">
 
 A library allows viewers to browse all videos. This in contrast with shelves, that highlight a subset of the videos. 
 
@@ -19,8 +19,6 @@ The standard usage is:
 - Have a  libraries per format e.g  ‘movies’, ‘shorts’, ‘shows’
 - About 50-500 items per library
 - 5-20 genre filters e.g ‘action’, ‘drama’, ‘comedy’
-
-<screenshot of demo app here>
 
 ## Develop a library screen
 
@@ -31,7 +29,8 @@ This behavior can created as follows:
 1. Assign the feed as the datasource to the group
 1. Place an grid component inside the screen
 
-<screenshot of demo app here>
+
+<img src="./img/library-in-studio.png">
 
   <!--
 ## Filtering on genres 
