@@ -26,9 +26,8 @@ There are some special shelves:
 - continue watching shelf: a list of videos a user has not completed yet. See Watchlist
 
 
-
-
-## Libraries
+<!-- 
+|## Libraries
 A library allows viewers to browse all videos. The standard usage is:
 
 Different libraries per format e.g ‘movies’, ‘shorts’, ‘shows’
@@ -41,6 +40,7 @@ Videos are published to shelves and libraries using playlists:
 Playlist are managed through JW Dashboard
 - For manual paylist the items and their sorting are determined manually
 - For dynamic playlist items are added based on tags and sorted on most viewed, most recently published or alphabetically
+-->
 
 ## Images
 Each media item has poster images:
