@@ -33,10 +33,10 @@ You can change the image size you desire based on the resolutions delivered on t
 | Thumbnail 1920px width              | `images.1920` or simply `1920`                       |                                     |
 | Custom image with custom resolution | `extensions.img[LabelName]` or simply img[LabelName] |                                     |
 
-## Uploading custom video thumbnails 
-See https://support.jwplayer.com/articles/update-a-video-thumbnail 
+## Uploading custom video thumbnail
+To upload a custom video thumbnails, with a custom aspect ratio, see [here](https://support.jwplayer.com/articles/update-a-video-thumbnail)
 
-## Adding additional images in JW Player
+## Adding additional images to a video in JW Player
 In some cases the a single JW video thumbnail is not enough. E.g. when you need 
 - a different aspect ratio on a specific layout e.g. landscape 9:13 on Roku
 - a wide banner for display in the "featured" shelf
