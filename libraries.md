@@ -11,6 +11,8 @@ nav_order: 200
 {:toc}
 
 ## What is a library screen?
+<img align="right" src="./img/shelves.png" width="200">
+
 A library allows viewers to browse all videos. This in contrast with shelves, that highlight a subset of the videos. 
 
 The standard usage is: 
