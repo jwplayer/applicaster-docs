@@ -34,4 +34,4 @@ This behavior can created as follows:
 
   <!--
 ## Filtering on genres 
-By creating a genre screen. –>
+By creating a genre screen.-->
