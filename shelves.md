@@ -11,7 +11,7 @@ nav_exclude: false
 {:toc}
 
 ## What are shelves? 
-<img align="right" src="./img/shelves.png" width="180">
+<img align="right" src="./img/shelves.png" width="200">
 Shelves highlight the most relevant videos and are a proven way of increasing engagement. They are visualized in rows of typically 20-40 items and typically 
 
 Example shelves
