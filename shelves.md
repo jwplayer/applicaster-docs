@@ -28,7 +28,6 @@ There are some special shelves:
 See screenshots
 
 ## Adding shelves
-<img align="right" src="./img/shelves.png" width="180">
 You can build shelves with components in Applicaster Zapp studio. The contents of a shelf are coming from a JW Playlist.
 
 Steps in more detail: 
@@ -41,14 +40,14 @@ Steps in more detail:
 
 Tips
 - It is possible to override the JW Player Playlist title using a URL parameter feedTitle. E.g.`feedTitle=Popular Drama`
-
+<img src="./img/shelf-in-studio.png">
 
 
 ## Popular videos shelf 
 To add the most popular content in the beginning of the row make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on ‘Most played first”.
 
 ## Newly published shelf
-To add the most popular content in the beginning of the row make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on ‘Most recently published”.
+To add the new  content in the beginning of the row make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on ‘Most recently published”.
 
 <!--
 Because you watched’ shelf
