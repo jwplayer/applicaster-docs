@@ -26,18 +26,16 @@ The parameters send to JW Player include:
 Full details of the JW OTT Ping Interface can be found [here](https://github.com/jwplayer/ott-web-app/blob/develop/docs/features/video-analytics.md)
 
 ## How to setup JW analytics?
-Provide a Applicaster Solution Engineer or Account Manager with JW Player analytics token for the property that is being added in Applicaster's platform. 
-
-The JW Player analytics token can be retrieved from the JW Player account manager. 
+Provide a Applicaster Solution Engineer or Account Manager with JW Player analytics token for the property that is being added in Applicaster's platform. The JW Player analytics token can be retrieved from the JW Player account manager. 
 
 Please note that you need to provide analytics token for each of the properties that is being used in Applicaster's platform.
 
 Applicaster setup:
-1 Add the JW Anlytics plugin from the gallery
-1 Insert the JW token provided by the JW AM/SE and save
-1 Build the app so the changes will take effect.
+1. Add the JW Anlytics plugin from the gallery
+1. Insert the JW token provided by the JW AM/SE and save
+1. Build the app so the changes will take effect.
 
- *Applicaster can report to a single analytics token within each platform (iOS/Android etc).
+ *Applicaster the same analytics token for all platforms (iOS/Android etc).
 
 ## How to access JW analytics in Applicaster? 
 For all OTT Apps, JW Player tracks a suite of video engagement analytics. Analytics needs to be enabled per customer.
@@ -45,7 +43,7 @@ For all OTT Apps, JW Player tracks a suite of video engagement analytics. Analyt
 We offer the following reporting
 - [OTT reports](https://support.jwplayer.com/articles/create-ott-apps-reports) (minutes watched, unique viewers, ad impressions, plays)
 - [Reporting API](https://developer.jwplayer.com/jwplayer/docs/analytics-getting-started)
-- Play Sessions Data Export (s3 bucket of aggregated play session data), which can be arranged by an JW Player Account Manager
+- Play Sessions Data Export (s3 bucket of aggregated play session data), which can be arranged by a JW Player Account Manager
 
 ## Does Applicaster support other analytics systems?
 Yes. See the Applicaster Plugin Directory in your account
