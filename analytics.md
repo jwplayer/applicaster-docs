@@ -40,8 +40,8 @@ Applicaster setup:
 ## How to access JW analytics in Applicaster? 
 For all OTT Apps, JW Player tracks a suite of video engagement analytics. Analytics needs to be enabled per customer.
 
-We offer the following reporting
-- [OTT reports](https://support.jwplayer.com/articles/create-ott-apps-reports) (minutes watched, unique viewers, ad impressions, plays)
+We offer the following reporting on analytics data
+- [OTT reports in the JW dashboard](https://support.jwplayer.com/articles/create-ott-apps-reports) (minutes watched, unique viewers, ad impressions, plays)
 - [Reporting API](https://developer.jwplayer.com/jwplayer/docs/analytics-getting-started)
 - Play Sessions Data Export (s3 bucket of aggregated play session data), which can be arranged by a JW Player Account Manager
 
