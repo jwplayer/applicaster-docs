@@ -30,7 +30,7 @@ This behavior can created as follows:
 1. Place an grid component inside the screen
 
 
-<img src="./img/library-in-studio.png">
+<img src="./img/library-in-studio.png" width="768">
 
   <!--
 ## Filtering on genres 
