@@ -32,7 +32,7 @@ You can build shelves with components in Applicaster Zapp studio. The contents o
 
 Steps in more detail: 
 1. Create a JW playlist containing the items you want to show in the shelf.  
-1. Register the playlist as a feed in Applicaster. See here
+1. Register the playlist as a feed in Applicaster. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 1. Create a group in Zapp Studio
 1. Assign the feed as the datasource to the group
 1. Add a title header using the group info component.  The title will come JW Playlist playlist name
@@ -40,7 +40,7 @@ Steps in more detail:
 
 Tips
 - It is possible to override the JW Player Playlist title using a URL parameter feedTitle. E.g.`feedTitle=Popular Drama`
-<img src="./img/shelf-in-studio.png">
+<img src="./img/shelf-in-studio.png" width="768">
 
 
 ## Popular videos shelf 
