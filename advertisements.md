@@ -52,7 +52,7 @@ Below are the macros supported for freewheel ad server:
 | (custom_video_asset_id)               | Dynamic      | __item-mediaid__     |
 | vrdu=(video_request_duration)         | Dynamic      | __item-duration__    |
 | _fw_did=(device_id)                   | Dynamic      | __device-id__        |
-| _fw_vcid2=190200:(unique_customer_id) | Dynamic      | No                   |
+| _fw_vcid2=(unique_customer_id) | Dynamic      | No                   |
 | csid=(Platform)                       | Dynamic      | Yes                  |
 | slid=(slot_custom_id)                 | Static Value | Entered by publisher |
 | mind=(slot_minimum_duration)          | Static Value | Entered by publisher |
