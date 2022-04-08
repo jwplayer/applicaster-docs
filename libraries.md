@@ -24,7 +24,7 @@ The standard usage is:
 
 This behavior can created as follows: 
 1. Create a JW playlist containing the items you want to show in the library. 
-1. Register the playlist as a feed in Applicaster. See here
+1. Register the playlist as a feed in Applicaster. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 1. Create a group in Zapp Studio
 1. Assign the feed as the datasource to the group
 1. Place an grid component inside the screen
