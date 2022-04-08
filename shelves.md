@@ -56,7 +56,7 @@ Grab the most recently completed movie and put its MediaID in the Related videos
 ## Favorites shelf 
 See [Applicaster documentation](https://docs.applicaster.com/using-zapp/favourites)
 
-Note that syncing favorites anc continue watching across devices is not supported at this time. 
+Note that syncing favorites anc favorites across devices is not supported at this time. 
 
 
 ## Continue watchting shelf 
