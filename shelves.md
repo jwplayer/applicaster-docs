@@ -54,13 +54,13 @@ Because you watched’ shelf
 Grab the most recently completed movie and put its MediaID in the Related videos feed.-->
 
 ## Favorites shelf 
-https://docs.applicaster.com/using-zapp/favourites/#introduction 
+See [Applicaster documentation](https://docs.applicaster.com/using-zapp/favourites)
 
 Note that syncing favorites anc continue watching across devices is not supported at this time. 
 
 
 ## Continue watchting shelf 
-https://docs.applicaster.com/using-zapp/continue-watching 
+See [Applicaster documentation](https://docs.applicaster.com/using-zapp/continue-watching)
 
 Note that syncing favorites anc continue watching across devices is not supported at this time. 
 
