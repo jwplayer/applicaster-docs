@@ -10,46 +10,58 @@ nav_exclude: false
 1. TOC
 {:toc}
 
- 
-## Shelves
+## What are shelves? 
 <img align="right" src="./img/shelves.png" width="180">
+Shelves highlight the most relevant videos and are a proven way of increasing engagement. They are visualized in rows of typically 20-40 items and typically 
 
-The shelves are typically shown on the homepage. The standard usage is:
-- shelves highlight the most relevant videos for a user
-- shelves are visualized in rows of typically 20-40 items
-- shelves have horizontal navigation
-- shelves are sorted on popular or new content 'new action movies'
+Example shelves
+- New in Drama
+- Popular
+- Scifi
+- New releases
 
 There are some special shelves:
-- featured shelf: highlight special videos, manually curated and visualized in the top of the homepage
-- favorite shelf: a list of videos a user likes to watch in the future. See Watchlist
-- continue watching shelf: a list of videos a user has not completed yet. See Watchlist
+- Featured shelf: highlight special videos, typically manually curated and visualized in the top of the homepage
+- Favorite shelf: a list of videos a user likes to watch in the future. 
+- Continue watching shelf:  a list of videos a user has not completed yet. 
+
+See screenshots
+
+## Adding shelves
+<img align="right" src="./img/shelves.png" width="180">
+You can build shelves with components in Applicaster Zapp studio. The contents of a shelf are coming from a JW Playlist.
+
+Steps in more detail: 
+1. Create a JW playlist containing the items you want to show in the shelf.  
+1. Register the playlist as a feed in Applicaster. See here
+1. Create a group in Zapp Studio
+1. Assign the feed as the datasource to the group
+1. Add a title header using the group info component.  The title will come JW Playlist playlist name
+1. Place an horizontal list inside the group component.
+
+Tips
+- It is possible to override the JW Player Playlist title using a URL parameter feedTitle. E.g.`feedTitle=Popular Drama`
 
 
-<!-- 
-|## Libraries
-A library allows viewers to browse all videos. The standard usage is:
 
-Different libraries per format e.g ‘movies’, ‘shorts’, ‘shows’
-About 50-500 items per library
-5-20 genre filters e.g ‘action’, ‘drama’, ‘comedy’
+## Popular videos shelf 
+To add the most popular content in the beginning of the row make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on ‘Most played first”.
 
-## Video publishing using playlists
-Videos are published to shelves and libraries using playlists:
+## Newly published shelf
+To add the most popular content in the beginning of the row make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on ‘Most recently published”.
 
-Playlist are managed through JW Dashboard
-- For manual paylist the items and their sorting are determined manually
-- For dynamic playlist items are added based on tags and sorted on most viewed, most recently published or alphabetically
--->
+<!--
+Because you watched’ shelf
+Grab the most recently completed movie and put its MediaID in the Related videos feed.-->
 
-## Images
-Each media item has poster images:
-- The static thumbnail is automatically taken from a frame of the video
-- The motion thumbnail (mp4/no audio) that is automatically derived from the first 5 seconds of the video
-- It’s possible to choose a custom thumbnail. The static thumbnail can be selected from the stills of the media item.
-- It’s not possible to have no thumbnails.
-- The static thumbnails are automatically resized to 320px-1920px widths, keeping the image ratio stable.
-- The motion image is not used in the applicater
+## Favorites shelf 
+https://docs.applicaster.com/using-zapp/favourites/#introduction 
+
+Note that syncing favorites anc continue watching across devices is not supported at this time. 
 
 
-## Idan
+## Continue watchting shelf 
+https://docs.applicaster.com/using-zapp/continue-watching 
+
+Note that syncing favorites anc continue watching across devices is not supported at this time. 
+
