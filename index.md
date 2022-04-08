@@ -30,3 +30,5 @@ Issues, questions and pull requests are welcome on GitHub at https://github.com/
 - It can take up to 10 minutes for changes to publish after you push the changes to GitHub. 
 - Make sure to clear to browser cache after applying a change.
 - Check Github actions to see any build failures if changes are showing
+- Draft topics can be put in the '_drafts' folder and won't po
+- Draft additions to a page can be put as `< !-- This is commented out. -->`
