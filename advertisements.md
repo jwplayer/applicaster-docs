@@ -46,14 +46,14 @@ Below are the macros supported for freewheel ad server:
 
 | FW macros                             | Type         | Supported            |
 |---------------------------------------|--------------|----------------------|
-| pvrn=<page_view_random>               | Dynamic      | No                   |
-| vprn=<video_player_random>            | Dynamic      | No                   |
-| vip=<end_user_ip_address>             | Dynamic      | No                   |
-| <custom_video_asset_id>               | Dynamic      | __item-mediaid__     |
-| vrdu=<video_request_duration>         | Dynamic      | __item-duration__    |
-| _fw_did=<device_id>                   | Dynamic      | __device-id__        |
-| _fw_vcid2=190200:<unique_customer_id> | Dynamic      | No                   |
-| csid=<Platform>                       | Dynamic      | Yes                  |
-| slid=<slot_custom_id>                 | Static Value | Entered by publisher |
-| mind=<slot_minimum_duration>          | Static Value | Entered by publisher |
-| maxd=<slot_maximum_duration>          | Static Value | Entered by publisher |
+| pvrn=(page_view_random)               | Dynamic      | No                   |
+| vprn=(video_player_random)            | Dynamic      | No                   |
+| vip=(end_user_ip_address)             | Dynamic      | No                   |
+| (custom_video_asset_id)               | Dynamic      | __item-mediaid__     |
+| vrdu=(video_request_duration)         | Dynamic      | __item-duration__    |
+| _fw_did=(device_id)                   | Dynamic      | __device-id__        |
+| _fw_vcid2=190200:(unique_customer_id) | Dynamic      | No                   |
+| csid=(Platform)                       | Dynamic      | Yes                  |
+| slid=(slot_custom_id)                 | Static Value | Entered by publisher |
+| mind=(slot_minimum_duration)          | Static Value | Entered by publisher |
+| maxd=(slot_maximum_duration)          | Static Value | Entered by publisher |
