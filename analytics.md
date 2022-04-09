@@ -6,7 +6,7 @@ nav_order: 800
 # Analytics
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## How does JW Analytics work in Applicaster? 
