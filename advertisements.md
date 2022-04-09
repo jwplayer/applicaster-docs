@@ -24,8 +24,9 @@ Below is a step by step walkthrough:
 5. Make sure you add the Google IMA plugin form the plugin gallery, if it wasn’t added before you’ll need to build the version again for the plugin to be enabled.
 
 ## Ad Macros - General support
+Many VAST servers use tag variables to optimize fill and provide more information on how ads are being viewed. Applicaster supports a number of variables that can be added to your VAST tag URL. Once an ad call is made by Applicaster, the variables will be replaced accordingly.
 
-Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting-macro-reference) supported today by Applicaster:
+Applicaster uses Google Ad Manager SDKs to talk with these servers
  
 |         | JW Macros         | Supported |
 |---------|-------------------|-----------|
@@ -43,6 +44,7 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 |         | __item-tags__     | Yes       |
 |         | __item-{custom}__ | Yes       |
 
+Please note that Applicaster supports other ad macros then [JW Player player](https://support.jwplayer.com/articles/ad-tag-targeting-macro-reference) 
 
 ## Ad Macros - FreeWheel
 Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting-macro-reference) supported for freewheel ad server:
@@ -55,7 +57,7 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 | (custom_video_asset_id)               | Dynamic      | __item-mediaid__     |
 | vrdu=(video_request_duration)         | Dynamic      | __item-duration__    |
 | _fw_did=(device_id)                   | Dynamic      | __device-id__        |
-| _fw_vcid2=(unique_customer_id) | Dynamic      | No                   |
+| _fw_vcid2=(unique_customer_id)        | Dynamic      | No                   |
 | csid=(Platform)                       | Dynamic      | Yes                  |
 | slid=(slot_custom_id)                 | Static Value | Entered by publisher |
 | mind=(slot_minimum_duration)          | Static Value | Entered by publisher |
