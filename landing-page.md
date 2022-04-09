@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Shelves
+title: Landing page
 nav_order: 100
 nav_exclude: false
 ---
@@ -10,20 +10,21 @@ nav_exclude: false
 1. TOC
 {:toc}
 
-## What are shelves? 
-<img align="right" src="./img/shelves.png" width="200">
-Shelves highlight the most relevant videos and are a proven way of increasing engagement. They are visualized in rows of typically 20-40 items and typically 
 
-Example shelves
+## Structure of a landing page
+<img align="right" src="./img/shelves.png" width="200">
+A video landing page is where user lands afters opening the application and contain a set of 'shelves': rows that highlight the most relevant videos for a user. A shelf typically contains 20-40 items. 
+
+Eample shelves:
 - New in Drama
 - Popular
 - Scifi
 - New releases
 
-There are some special shelves:
+There are special shelves:
 - Featured shelf: highlight special videos, typically manually curated and visualized in the top of the homepage
-- Favorite shelf: a list of videos a user likes to watch in the future. 
-- Continue watching shelf:  a list of videos a user has not completed yet. 
+- Favorite shelf: a list of videos a user likes to watch in the future
+- Continue watching shelf:  a list of videos a user has not completed yet
 
 See screenshots
 
