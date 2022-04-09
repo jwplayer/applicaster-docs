@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Setup
-nav_order: 10
+nav_order: 50
 nav_exclude: false
 ---
 
