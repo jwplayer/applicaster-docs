@@ -1,7 +1,4 @@
 
-
-
-
 End user screens
 - Landing Page
 - Library
@@ -12,18 +9,19 @@ End user screens
 
 Architecture
 Applicaster
+- Middleware
+- Endpoint  
 - Feed
-- Endpoint --> Middleware
 - Components
 - Cell styles
 - Plugin
 
-JW:
+JW
 - Media
 - Libary Playlist
-- Shelf playlist. Tip: tags:
+- Shelf playlist. Tip: tags.
 - Search Playlist
 
 Payment provider
 - Cleeng
-- 
+
