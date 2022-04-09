@@ -53,7 +53,6 @@ Make sure to assign the metadata to your videos
 2. Links it to yor feeds by adding `?adId={scheduleId)` to the URL 
 
 
-
 <!-- pending:
 - JW Watchlist ID - to lookup favorites and continue watching 
 --> 
