@@ -31,34 +31,39 @@ Note: If you need to connect multiple properties, individual end points need to 
 - Provide Applicaster JW analytics token. Each platform can contain and report to only one analytics token
 - See [analytics](https://marcovandeveen.github.io/jwp-applicaster-docs/analytics.html)
 
-## 3. Enable captions for Samsung and LG (optional) 
+## 3. Enabling Cleeng or another Subscribion Mgmt system (optional)
+https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist 
+
+## 4. Enable captions for Samsung and LG (optional) 
 The video players used in Samsung and LG are not compatible with they way JW Player exposes subtitles: these players expect the language attribute in the manifest. JW Player HLS streams expose only the the language name. As a result the viewwer will not be able to choose another subtitle.
 
 The HLS streams need to be adjusted on property level. 
 
 Ask your JW Player Account Manager or Solution Engineer to adjust this. (Internal JW PLayer Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))
 
-## 4. Setup default metadata (advised)
+
+## 5. Setup default metadata (advised)
 The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be dfined as custom parameters.  A list of advised parameters can be found in the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html). Note that parameters are case sensitive.
 
 These custom parameters can be pre-defined on a property level using the [default custom parameter configration](https://support.jwplayer.com/articles/manage-default-custom-parameters). These custom parameters automatically added to all new videos uploaded through your JW Player dashboard
 
-## 5. Add videos to your JW library (advised)
+## 6. Add videos to your JW library (advised)
 See here [https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library]
 Make sure to assign the metadata to your videos
 
-## 6. Create and register JW Playlist as feeds (advised)
+## 7. Create and register JW Playlist as feeds (advised)
 1. Create a manual or dynamic playlist with the videos you want to make available in the Applicaster Apps. See [here](https://support.jwplayer.com/articles/create-a-playlist)
 2. Register the playlist as a feed in Applicaster Zapp. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 <img src="./img/feeds.png" width="1024">
 
-## 7. Register JW Playlist search playlist as feed (advised)
+## 8. Register JW Playlist search playlist as feed (advised)
 1. Create a search playlists in JW Player. See [here](https://support.jwplayer.com/articles/create-a-playlist)
 2. Register the playlist as a feed in Applicaster Zapp. 
 
-## 8. Link JW ad schedules to your feeds (advised)
+## 9. Link JW ad schedules to your feeds (advised)
 1. [Create an ad schedule](https://support.jwplayer.com/articles/how-to-schedule-ad-breaks) in the JW Dashboard
 2. Links it to yor feeds by adding `?adId={scheduleId)` to the URL 
+
 
 
 <!-- pending:
