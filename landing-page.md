@@ -7,7 +7,7 @@ nav_exclude: false
 # Landing page
 {: .no_toc }
 
-1. TOC
+- TOC
 {:toc}
 
 ## Structure of a landing page
