@@ -5,7 +5,7 @@ nav_order: 300
 nav_exclude: false
 ---
 
-#  Target screens
+#  Movie target screens
 {: .no_toc}
 
 1. TOC
@@ -14,7 +14,7 @@ nav_exclude: false
 ## About target screens
 A video target screen is where the user lands after selecting a video from a homepage or library.
 
-A typical basic vide application  
+Commonly used target screens  
 - A movie target: that promotes a movie by giving he full details about the video, like a description, rating, duration, etc. 
 - Series target. That shows the epsisodes of series. 
 - Player target. See video playback
