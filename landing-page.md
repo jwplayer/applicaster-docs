@@ -4,12 +4,11 @@ title: Landing page
 nav_order: 100
 nav_exclude: false
 ---
-# Shelves
+# Landing page
 {: .no_toc }
 
 1. TOC
 {:toc}
-
 
 ## Structure of a landing page
 <img align="right" src="./img/shelves.png" width="200">
