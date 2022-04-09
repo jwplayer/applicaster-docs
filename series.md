@@ -6,7 +6,7 @@ nav_order: 600
 # Series
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## How to create series?
