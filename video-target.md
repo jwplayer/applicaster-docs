@@ -1,27 +1,33 @@
 ---
 layout: default
-title: Video detail
+title: Video target screen
 nav_order: 300
 nav_exclude: false
 ---
 
-# Video detail page
+# Video target screen
 {: .no_toc}
 
 1. TOC
 {:toc}
 
-## What is a video detail screen
-A standard video detail screen consist of
-- A video 'hero' component, that showcases the video using an large image, the title, description and other metadata. 
-- A recommendations / related videos shelf
+## What is a video target screen?
+A video target screen is where the user lands after selecting a video from a shelf or library.
 
-<!-- image here -->
+It promotes the video by giving he full details about the video, like a description, rating, duration, etc. 
 
-## How to create a hero component ?
+A standard video target screen consist of
+1. An hero component that combines an image, texts and calls to action
+1. A 'view trailer' button
+1. A related videos shelf
+
+<!-- image here --> 
+
+## Add a hero component with JW metadata
 1. Add the video 'hero' component
 1. Assign the datascoure that fetches single video from JW Player
-1/ Insert the entry value: `extensions.movieId` This will be used to get data from the datascource <img src="./img/video-detail-in-studio.png" width="768">
+1/ Insert the entry value: `extensions.movieId` This will be used to get data from the datascource 
+<img src="./img/video-detail-in-studio.png" width="768">
 
 Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily change afterwards. 
 
