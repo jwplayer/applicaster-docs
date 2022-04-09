@@ -12,7 +12,7 @@ nav_exclude: false
 {:toc}
 
 ## Structure of a video target screen
-A video target screen is where the user lands after selecting a video from a shelf or library. It promotes the video by giving he full details about the video, like a description, rating, duration, etc. 
+A video target screen is where the user lands after selecting a video from a homepage or library. It promotes the video by giving he full details about the video, like a description, rating, duration, etc. 
 
 A standard video target screen consist of
 1. An hero component that combines an image, texts and a call to action
@@ -21,11 +21,19 @@ A standard video target screen consist of
 
 <!-- image here --> 
 
-## Defining your video metadata in JW Player
-1. Make sure that you have all the extra meta data like MPAA Rating, Run Time the other details that you want to show added as custom parameters in JW platform.
+## Define video metadata in JW Player
+1. Make sure that you have all the meta data like MPAA Rating, Run Time the other details that you want to show added as custom parameters in JW platform.
 2.  Add `movieId` as a custom field within the media item in JW Player. See the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html)
 3.  Make sure you have `trailerId` as custom field In JW Player. See the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html)
+
 Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily change afterwards. 
+
+## Creating a video target page
+1. Create a video target page (general page with some components)
+1. Define it a 'target' for video with [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
+1. movie
+
+<img src="./img/type-mapping.png" width="1024">
 
 ## Adding an hero component with JW Video
 1. Add a video [Hero Quick Brick (`Hero QB`)](https://docs.applicaster.com/using-zapp/qb-app-structure/#heroes) component to your video target page
@@ -46,3 +54,18 @@ Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manag
 
 ## How to add a recommendations shelf?
 - A recommendations / related videos shelf (group with group title and horizontal lists)
+
+## Defining multiple target screens
+You can make multiple video target screens. E.g. a 'movie target' and a 'show  target'. With [Type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping) you can map a video type with a target screen.
+
+The default type is video
+
+Using Type mapping you can give types/names to your screens and "tell" Zapp to open all shows in the show screen, but featured shows to be opened on the featured-show screen.
+
+The actual mapping in on 2 places:
+Set to a given screen a type
+Set the type for a given entry on the feed:
+On Manual Feeds this is done on Type Mapping field
+On Custom / Provided Pipes2 this is done by the developer of the data source or can be overwritten via the feed manager in Zapp using: ?overrideType=<new type>
+
+  
