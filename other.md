@@ -7,7 +7,7 @@ nav_exclude: false
 # Other
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## Updating a plugin
