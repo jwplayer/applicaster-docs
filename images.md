@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Images
-nav_order: 500
+nav_order: 400
 ---
 
 # Images
