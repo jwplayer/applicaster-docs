@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Other
-nav_order: 1500
+nav_order: 1250
 nav_exclude: false
 ---
 # Other
