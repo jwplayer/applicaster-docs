@@ -11,6 +11,7 @@ nav_exclude: false
 1. TOC
 {:toc}
 
+Follow the steps in this document to setup your JW Player - Applicaster environment: 
 
 ## Create and register the JW Player Endpoint (required)
 Applicaster needs to setup middleware (Firebase) for the communication between JW Player and Applicaster.  To setup the middleware: 
