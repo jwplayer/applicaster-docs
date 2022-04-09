@@ -7,7 +7,7 @@ nav_exclude: false
 # Advertisements
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 
