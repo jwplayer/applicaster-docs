@@ -7,7 +7,7 @@ nav_order: 200
 # Libraries
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## What is a library screen?
