@@ -11,25 +11,22 @@ nav_exclude: false
 1. TOC
 {:toc}
 
-## Target screens
+## Movie 'target' screen
 <img align="right" src="./img/movie-target.png" width="250">
-A video 'target screen' is where the user lands after selecting a video from a homepage or library.
+A 'target' screen is where the user lands after selecting a video from a homepage or library.
 
 Commonly used target screens  
 - A movie target: that promotes a movie by giving he full details about the video, like a description, rating, duration, etc. 
 - Series target. That shows the epsisodes of series. 
 - Player target. See video playback
 
-This article focuses on movie target screems. 
+This article focuses on movie target screens. 
 
 ## Structure of a movie target screen
 A standard movie target screen consist of
 1. An hero component that combines an image, texts and a call to action
 1. A trailer
 1. A related videos shelf
-
-The default type is video
-<!-- image here --> 
 
 ## Define movie metadata in JW Player
 1. Make sure that you have all the meta data like MPAA Rating, Run Time the other details that you want to show added as custom parameters in JW platform.
