@@ -10,12 +10,12 @@ nav_order: 400
 1. TOC
 {:toc}
 
-## Images handling in JW Player
+## Image handling in JW Player
 In JW Player each media item has a thumbnail, which have the following behavior:
 - A static thumbnail is automatically taken from a frame of the video in 16:9 ratio. It is possible to select another frame from the video. 
 - A custom thumbnail can be uploaded, with a custom aspect ratio
 - The thumbnails are included in the delivery API in the Media and Playlist endpoints
-- Thumbnails are made available in different widths: 320/460/640/720/1280/1920px. The aspect ratio remains is not adjusted
+- Thumbnails are made available in different widths: 320/460/640/720/1280/1920px. The aspect ratio is not adjusted.
 
 ## Image handling in Applicaster: 
 When creating/modifying a cell style, you can assign the image to be used using the `image key`. The default is: `image_base`. 
@@ -33,6 +33,7 @@ You can change the image size you desire based on the resolutions delivered on t
 | Thumbnail 1920px width              | `images.1920` or simply `1920`                       |                                     |
 | Custom image with custom resolution | `extensions.img[LabelName]` or simply img[LabelName] |                                     |
 
+
 ## Uploading custom video thumbnail
 To upload a custom video thumbnails, with a custom aspect ratio, see [here](https://support.jwplayer.com/articles/update-a-video-thumbnail)
 
@@ -40,7 +41,7 @@ To upload a custom video thumbnails, with a custom aspect ratio, see [here](http
 In some cases the a single JW video thumbnail is not enough. E.g. when you need 
 - a different aspect ratio on a specific layout e.g. landscape 9:13 on Roku
 - a wide banner for display in the "featured" shelf
-- a thumbnail with the title inside the image for a specific platform. 
+- a thumbnail with the title as part of the image for a specific platform. 
 
 It is possible to upload additional images in JW Player as follows: 
 1. Upload a dummy video in the media library. E.g. foo.mp4
