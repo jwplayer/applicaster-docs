@@ -63,6 +63,8 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 | mind=(slot_minimum_duration)          | Static Value | Entered by publisher |
 | maxd=(slot_maximum_duration)          | Static Value | Entered by publisher |
 
+## On what platform are ads supported?
+Ads are supported through JWplatform on IOS, Android, Apple TV, Android TV, Firebase and Roku and LG tv.
 
 <!-- 
 ## How do ads work? 
