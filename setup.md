@@ -22,6 +22,8 @@ Applicaster needs to setup middleware (Firebase) for the communication between J
 3. Wait until you get the base URL back: e.g. `https://zapp-706-jw-player-demo.web.app`. 
 4. Registering the URL as endpoint in Applicaster. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 
+Note: If you need to connect multiple properties, individual end points need to be added for each of these properties. Each property has its own v1 API credentials. 
+
 <img src="./img/jw-endpoint.png" width="1024">
 
 ## 2. Enable the JW Analytics plugin (required)
@@ -51,9 +53,6 @@ Make sure to assign the metadata to your videos
 2. Links it to yor feeds by adding `?adId={scheduleId)` to the URL 
 
 
-## Multiple properties 
-If there is a use case of multiple properties please provide the V1 secret for each of the properties respectively.
-- In applicaster there will then be individual End Points added for each of these properties.
 
 <!-- pending:
 - JW Watchlist ID - to lookup favorites and continue watching 
