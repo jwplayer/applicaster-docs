@@ -34,8 +34,8 @@ Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manag
 1  Select or create a [cell style](https://docs.applicaster.com/using-zapp/qb-app-structure/#cell-style). E.g.  'Mobile Cell 2' would have 2 labels to be assigned and is optimized for mobile phones. 
 1. Link the cell.labels to values in JW Player by using the key `extensions.{custom-parameter-key}` 
 
-<img src="./img/video-target-in-studio.png" width="768">
-<img src="./img/cell-field-mapping.png" width="400">
+<img src="./img/video-target-in-studio.png" width="1024">
+<img src="./img/cell-field-mapping.png" width="1024">
 
 
 ## Add a trailer?
