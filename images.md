@@ -7,7 +7,7 @@ nav_order: 500
 # Images
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## Image handling in JW Player
