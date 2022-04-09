@@ -8,7 +8,7 @@ nav_exclude: false
 # Setup
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 Follow the steps in this document to setup your JW Player - Applicaster environment: 
