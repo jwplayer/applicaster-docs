@@ -8,7 +8,7 @@ nav_exclude: false
 #  Movie screen
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## Movie 'target' screen
