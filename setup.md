@@ -12,35 +12,44 @@ nav_exclude: false
 {:toc}
 
 
-## Create and register the JW Player Endpoint (required)
-Applicaster needs to setup middleware (Firebase) for the communication beetween JW Player and Applicaster. This middleware has BASE_URL like `https://zapp-706-jw-player-demo.web.app`:
-
-1. Retrieving the v1 API Credentials
+## 1. Create and register the JW Player Endpoint (required)
+Applicaster needs to setup middleware (Firebase) for the communication between JW Player and Applicaster.  To setup the middleware: 
+1. Retrieve the v1 API Credentials
    1. From your JW Player dashboard, click the gear next to your name > API Credentials.
    2. In the v1 API Credentials section, click SHOW CREDENTIALS next to a property name.
    3. Copy the `key` and the `Secret`.
-2. Share them with the Applicaster Customer Success representative for the creation of the middleware
-3. Registering the endpoint in Applicaster. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
+2. Share them with the Applicaster Customer Success representative for the creation of the middleware in a secure way
+3. Wait until you get the base URL back: e.g. `https://zapp-706-jw-player-demo.web.app`. 
+4. Registering the URL as endpoint in Applicaster. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 
 <img src="./img/jw-endpoint.png" width="1024">
 
-## Enable JW Analytics plugin (required)
+## 2. Enable the JW Analytics plugin (required)
 - Provide Applicaster JW analytics token. Each platform can contain and report to only one analytics token
 - See [analytics](https://marcovandeveen.github.io/jwp-applicaster-docs/analytics.html)
 
-## Creating the playlist feeds (advised)
-1. Create your initialy playlist feed
-1. Add the `?adId={scheduleId)`
+## 3. Setup default metadata (advised)
+The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be dfined as custom parameters.  A list of advised parameters can be found in the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html). Note that parameters are case sensitive.
+
+These custom parameters can be pre-defined on a property level using the [default custom parameter configration](https://support.jwplayer.com/articles/manage-default-custom-parameters). These custom parameters automatically added to all new videos uploaded through your JW Player dashboard
+
+## 4. Add videos to your JW library (advised)
+See here [https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library]
+Make sure to assign the metadata to your videos
+
+## 5. Create and register JW Playlist as feeds (advised)
+1. Create a manual or dynamic playlist with the videos you want to make available in the Applicaster Apps. See [here](https://support.jwplayer.com/articles/create-a-playlist)
+2. Register the playlist as a feed in Applicaster Zapp. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 <img src="./img/feeds.png" width="1024">
-1. The developer of the data source or can be overwritten via the feed manager in Zapp using: `?overrideType=<new type>`
 
-## Create a search feeds (advised)
-1. Create a playlist feed
+## 6. Register JW Playlist search playlist as feed (advised)
+1. Create a search playlists in JW Player. See [here](https://support.jwplayer.com/articles/create-a-playlist)
+2. Register the playlist as a feed in Applicaster Zapp. 
 
-## Link JW ad schedules to your feeds
+## 7. Link JW ad schedules to your feeds (advised)
+1. [Create an ad schedule](https://support.jwplayer.com/articles/how-to-schedule-ad-breaks) in the JW Dashboard
+2. Links it to yor feeds by adding `?adId={scheduleId)` to the URL 
 
-## Setup default meta data (advised)
-The default metadata displayed from JWplatform are the title of the video and description, for any additional metadata to be displayed custom parameters need to be used, please use the best practices metadata structure mentioned in this documentand note that theseparameters arecase sensitive.
 
 ## Multiple properties 
 If there is a use case of multiple properties please provide the V1 secret for each of the properties respectively.
