@@ -56,7 +56,6 @@ See [Applicaster documentation](https://docs.applicaster.com/using-zapp/favourit
 
 Note that syncing favorites and favorites across devices is not supported. 
 
-
 ## Continue watching shelf 
 See [Applicaster documentation](https://docs.applicaster.com/using-zapp/continue-watching)
 
