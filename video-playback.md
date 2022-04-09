@@ -7,7 +7,7 @@ nav_exclude: false
 # Video playback 
 {: .no_toc}
 
-1. TOC
+- TOC
 {:toc}
 
 ## Player 'target' screen
