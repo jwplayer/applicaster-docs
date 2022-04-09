@@ -5,6 +5,13 @@ nav_order: 50
 nav_exclude: false
 ---
 
+# Setup
+{: .no_toc}
+
+1. TOC
+{:toc}
+
+
 ## Getting started 
 The following is needed to get started JW video consumption in Applicaster apps: 
 - JW v1 API Credentials - to allow consume the API
