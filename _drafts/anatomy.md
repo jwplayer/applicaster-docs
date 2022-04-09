@@ -2,7 +2,7 @@
 
 
 
-Standard:
+End user screens
 - Landing Page
 - Library
 - Search 
@@ -10,6 +10,13 @@ Standard:
 - Playback target screen
 - Series target screen
 
+Architecture
+Applicaster
+- Feed
+- Endpoint --> Middleware
+- Components
+- Cell styles
+- Plugin
 
 JW:
 - Media
@@ -19,3 +26,4 @@ JW:
 
 Payment provider
 - Cleeng
+- 
