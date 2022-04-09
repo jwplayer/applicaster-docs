@@ -1,23 +1,27 @@
 ---
 layout: default
-title: Video target screen
+title: Target screens
 nav_order: 300
 nav_exclude: false
 ---
 
-# Video target screen
+#  Target screens
 {: .no_toc}
 
 1. TOC
 {:toc}
 
-## Structure of a video target screen
+## Structure of a target screen
 A video target screen is where the user lands after selecting a video from a homepage or library. It promotes the video by giving he full details about the video, like a description, rating, duration, etc. 
 
 A standard video target screen consist of
 1. An hero component that combines an image, texts and a call to action
 1. A trailer
 1. A related videos shelf
+
+There 
+- Series target
+- Player taget
 
 <!-- image here --> 
 
@@ -44,7 +48,6 @@ Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manag
 
 <img src="./img/video-target-in-studio.png" width="1024">
 <img src="./img/cell-field-mapping.png" width="1024">
-
 
 ## Add a trailer?
 1. Add a Group Component and correlating UI components
