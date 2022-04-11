@@ -37,12 +37,12 @@ It is this value is what then used in Type screen definition in Applicasters Zap
 <img src="./img/type-mapping.png" width="1024">
 
 ## How to add subtitles / captions?
-See https://support.jwplayer.com/articles/how-to-add-closed-captions. Captions will automatically appear in Applicaster Apps. 
+See JW Documentation on [adding closed captions](https://support.jwplayer.com/articles/how-to-add-closed-captions). Captions will automatically appear in Applicaster Apps. 
 
-Please note that Samsung and LG using Shaka Player. Shakaplayer needs a two-letter code entere. Entering language code in the captions editor (srclang field in the API). See also Update a text track )
+Please note that Samsung and LG using Shaka Player. Shakaplayer needs a two-letter code entere. Entering language code in the captions editor (srclang field in the API). See also [Update a text track developer documentation](https://developer.jwplayer.com/jwplayer/reference/patch_v2-sites-site-id-media-media-id-text-tracks-track-id-)
 
 ## Enabling casting or airplay
-It is by available in applicasters platform. See for more info [applicaster documenation](https://docs.applicaster.com/plugin-development/30-guides/50-plugins/50-player#properties). Search for chromecast or airplay.
+This is available in applicasters platform. See for more info [applicaster documenation](https://docs.applicaster.com/plugin-development/30-guides/50-plugins/50-player#properties). Search for chromecast or airplay.
 
 *Airplay is enabled by default on iOS apps with no further setup. Chromecast, requires clients to provide a chromecast app ID created here:
 https://cast.google.com/publish/
