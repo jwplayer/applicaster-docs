@@ -35,9 +35,7 @@ Note: If you need to connect multiple properties, individual endpoints need to b
 ## 3. Enable in-manifest subtitles for Samsung and LG 
 The video players used in Samsung and LG require 'in-manifest subtitles': these players expect the language attributes in the manifest. JW Player HLS streams expose only the language name. As a result, the viewer will not be able to choose another subtitle.
 
-This can be enabled on a property level. 
-
-This can't be controlled from the dashboard yet. Ask your JW Player Account Manager or Solution Engineer to adjust this.
+This can be enabled on a property level. This can't be controlled from the dashboard yet. Ask your JW Player Account Manager or Solution Engineer to adjust this.
 
 JW internal instructions: Create a Serv Ticket titled 'Enable in-manifest subtitles' with the account id & property id. (Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))
 
