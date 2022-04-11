@@ -10,7 +10,7 @@ nav_order: 600
 {:toc}
 
 ## How to create series?
-https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists
+See [here](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
 
 Note: for the web app another structure is used. See 
 https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist 
