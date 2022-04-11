@@ -55,7 +55,7 @@ Applicaster:
 1. Assign the correct image key from your media items based on size. See [images](https://marcovandeveen.github.io/jwp-applicaster-docs/)
 1. Save and build the app for changes to appear
 
-## Offline downlown
+## Offline download
 Requires a custom param on the item `hqme=true`
 
 See [Applicaster docs](https://docs.applicaster.com/using-zapp/mobile/downloads/download-and-offline/)
