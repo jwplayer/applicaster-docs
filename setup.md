@@ -50,7 +50,7 @@ The default metadata displayed from JW platform are the title of the video and d
 These custom parameters can be pre-defined on a property level using the [default custom parameter configration](https://support.jwplayer.com/articles/manage-default-custom-parameters). These custom parameters are automatically added to all new videos uploaded through your JW Player dashboard.
 
 ## 6. Add videos to your JW library 
-See here [https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library]
+See [here](https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library)
 Make sure to assign the metadata to your videos.
 
 ## 7. Create and register JW Playlist as feeds
