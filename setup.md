@@ -14,7 +14,7 @@ nav_exclude: false
 ## Intro
 Follow the steps in this document to set up your JW Player - Applicaster environment. The first 3 steps require the help of a JW and/or Applicaster Customer Success representative. 
 
-## 1. Create and register the JW Player Endpoint (required)
+## 1. Create and register the JW middleware endpoint in Applicaster (required)
 Applicaster needs to set up middleware (Firebase) for the communication between JW Player and Applicaster.  To set up the middleware: 
 1. Retrieve the v1 API Credentials
    1. From your JW Player dashboard, click the gear next to your name > API Credentials.
@@ -43,6 +43,8 @@ JW internal instructions: Create a Serv Ticket titled 'Enable in-manifest subtit
 
 ## 4. Enabling the Subscribion Mgmt system 
 For Cleeng see [here](https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist)
+
+For other platforms, refer to their documentation. 
 
 ## 5. Setup default metadata 
 The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be defined as custom parameters. A list of advised parameters can be found in the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html). Note that parameters are case-sensitive.
