@@ -39,8 +39,8 @@ The HLS streams need an adjustment on a property level.
 
 Ask your JW Player Account Manager or Solution Engineer to adjust this. (Internal JW PLayer Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))
 
-## 4. Enabling Cleeng or another Subscribion Mgmt system (optional)
-https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist 
+## 4. Enabling the Subscribion Mgmt system (optional)
+For Cleeng: https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist 
 
 ## 5. Setup default metadata (advised)
 The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be defined as custom parameters. A list of advised parameters can be found in the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html). Note that parameters are case-sensitive.
