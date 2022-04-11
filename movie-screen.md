@@ -23,7 +23,7 @@ Commonly used target screens
 This article focuses on movie target screens. 
 
 ## Structure of a movie target screen
-A standard movie target screen consist of
+A typical movie target screen consist of
 1. An hero component that combines an image, texts and a call to action
 1. A trailer
 1. A related videos shelf
@@ -35,7 +35,7 @@ A standard movie target screen consist of
 
 Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily change afterwards. 
 
-## Define a movie screen as target
+## Define a movie screen as a 'target' 
 1. A 'general content screen' 
 1. Define it a 'target' for 'movies' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
 1. Ensure the videos in your library and shelves `?overrideType=movie`
