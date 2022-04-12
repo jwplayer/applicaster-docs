@@ -59,5 +59,5 @@ Note that syncing favorites and favorites across devices is not supported.
 ## Continue watching shelf 
 See [Applicaster documentation](https://docs.applicaster.com/using-zapp/continue-watching)
 
-## Sync favorites and continue watchting across devices
+## Sync favorites and continue watching across devices
 Requires client to support cloud events via 3rd party like cognito/okta/cleeng. See https://docs.applicaster.com/integrations/cloud-events/
