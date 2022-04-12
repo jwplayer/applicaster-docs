@@ -15,7 +15,7 @@ Applicaster has a JW Analytics Plugin that feeds events to the [JW OTT Ping Inte
 The plugin sends 'pings' to JW Player endpoint when
 - Video has been loaded
 - While a video is played (every x seconds)
-- When an adversiment is shown
+- When an advertisement is shown
 
 The parameters send to JW Player include:
 - The video being watched
@@ -26,16 +26,13 @@ The parameters send to JW Player include:
 Full details of the JW OTT Ping Interface can be found [here](https://github.com/jwplayer/ott-web-app/blob/develop/docs/features/video-analytics.md)
 
 ## How to setup JW analytics?
-Provide a Applicaster Solution Engineer or Account Manager with JW Player analytics token for the property that is being added in Applicaster's platform. The JW Player analytics token can be retrieved from the JW Player account manager. 
-
-Please note that you need to provide analytics token for each of the properties that is being used in Applicaster's platform.
-
-Applicaster setup:
-1. Add the JW Anlytics plugin from the gallery
+The JW plugin needs to be enabled in Applicaster:
+1. Retrieve the JW token from the JW account manager or solution engineer.
+1. Add the JW Analytics plugin from the gallery
 1. Insert the JW token provided by the JW AM/SE and save
 1. Build the app so the changes will take effect.
 
- *Applicaster the same analytics token for all platforms (iOS/Android etc).
+ *Applicaster uses the same analytics token for all platforms (iOS/Android etc.). 
 
 ## How to access JW analytics in Applicaster? 
 For all OTT Apps, JW Player tracks a suite of video engagement analytics. Analytics needs to be enabled per customer.
