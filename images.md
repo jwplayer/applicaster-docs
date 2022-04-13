@@ -46,7 +46,7 @@ In some cases, a single JW video thumbnail is not enough. E.g. when you need
 It is possible to upload additional images in JW Player as follows: 
 1. Upload a dummy video in the media library. E.g. foo.mp4
 1. Override the default image with a new image. This can be of a different aspect ratio
-1. Add a custom property on the media according to the format `img[LabelName]` for example, `imgHeroRoku`. See also the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html) 
+1. Add a custom property on the media according to the format `img[LabelName]` for example, `imgHeroRoku`. See also the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html) 
 1. Assign the custom property with the image url of the newly created media according to format: `https://content.jwplatform.com/v2/media/{mediaid}/poster.jpg?width={width}`. For example: `https://content.jwplatform.com/v2/media/dwEE1oBP/poster.jpg?width=720`
 1. Open Aplicaster studio and assign the image key of the cell used, e.g. `extensions.imgHeroRoku`
 
