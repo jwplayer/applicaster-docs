@@ -14,25 +14,25 @@ nav_exclude: false
 <img align="right" src="./img/movie-target.png" width="250">
 A 'target' screen is where the user lands after selecting a video from a homepage or library.
 
-Commonly used target screens  
-- A movie target: that promotes a movie by giving he full details about the video, like a description, rating, duration, etc. 
+Commonly used target screens:
+- A movie target: that promotes a movie by giving the full details about the movie, like a description, rating, duration, etc. 
 - Series target. 
 - Player target. 
 
-This article focuses on Player target screen 
+This article focuses on the player target screen 
 
 ## Structure of a movie target screen
-A standard movie target screen consist of:
+A standard movie target screen consists of:
 1. An player 
 1. A related videos shelf
 
-## Define a player  screen as target
-1. Create a'general content screen' 
-1. Define it a 'target' for 'video' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
+## Define a player screen as target
+1. Create a 'general content screen' 
+1. Define it as a 'target' for 'video' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
 
-By default everytime a feed is setup in Applicaster there has to be a value defined, applicaster by default defines this value as Video in the feeds that is returned from JWplatform. 
+By default, everytime a feed is set up in Applicaster, there has to be a value defined. Applicaster by default, defines this value as Video in the feeds that are returned from JW Platform. 
 
-It is this value is what then used in Type screen definition in Applicasters Zapp platform to tell the app what screen needs to be opened for the media that has this value in it. In this case the value defined is video player which then opens the video player in the app. 
+The 'type' value is used by Zapp to determine what screen is opened. When the value is 'video' the video player target screen is opened. 
 
 <img src="./img/type-mapping.png" width="1024">
 
@@ -40,13 +40,13 @@ It is this value is what then used in Type screen definition in Applicasters Zap
 See JW Documentation on [adding closed captions](https://support.jwplayer.com/articles/how-to-add-closed-captions). Captions will automatically appear in Applicaster Apps. 
 
 *Subitles on Samsung and LG*
-- Samsung and LG using Shaka Player. Shakaplayer needs a two-letter code entere. Entering language code in the captions editor (srclang field in the API). See also [Update a text track developer documentation](https://developer.jwplayer.com/jwplayer/reference/patch_v2-sites-site-id-media-media-id-text-tracks-track-id-)
+- Samsung and LG using Shaka Player. Shakaplayer needs a two-letter code entere. Entering language code in the captions editor (`srclang` field in the API). See also [Update a text track developer documentation](https://developer.jwplayer.com/jwplayer/reference/patch_v2-sites-site-id-media-media-id-text-tracks-track-id-)
 - Samsung and LG require in-manifest subtitles that need to be enabled on property level. See [Setup](https://marcovandeveen.github.io/jwp-applicaster-docs/setup.html#3-enable-captions-for-samsung-and-lg-optional)
 
 ## Enabling casting or airplay
-This is available in applicasters platform. See for more info [applicaster documenation](https://docs.applicaster.com/plugin-development/30-guides/50-plugins/50-player#properties). Search for chromecast or airplay.
+This is available in Applicasters platform. See for more info [applicaster documenation](https://docs.applicaster.com/plugin-development/30-guides/50-plugins/50-player#properties). Search for chromecast or airplay.
 
-*Airplay is enabled by default on iOS apps with no further setup. Chromecast, requires clients to provide a chromecast app ID created here:
+*Airplay is enabled by default on iOS apps with no further setup. Chromecast, requires clients to provide a Chromecast app ID created here:
 https://cast.google.com/publish/
 
 ## How to enable “Play Next”?
