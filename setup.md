@@ -14,6 +14,14 @@ nav_exclude: false
 ## Intro
 Follow the steps in this document to set up your JW Player - Applicaster environment. The first 3 steps require the help of a JW and/or Applicaster Customer Success representative. 
 
+<!-- 
+Pre-requisiste
+Setup JW Account
+
+Setup Applicastor account
+
+--> 
+
 ## 1. Create and register the JW middleware endpoint in Applicaster (required)
 Applicaster needs to set up middleware (Firebase) for the communication between JW Player and Applicaster.  To set up the middleware: 
 1. Retrieve the v1 API Credentials
