@@ -30,8 +30,8 @@ A typical movie target screen consists of:
 
 ## Define movie metadata in JW Player
 1. Make sure that you have all the meta data like MPAA Rating, Run Time, and other details that you want to show added as custom parameters in the JW platform.
-2. Add `movieId` as a custom field within the media item in JW Player. See the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html)
-3. Make sure you have `trailerId` as custom field in JW Player. See the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html)
+2. Add `movieId` as a custom field within the media item in JW Player. See the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html)
+3. Make sure you have `trailerId` as custom field in JW Player. See the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html)
 
 Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily changed afterwards. 
 
