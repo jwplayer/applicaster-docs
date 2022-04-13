@@ -35,7 +35,7 @@ Note: If you need to connect multiple properties, individual endpoints need to b
 
 ## 2. Enable the JW Analytics plugin (required)
 - Provide Applicaster JW analytics token. Each platform can contain and report to only one analytics token
-- See [analytics](https://marcovandeveen.github.io/jwp-applicaster-docs/analytics.html)
+- See [analytics](https://jwplayer.github.io/applicaster-docs/analytics.html)
 
 ## 3. Enable in-manifest subtitles for Samsung and LG 
 The video players used in Samsung and LG require 'in-manifest subtitles': these players expect the language attributes in the manifest. JW Player HLS streams expose only the language name. As a result, the viewer will not be able to choose another subtitle.
@@ -50,7 +50,7 @@ For Cleeng see [here](https://publisher.support.cleeng.com/hc/en-us/articles/441
 For other platforms, refer to their documentation. 
 
 ## 5. Setup default metadata 
-The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be defined as custom parameters. A list of advised parameters can be found in the [field catalog](https://marcovandeveen.github.io/jwp-applicaster-docs/reference/field-catalog.html). Note that parameters are case-sensitive.
+The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be defined as custom parameters. A list of advised parameters can be found in the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html). Note that parameters are case-sensitive.
 
 These custom parameters can be pre-defined on a property level using the [default custom parameter configration](https://support.jwplayer.com/articles/manage-default-custom-parameters). These custom parameters are automatically added to all new videos uploaded through your JW Player dashboard.
 
