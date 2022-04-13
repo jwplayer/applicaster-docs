@@ -41,7 +41,7 @@ See JW Documentation on [adding closed captions](https://support.jwplayer.com/ar
 
 *Subitles on Samsung and LG*
 - Samsung and LG using Shaka Player. Shakaplayer needs a two-letter code entere. Entering language code in the captions editor (`srclang` field in the API). See also [Update a text track developer documentation](https://developer.jwplayer.com/jwplayer/reference/patch_v2-sites-site-id-media-media-id-text-tracks-track-id-)
-- Samsung and LG require in-manifest subtitles that need to be enabled on property level. See [Setup](https://marcovandeveen.github.io/jwp-applicaster-docs/setup.html#3-enable-captions-for-samsung-and-lg-optional)
+- Samsung and LG require in-manifest subtitles that need to be enabled on property level. See [Setup](https://jwplayer.github.io/applicaster-docs/setup.html#3-enable-captions-for-samsung-and-lg-optional)
 
 ## Enabling casting or airplay
 This is available in Applicasters platform. See for more info [applicaster documenation](https://docs.applicaster.com/plugin-development/30-guides/50-plugins/50-player#properties). Search for chromecast or airplay.
@@ -54,7 +54,7 @@ JW config: when a new JW endpoint is created, pipes2 enables play next feed by d
 
 Applicaster:
 1. Add play next plugin on your mobile/TV platform in Zapp
-1. Assign the correct image key from your media items based on size. See [images](https://marcovandeveen.github.io/jwp-applicaster-docs/)
+1. Assign the correct image key from your media items based on size. See [images](https://jwplayer.github.io/applicaster-docs/)
 1. Save and build the app for changes to appear
 
 ## Offline download
