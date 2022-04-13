@@ -25,7 +25,7 @@ The parameters send to JW Player include:
 
 Full details of the JW OTT Ping Interface can be found [here](https://github.com/jwplayer/ott-web-app/blob/develop/docs/features/video-analytics.md)
 
-## How to setup JW analytics?
+## How to set up JW analytics?
 The JW plugin needs to be enabled in Applicaster:
 1. Retrieve the JW token from the JW account manager or solution engineer.
 1. Add the JW Analytics plugin from the gallery
@@ -43,4 +43,4 @@ We offer the following reporting on analytics data
 - Play Sessions Data Export (s3 bucket of aggregated play session data), which can be arranged by a JW Player Account Manager
 
 ## Does Applicaster support other analytics systems?
-Yes. See the Applicaster Plugin Directory in your account
+Yes. See the Applicaster Plugin Directory in your account.
