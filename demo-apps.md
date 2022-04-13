@@ -2,7 +2,7 @@
 layout: default
 title: Demo apps
 nav_order: 1000
-nav_exclude: false
+nav_exclude: true
 ---
 
 # Demo apps
