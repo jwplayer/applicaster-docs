@@ -7,6 +7,3 @@ The playbook uses [Just the docs](https://just-the-docs.github.io/just-the-docs)
 
 # How to contribute
 See here https://jwplayer.github.io/applicaster-docs/
-
-# Status
-Draft
