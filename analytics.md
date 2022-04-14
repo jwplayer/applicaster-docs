@@ -42,5 +42,23 @@ We offer the following reporting on analytics data
 - [Reporting API](https://developer.jwplayer.com/jwplayer/docs/analytics-getting-started)
 - Play Sessions Data Export (s3 bucket of aggregated play session data), which can be arranged by a JW Player Account Manager
 
+## Which values is Applicaster sending?
+All the required field of the  [JW OTT Ping Interface](https://github.com/jwplayer/ott-web-app/blob/develop/docs/features/video-analytics.md)
+
+As well as `oaid` App User ID. 
+
+Applicaster is not sending the following values:
+- `ofv` Device firmware version. The Zapp platform doesn't have access to this value.
+- `oos` OS Language. The Zapp platform doesn't have access to this value.
+- `oiid` App Install Instance ID. There isn't any id that remains stable between installations. 
+
+
+## How can I analyze traffic on a user basis? 
+The applicaster plug in sends the `oaid` App User ID, which can be used to analyze traffic per user, instead of per session. 
+
+You need to have a proper the `User identity storage key` on the plugin setting. See setup. 
+
+Note that the user level data is only accessible using the Play Sessions Data Export.  
+
 ## Does Applicaster support other analytics systems?
 Yes. See the Applicaster Plugin Directory in your account.
