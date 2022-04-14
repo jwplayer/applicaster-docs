@@ -43,9 +43,7 @@ We offer the following reporting on analytics data
 - Play Sessions Data Export (s3 bucket of aggregated play session data), which can be arranged by a JW Player Account Manager
 
 ## Which values is Applicaster sending?
-All the required field of the  [JW OTT Ping Interface](https://github.com/jwplayer/ott-web-app/blob/develop/docs/features/video-analytics.md)
-
-As well as `oaid` App User ID. 
+All the required field of the  [JW OTT Ping Interface](https://github.com/jwplayer/ott-web-app/blob/develop/docs/features/video-analytics.md). As well as `oaid` App User ID if configure appropriately. 
 
 Applicaster is not sending the following values:
 - `ofv` Device firmware version. The Zapp platform doesn't have access to this value.
