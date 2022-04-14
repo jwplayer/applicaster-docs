@@ -6,4 +6,4 @@ parent: Reference
 ---
 
 The list of supported features can be found here:
-[Supported Features](https://view.monday.com/2481297474-5632cf30002ab703b130fc91726fc618?r=use1)
+[Supported Features](https://view.monday.com/2481297474-2b0cf38fcf4e95c7fdb76bb9ffd14eb0?r=use1)
