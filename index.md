@@ -11,7 +11,7 @@ This playbook is complementary to the standard [JW Player documentation](https:/
 ## Contributing
 Issues and request are welcome on [GitHub](https://github.com/jwplayer/applicaster-docs)
 
-### Changing a page
+To change a page:
 1. Click the link `Edit this page on GitHub` link in the bottom of the page
 2. Click edit page 
 3. Commit
@@ -21,7 +21,7 @@ Non-contributors will need a pull request:
 2. Create a pull request of your branch
 3. Await review of your request
 
-### Tips
+## Tips
 - It can take up to 10 minutes for changes to publish after you push the changes to GitHub. 
 - Make sure to clear to browser cache after applying a change.
 - To add a page go the [Github Repo](https://github.com/jwplayer/applicaster-docs), and copy another page.
