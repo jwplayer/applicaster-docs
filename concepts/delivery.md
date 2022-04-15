@@ -24,7 +24,7 @@ Some characteristics of Pipes2:
 - Caching
 - API Monitoring
 
-<img src="../img/vod-content-delivery.png" width="768">
+<img src="../img/content-delivery.png" width="768">
 <!--
 Source file [here](https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit)
 -->
