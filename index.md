@@ -14,19 +14,17 @@ Issues, questions, and pull requests are welcome on [GitHub](https://github.com/
 ### Changing a page
 1. Click the link `Edit this page on GitHub` link in the bottom of the page
 2. Click edit page 
-3. Commit. Non-contributors will need a pull request:  
-   1. Github will create a branch with your change uppon committing
-   2. Create a pull request of your branch
-   3. Await review of your request
+3. Commit. 
 
-### Adding a page
-1. Go to the [Github Repo](https://github.com/marcovandeveen/jwp-applicaster-docs).
+Non-contributors will need a pull request:  
+1. Github will create a branch with your change uppon committing
+2. Create a pull request of your branch
+3. Await review of your request
+
+### Adding a page 
+1. Go to the [Github Repo](https://github.com/jwplayer/applicaster-docs).
 1. Add an .md file. Name it .md-draft in you don't want to publish it yet. 
 1. Make sure to add the required parameters to page. See [Just the docs](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/)
-1. Commit. Non-contributors will need a pull request:  
-   1. Github will create a branch with your change uppon committing
-   2. Create a pull request of your branch
-   3. Await review of your request
 
 ### Tips
 - It can take up to 10 minutes for changes to publish after you push the changes to GitHub. 
