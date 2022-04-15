@@ -12,16 +12,16 @@ nav_order: 1200
 - TOC
 {:toc}
 
-## How does Zapp apps consume data from JW?
-All Zapp apps on all platforms consume data from feeds. Feeds get data from JW Player endpoints
+## Zapp video consumption
+All Zapp apps on all platforms consume playlists and metadata from feeds. Feeds get data from JW Player endpoints. 
 
-Applicaster has framework named Pipes2 that translates JW Player playlists into the feeds structure that Zapp apps can understand. This happens realtime, wihtout content synchronization to Applicaster servers. 
+Pipes2 is the Applicater framework that translates JW Player playlists into the feeds structure that Zapp apps can understand. This happens realtime, wihtout content synchronization to Applicaster servers. 
 
 Some characteristics of Pipes2: 
 - Served in the cloud (Firebase)
 - Written once to serve all our supported platforms
 - Changes to Pipes2 are done remotely without needing to release a new version of the app
-- Caching layer
+- Caching
 - API Monitoring
 
 <img src="../img/vod-content-delivery.png" width="768">
