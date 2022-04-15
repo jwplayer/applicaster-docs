@@ -41,6 +41,11 @@ Details [here](https://support.jwplayer.com/articles/create-a-playlist)
 ## Components
 A component is a UI entity that hightligs a video or a list of videos. The UI representation of a component is flexible (e.g. grid, horizontal list, etc). 
 
+The most used components are
+- Grid: to show a list video 
+- Horitzontal List: to show a list of videos in an horizontal row, a.k.a. a 'shelf'
+- Hero: to highlight an individual video
+
 Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-data)
 
 ## Feeds
