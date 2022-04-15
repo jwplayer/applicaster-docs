@@ -25,6 +25,6 @@ Non-contributors will need a pull request:
 - It can take up to 10 minutes for changes to publish after you push the changes to GitHub. 
 - Make sure to clear to browser cache after applying a change.
 - To add a page go the [Github Repo](https://github.com/jwplayer/applicaster-docs), and copy another page.
-- Check Github actions to see any build failures if changes are showing
-- Draft topics can be put in the `_drafts` folder and won't po
+- Check Github actions to see any build failures if changes are not showing
+- Draft topics can be put in the `_drafts` folder
 - Draft additions to a page can be entered using `< !-- This is commented out. -->`
