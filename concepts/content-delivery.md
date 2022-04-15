@@ -25,11 +25,9 @@ Some characteristics of Pipes2:
 
 The video assets (m3u8, mp4, aac, jpg, srt, etc) are served from the JW Player CDNs. 
 
-
+<a href="https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit#slide=id.g121e1190545_0_0">
 <img src="../img/content-delivery.png" width="768">
-<!--
-Source file [here](https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit)
--->
+</a>
 
 ## Zapp Feeds vs JW Player Playlist
 Notice that
