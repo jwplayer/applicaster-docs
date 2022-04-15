@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VOD
+title: Content Delivery
 parent: Concepts 
 nav_order: 1200
 ---
