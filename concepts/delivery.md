@@ -36,8 +36,8 @@ Notice that
 
 ### Zapp Feed Example
 
+`https://zapp-706-jw-player-demo.web.app/jw/playlists/ImeVuRDP`
 ```
-https://zapp-706-jw-player-demo.web.app/jw/playlists/ImeVuRDP
 {
   "id": "ImeVuRDP",
   "title": "All Films",
@@ -119,8 +119,8 @@ https://zapp-706-jw-player-demo.web.app/jw/playlists/ImeVuRDP
 
 
 ### JW Player Playlist Example
+`https://content.jwplatform.com/v2/playlists/ImeVuRDP`
 ```
-https://content.jwplatform.com/v2/playlists/ImeVuRDP
 {
   "title": "All Films",
   "description": "",
