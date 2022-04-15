@@ -13,7 +13,7 @@ Issues and request are welcome on [GitHub](https://github.com/jwplayer/applicast
 
 To change a page:
 1. Click the link `Edit this page on GitHub` link in the bottom of the page
-2. Click edit page 
+2. Click edit page 🧷 
 3. Commit
 
 Non-contributors will need a pull request:  
