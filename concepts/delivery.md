@@ -29,11 +29,12 @@ Some characteristics of Pipes2:
 Source file [here](https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit)
 -->
 
-
-## Zapp Feed Example
+## Zapp Feeds vs JW Player Playlist
 Notice that
 - The Zapp feed structure is different from JW Playlist
 - The feed refert to content hosted on JW Player CDN 
+
+### Zapp Feed Example
 
 ```
 https://zapp-706-jw-player-demo.web.app/jw/playlists/ImeVuRDP
@@ -117,7 +118,7 @@ https://zapp-706-jw-player-demo.web.app/jw/playlists/ImeVuRDP
 ```
 
 
-## JW Player Playlist Example
+### JW Player Playlist Example
 ```
 https://content.jwplatform.com/v2/playlists/ImeVuRDP
 {
@@ -135,36 +136,20 @@ https://content.jwplatform.com/v2/playlists/ImeVuRDP
       "mediaid": "DPUc0y16",
       "link": "https://content.jwplatform.com/previews/DPUc0y16",
       "image": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=720",
-      "images": [
-        {
-          "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=320",
-          "width": 320,
-          "type": "image/jpeg"
-        },
         {
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=480",
-          "width": 480,
-          "type": "image/jpeg"
         },
         {
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=640",
-          "width": 640,
-          "type": "image/jpeg"
         },
         {
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=720",
-          "width": 720,
-          "type": "image/jpeg"
         },
         {
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=1280",
-          "width": 1280,
-          "type": "image/jpeg"
         },
         {
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=1920",
-          "width": 1920,
-          "type": "image/jpeg"
         }
       ],
       "feedid": "ImeVuRDP",
@@ -176,16 +161,6 @@ https://content.jwplatform.com/v2/playlists/ImeVuRDP
         {
           "file": "https://content.jwplatform.com/manifests/DPUc0y16.m3u8",
           "type": "application/vnd.apple.mpegurl"
-        },
-        {
-          "file": "https://content.jwplatform.com/videos/DPUc0y16-XuQT1NTr.mp4",
-          "type": "video/mp4",
-          "height": 134,
-          "width": 320,
-          "label": "180p",
-          "bitrate": 288983,
-          "filesize": 8344392,
-          "framerate": 24.0
         },
         {
           "file": "https://content.jwplatform.com/videos/DPUc0y16-ED7a9Jeq.mp4",
