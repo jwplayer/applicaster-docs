@@ -12,12 +12,10 @@ nav_order: 1200
 - TOC
 {:toc}
 
-
-
 ## How does Zapp apps consume data from JW?
 All Zapp apps on all platforms consume data from feeds. Feeds get data from JW Player endpoints
 
-Applicaster has framework named Pipes2 that translates JW Player Delivery API into the feeds structure that Zapp apps can understand. This happens realtime, wihtout content synchronization to Applicaster servers. 
+Applicaster has framework named Pipes2 that translates JW Player playlists into the feeds structure that Zapp apps can understand. This happens realtime, wihtout content synchronization to Applicaster servers. 
 
 Some characteristics of Pipes2: 
 - Served in the cloud (Firebase)
@@ -33,6 +31,10 @@ Source file [here](https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7
 
 
 ## Zapp Feed Example
+Notice that
+- The Zapp feed structure is different from JW Playlist
+- The feed refert to content hosted on JW Player CDN 
+
 ```
 https://zapp-706-jw-player-demo.web.app/jw/playlists/ImeVuRDP
 {
