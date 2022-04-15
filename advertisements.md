@@ -12,13 +12,13 @@ nav_exclude: false
 
 
 ## How to setup ads? 
-Setup ads as you normally do within the ad schedule and select Google IMA as the ad client. VMAP is recommended over VAST. Once you have setup, the client just needs to use the ad schedule ID, which will be entered in the feed during setting up the playlists. 
+Ads works based on JW Ad schedules. Once you have setup, the client just needs to use the ad schedule ID, which will be entered in the feed during setting up the playlists. 
 
 Note that ads, for now, are only attached at the playlist level, unlike JWplayer platform, where it is attached at the player level.
 
 Below is a step by step walkthrough:
 1. Setup ads as usual by selecting GoogleIMA as ad client.
-2. Add your adtags in there as preroll, midroll or Vmap, whatever applicable
+2. Add your adtags in there as preroll, midroll or Vmap, whatever applicable. VMAP is recommended over VAST.
 3. Save the ad schedule and grab the adid from there.
 4. Go in Zapp (Applicaster) platform and in the playlist data feed that you want to show ads, add the schedule id to `?adId={scheduleId)`
 5. Make sure you add the Google IMA plugin from the plugin gallery, if it wasn’t added before you’ll need to build the version again for the plugin to be enabled.
@@ -62,9 +62,6 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 | slid=(slot_custom_id)                 | Static Value | Entered by publisher |
 | mind=(slot_minimum_duration)          | Static Value | Entered by publisher |
 | maxd=(slot_maximum_duration)          | Static Value | Entered by publisher |
-
-## On what platform are ads supported?
-Ads are supported through JWplatform on IOS, Android, Apple TV, Android TV, Firebase and Roku and LG tv.
 
 <!-- 
 ## How do ads work? 
