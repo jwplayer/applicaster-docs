@@ -7,4 +7,4 @@ nav_order: 1200
 
 
 
-<img align="right" src="./img/vod-content-delivery.png" width="500">
+<img align="right" src="../img/vod-content-delivery.png" width="500">
