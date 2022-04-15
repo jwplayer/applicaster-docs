@@ -12,7 +12,12 @@ nav_order: 1200
 - TOC
 {:toc}
 
-## Pipes2 Feeds 
+## Overview
+<a href="https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit#slide=id.g121e1190545_0_0">
+<img src="../img/content-delivery.png" width="768">
+</a>
+
+## Pipes2 Middleware 
 Zapp apps on all platforms get video lists and video metadata from feeds. Feeds are contructed from JW Player playlist. Pipes2 is the Zapp component that translates JW Player playlists into the feeds structure that Zapp apps can understand. 
 
 Some characteristics of Pipes2: 
@@ -25,9 +30,6 @@ Some characteristics of Pipes2:
 
 The video assets (m3u8, mp4, aac, jpg, srt, etc) are served from the JW Player CDNs. 
 
-<a href="https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit#slide=id.g121e1190545_0_0">
-<img src="../img/content-delivery.png" width="768">
-</a>
 
 ## Zapp Feeds vs JW Player Playlist
 Notice that
