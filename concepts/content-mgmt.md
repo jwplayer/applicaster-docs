@@ -18,7 +18,7 @@ nav_order: 1300
 
 ## Media
 A video, including its 
-- video assets: the video in different format
+- video assets: the video in different qualities, e.g 720p, 1080p, etc. 
 - audio tracks: audio in different language, or without music, etc. 
 - images: thumbnails
 - (custom) fields: title, descripton, genre, rating, actors, etc. 
