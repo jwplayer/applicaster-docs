@@ -134,8 +134,17 @@ https://content.jwplatform.com/v2/playlists/ImeVuRDP
     {
       "title": "Agent 327",
       "mediaid": "DPUc0y16",
+      "pubdate": 1642076040,
+      "description": "Hendrik IJzerbroot – Agent 327 – is a secret agent working for the Netherlands secret service agency. In the twenty comic books that were published since 1968, Martin Lodewijk created a rich universe with international conspiracies, hilarious characters and a healthy dose of Dutch humour.",
+      "duration": 231,
+      "genre": "Action",
+      "rating": "CC-BY",
+      "cta": "Watch Now",
+      "hqme": "true",
+      "movieid": "DPUc0y16"
       "link": "https://content.jwplatform.com/previews/DPUc0y16",
       "image": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=720",
+      "images":[
         {
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=480",
         },
@@ -152,10 +161,6 @@ https://content.jwplatform.com/v2/playlists/ImeVuRDP
           "src": "https://content.jwplatform.com/v2/media/DPUc0y16/poster.jpg?width=1920",
         }
       ],
-      "feedid": "ImeVuRDP",
-      "duration": 231,
-      "pubdate": 1642076040,
-      "description": "Hendrik IJzerbroot – Agent 327 – is a secret agent working for the Netherlands secret service agency. In the twenty comic books that were published since 1968, Martin Lodewijk created a rich universe with international conspiracies, hilarious characters and a healthy dose of Dutch humour.",
       "tags": "movie,Action,hero_blender",
       "sources": [
         {
@@ -206,14 +211,6 @@ https://content.jwplatform.com/v2/playlists/ImeVuRDP
           "kind": "thumbnails"
         }
       ],
-      "variations": {
-        
-      },
-      "genre": "Action",
-      "rating": "CC-BY",
-      "cta": "Watch Now",
-      "hqme": "true",
-      "movieid": "DPUc0y16"
     }, 
     {...}
 ```
