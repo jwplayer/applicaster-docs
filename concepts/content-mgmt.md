@@ -15,6 +15,9 @@ nav_order: 1300
 ## Overview
 
 <img src="../img/content-mgmt.png" width="768">
+<!--
+Source file [here](https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit)
+-->
 
 ## Media
 A video, including its 
@@ -36,7 +39,7 @@ A playlist is a collection of media items. There are several types of playlists.
 Details [here](https://support.jwplayer.com/articles/create-a-playlist)
 
 
-## (Screen) Components
+## Components
 A component is a UI entity that hightligs a video or a list of videos. The UI representation of a component is flexible (e.g. grid, horizontal list, etc). 
 
 Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-data)
@@ -46,7 +49,5 @@ To be able to display the list of teasers it needs to access the data to render 
 
 Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-data)
 
-<!--
-Source file [here](https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit)
--->
+
 
