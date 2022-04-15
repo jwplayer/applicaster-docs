@@ -13,7 +13,7 @@ nav_order: 1300
 {:toc}
 
 ## Overview
-<a href="https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit">
+<a href="https://docs.google.com/presentation/d/1K9hKSeJYY1nFBpW7GQUi7rbWmIYo4qJ_NIgOHzYUQHA/edit#slide=id.g121e1190632_0_10">
 <img src="../img/content-mgmt.png" width="768">
 </a>
 
