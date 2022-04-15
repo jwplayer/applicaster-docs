@@ -12,7 +12,7 @@ nav_order: 1200
 - TOC
 {:toc}
 
-## Video Lists and Metadata
+## Video Consumption
 Zapp apps on all platforms consume video lists and video metadata from feeds. Feeds are contructred from JW Player playlist. Pipes2 is the Zapp component that translates JW Player playlists into the feeds structure that Zapp apps can understand. 
 
 Some characteristics of Pipes2: 
