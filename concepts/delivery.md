@@ -13,16 +13,18 @@ nav_order: 1200
 {:toc}
 
 ## Zapp video consumption
-All Zapp apps on all platforms consume playlists and metadata from feeds. Feeds get data from JW Player endpoints. 
-
-Pipes2 is the Applicater framework that translates JW Player playlists into the feeds structure that Zapp apps can understand. This happens realtime, wihtout content synchronization to Applicaster servers. 
+Zapp apps on all platforms consume video lists and video metadata from feeds. Feeds are contructred from JW Player playlist. Pipes2 is the Zapp component that translates JW Player playlists into the feeds structure that Zapp apps can understand. 
 
 Some characteristics of Pipes2: 
+- Realtime translation (no content synchronization)
 - Served in the cloud (Firebase)
 - Written once to serve all our supported platforms
 - Changes to Pipes2 are done remotely without needing to release a new version of the app
 - Caching
 - API Monitoring
+
+The video assets themselves (m3u8, mp4, aac, jpg, srt, etc) are servce from the JW Player CDNs. 
+
 
 <img src="../img/content-delivery.png" width="768">
 <!--
