@@ -21,16 +21,12 @@ Commonly used target screens:
 
 This article focuses on the player target screen 
 
-## Structure of a movie target screen
-A standard movie target screen consists of:
-1. An player 
-1. A related videos shelf
-
 ## Define a player screen as target
 1. Create a 'general content screen' 
+1. Add player, and if needed a related videos shelf
 1. Define it as a 'target' for 'video' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
 
-By default, everytime a feed is set up in Applicaster, there has to be a value defined. Applicaster by default, defines this value as Video in the feeds that are returned from JW Platform. 
+By default, everytime a feed is set up in Applicaster, there has to be a value defined. Applicaster by default, defines this value as `Video` in the feeds that are returned from JW Platform. 
 
 The 'type' value is used by Zapp to determine what screen is opened. When the value is 'video' the video player target screen is opened. 
 
