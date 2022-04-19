@@ -10,7 +10,7 @@ nav_exclude: false
 - TOC
 {:toc}
 
-## Player 'target' screen
+## Target screens
 <img align="right" src="./img/movie-target.png" width="250">
 A 'target' screen is where the user lands after selecting a video from a homepage or library.
 
@@ -21,14 +21,14 @@ Commonly used target screens:
 
 This article focuses on the player target screen 
 
-## Define a player screen as target
+## Create a player target screen 
 1. Create a 'general content screen' 
-1. Add player, and if needed a related videos shelf
+1. Add a player, and if needed a related videos shelf
 1. Define it as a 'target' for 'video' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
 
-By default, everytime a feed is set up in Applicaster, there has to be a value defined. Applicaster by default, defines this value as `Video` in the feeds that are returned from JW Platform. 
+Everytime a feed is added in Applicaster, there has to be a  `type` value defined. This value used by Zapp to determine what screen is opened. When the value is 'video' the video player target screen is opened. 
 
-The 'type' value is used by Zapp to determine what screen is opened. When the value is 'video' the video player target screen is opened. 
+Applicaster by default, defines the type as `Video` in the feeds that are returned from JW Platform. 
 
 <img src="./img/type-mapping.png" width="1024">
 
