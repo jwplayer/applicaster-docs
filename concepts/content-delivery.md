@@ -36,7 +36,7 @@ The video assets (m3u8, mp4, aac, jpg, srt, etc) are consumed by the end users d
 ## Zapp Feeds vs JW Player Playlist
 Notice that
 - The Zapp feed structure is different from JW Playlist
-- The feed refert to content hosted on JW Player CDN 
+- The feed refers to content hosted on JW Player CDN 
 
 ### Zapp Feed Example
 
