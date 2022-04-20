@@ -16,3 +16,6 @@ To update a plugin:
 1. Select the release / layout
 1. Select the plugin configuration
 1. Select the new version 
+1. Trigger a new build 
+
+Note: this needs to be repeated for all platforms. 
