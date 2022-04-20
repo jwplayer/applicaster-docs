@@ -11,7 +11,6 @@ nav_exclude: false
 {:toc}
 
 ## Updating a plugin
-To update a plugin:
 1. Go to Zapp Studio
 1. Select the release / layout
 1. Select the plugin configuration
