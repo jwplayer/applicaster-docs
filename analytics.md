@@ -54,7 +54,7 @@ Applicaster is not sending the following values:
 ## How can I analyze traffic on a user basis? 
 The applicaster plug in sends the App User ID, which can be used to analyze traffic per user, instead of per session. 
 
-You need to have a proper the `User identity storage key` on the plugin setting. 
+You need to have a proper the `User identity storage key` on the plugin. 
 
 |User identity storage key|Setting|Example value |
 |----------|--------------|----------------------|
@@ -64,6 +64,9 @@ You need to have a proper the `User identity storage key` on the plugin setting.
 For OAuth Applicaster can only share the 'access_token'. The access token is a [jwt](https://jwt.io/) provided by the Identity Provider. The token can be decoded and could include user information, depending on the identity provider configuration. 
 
 Note that the user level data is only accessible using the Play Sessions Data Export.
+
+<img src="./img/analytics-user-identity-key.png" width="768">
+
 
 ## Does Applicaster support other analytics systems?
 Yes. See the Applicaster Plugin Directory in your account.
