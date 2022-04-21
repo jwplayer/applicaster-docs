@@ -52,13 +52,18 @@ Applicaster is not sending the following values:
 
 
 ## How can I analyze traffic on a user basis? 
-The applicaster plug in sends the `oaid` App User ID, which can be used to analyze traffic per user, instead of per session. 
+The applicaster plug in sends the App User ID, which can be used to analyze traffic per user, instead of per session. 
 
-You need to have a proper the `User identity storage key` on the plugin setting. See how to setup 
+You need to have a proper the `User identity storage key` on the plugin setting. 
+
+|User identity storage key|Setting|Example value |
+|----------|--------------|----------------------|
+|Cleeng|`quick-brick-login-flow.username`| user@mail.com |
+|Oauth |`zapp_login_plugin_oauth_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkd5OEJkbk9yMVdYTENhbVFRT... |
+
+For OAuth Applicaster can only share the 'access_token'. The access token is a [jwt](https://jwt.io/) provided by the Identity Provider. The token can be decoded and could include user information, depending on the identity provider configuration. 
 
 Note that the user level data is only accessible using the Play Sessions Data Export.
-
-For OAuth Applicaster can only share the 'access_token'. The access token is a [jwt](https://jwt.io/) provided by the Identity Provider. It can can be decoded and could include user information.
 
 ## Does Applicaster support other analytics systems?
 Yes. See the Applicaster Plugin Directory in your account.
