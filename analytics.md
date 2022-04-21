@@ -48,10 +48,7 @@ You need to have a proper the `User identity storage key` on the plugin.
 
 For OAuth Applicaster can only share the 'access_token'. The access token is a [jwt](https://jwt.io/) provided by the Identity Provider. The token can be decoded and could include user information, depending on the identity provider configuration. 
 
-Notes
-- the user level data is only accessible using the Play Sessions Data Export.
-- rebuild your apps, after changing the settings. 
-
+Note that the user level data is only accessible using the Play Sessions Data Export.
 
 <img src="./img/analytics-user-identity-key.png" width="768">
 
