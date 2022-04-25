@@ -32,6 +32,5 @@ This behavior can be created as follows:
 
 <img src="./img/library-in-studio.png" width="768">
 
-  <!--
-## Filtering on genres 
-By creating a genre screen.-->
+ <!-- ## Filtering on genres 
+By creating a genre screen. -->
