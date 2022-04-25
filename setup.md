@@ -44,7 +44,7 @@ This can be enabled on a property level. This can't be controlled from the dashb
 
 JW internal instructions: Create a Serv Ticket titled 'Enable in-manifest subtitles' with the account id & property id. (Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))
 
-## 4. Enabling the Subscribion Mgmt system 
+## 4. Enabling the Subscription Mgmt system 
 For Cleeng see [here](https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist)
 
 For other platforms, refer to their documentation. 
