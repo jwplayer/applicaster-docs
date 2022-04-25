@@ -63,7 +63,7 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 | mind=(slot_minimum_duration)          | Static Value | Entered by publishttps://developer.roku.com/en-gb/docs/developer-program/advertising/roku-advertising-framework.md)her |
 | maxd=(slot_maximum_duration)          | Static Value | Entered by publisher |
 
-## How do ads work on Roku Advertising Framework (RAF)?
+## Does Applicaster integrate with Roku Advertising Framework (RAF)?
 Applicaster uses [RAF](https://developer.roku.com/en-gb/docs/developer-program/advertising/roku-advertising-framework.md) to serve advertisements on Roku.
 
 Customers can have custom agreements with Roku, allowing them to serve their own VAST. Applicaster support both custom VMAP and VAST on Roku. Customers need to reach out to Roku for a custom agreement.
