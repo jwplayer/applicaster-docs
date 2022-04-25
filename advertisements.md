@@ -60,8 +60,13 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 | _fw_vcid2=(unique_customer_id)        | Dynamic      | No                   |
 | csid=(Platform)                       | Dynamic      | Yes                  |
 | slid=(slot_custom_id)                 | Static Value | Entered by publisher |
-| mind=(slot_minimum_duration)          | Static Value | Entered by publisher |
+| mind=(slot_minimum_duration)          | Static Value | Entered by publishttps://developer.roku.com/en-gb/docs/developer-program/advertising/roku-advertising-framework.md)her |
 | maxd=(slot_maximum_duration)          | Static Value | Entered by publisher |
+
+## How do ads work on RRoku Advertising Framework (RAF)
+Applicaster uses [RAF](https://developer.roku.com/en-gb/docs/developer-program/advertising/roku-advertising-framework.md) to serve advertisements on Roku.
+
+Some customers have custom agreements with Roku, allowing them to serve their own VAST. Applicaster support both custom VMAP and VAST on Roku. Customer need to reach out to Roku for a custom agreement.
 
 <!-- 
 ## How do ads work? 
