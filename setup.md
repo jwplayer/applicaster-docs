@@ -12,7 +12,7 @@ nav_exclude: false
 {:toc}
 
 ## Intro
-Follow the steps in this document to set up your JW Player - Applicaster environment. The first 3 steps require the help of a JW and/or Applicaster Customer Success representative. 
+Follow the steps in this document to set up your JW Player - Applicaster environment. The first 3 steps require the help of a JW and/or Applicaster Customer Success representative.
 
 
 ## Pre-requisistes
