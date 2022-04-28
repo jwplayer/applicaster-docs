@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Video protection
-nav_order: 8
+title: Protection
+nav_order: 850
 nav_exclude: false
 ---
 
