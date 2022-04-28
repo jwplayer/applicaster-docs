@@ -20,7 +20,7 @@ nav_exclude: false
 Notes
 - The video files (MP4) are still accessible at JW in other countries. This is not an issue as  JW URL signing is applied, so MP4 are only accessible to Applicaster apps.
 - Do NOT enable to geo-blocking of JW Platform. See also below. 
-- The web app using standard JW geofiltering. See here: https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos  
+- The web app using standard [JW geo blocking rules](https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos)
 
 ## Why can't we use the JW player geo blocking rules?
 JW Players [geoblocking rules](https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos) automatically removes country specific media items from playlists based on the clients IP address. The 'client' is the system to retrieves the playlist from the JW Player API. 
