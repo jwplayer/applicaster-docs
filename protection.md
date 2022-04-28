@@ -13,7 +13,7 @@ nav_exclude: false
 ## How can content be protected?
 Content can be protected is protected in various ways: 
 - URL signing: Ensures only Applicaster Apps can access videos
-- Geo blocking: Ensures videos can only be played in a specific country
+- Geo blocking: Ensures videos can only be accessed in a specific country
 - Entitlement checking: Ensures only entitled users can access videos based on purchases
 
 ## How to apply geo blocking?
