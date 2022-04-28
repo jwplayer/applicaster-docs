@@ -4,6 +4,11 @@ title: Protection
 nav_order: 850
 nav_exclude: false
 ---
+# Protection
+{: .no_toc}
+
+- TOC
+{:toc}
 
 ## How to apply geo blocking?
 <img align="right" src="./img/applicaster-di-plugin.png" width="200">
