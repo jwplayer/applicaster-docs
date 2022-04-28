@@ -10,7 +10,7 @@ nav_exclude: false
 - TOC
 {:toc}
 
-## How is content protected?
+## How can content be protected?
 Content can be protected is protected in various ways: 
 - URL signing: Ensures only Applicaster Apps can access videos
 - Geo blocking: Ensures videos can only be played in a specific country
