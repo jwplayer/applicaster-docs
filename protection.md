@@ -10,6 +10,12 @@ nav_exclude: false
 - TOC
 {:toc}
 
+## How is content protected?
+Content can be protected is protected in various ways: 
+- URL signing: Ensures only Applicaster Apps can access videos
+- Geo blocking: Ensures videos can only be played in a specific country
+- Entitlement checking: Ensures only entitled users can access videos based on purchases
+
 ## How to apply geo blocking?
 <img align="right" src="./img/applicaster-di-plugin.png" width="200">
 
