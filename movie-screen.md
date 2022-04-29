@@ -54,13 +54,15 @@ Tip: Use [default custom parameters](https://support.jwplayer.com/articles/manag
 <img src="./img/cell-field-mapping.png" width="1024">
 
 ## Add a trailer
-1. Add a Group Component and correle UI components
+1. Add a Group Component and UI components
 1. Assign the datascoure that fetches a single video from JW Player
 1. Insert the entry value: `extensions.trailerId`
 1. Assign a [cell style](https://docs.applicaster.com/using-zapp/qb-app-structure/#cell-style) and save
 
+<!--
 ## How to add a recommendations shelf?
-- A recommendations / related videos shelf (group with group title and horizontal lists)
+. A recommendations / related videos shelf (group with group title and horizontal lists)
+-->
 
 ## Defining multiple target screens
 You can make multiple video target screens. E.g. a 'movie target' and a 'show target'. With [Type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping) you can map a video type with a target screen.
