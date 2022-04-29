@@ -16,12 +16,9 @@ To change a page:
 2. Click edit page 🧷 
 3. Commit
 
-Non-contributors will need a pull request:  
-1. Github will create a branch with your change uppon committing
-2. Create a pull request of your branch
-3. Await review of your request
+People with out direct edit rightrs need a pull request, that will first be reviewed of your request
 
-## Tips
+Tips
 - It can take up to 10 minutes for changes to publish after you push the changes to GitHub. 
 - Make sure to clear to browser cache after applying a change.
 - To add a page go the [Github Repo](https://github.com/jwplayer/applicaster-docs), and copy another page.
