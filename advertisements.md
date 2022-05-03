@@ -17,7 +17,7 @@ Ads works based on JW Ad schedules. Once you have setup, the client just needs t
 Note that ads, for now, are only attached at the playlist level, unlike JWplayer platform, where it is attached at the player level.
 
 Below is a step by step walkthrough:
-1. Setup ads as usual by selecting GoogleIMA as ad client.
+1. Setup ads as by selecting GoogleIMA as ad client.
 2. Add your adtags in there as preroll, midroll or Vmap, whatever applicable. VMAP is recommended over VAST.
 3. Save the ad schedule and grab the adid from there.
 4. Go in Zapp (Applicaster) platform and in the playlist data feed that you want to show ads, add the schedule id to `?adId={scheduleId)`
