@@ -23,6 +23,9 @@ Below is a step by step walkthrough:
 4. Go in Zapp (Applicaster) platform and in the playlist data feed that you want to show ads, add the schedule id to `?adId={scheduleId)`
 5. Make sure you add the Google IMA plugin from the plugin gallery, if it wasn’t added before you’ll need to build the version again for the plugin to be enabled.
 
+Notes
+- It's not possible to have ad schedules on media level. 
+
 ## Ad Macros - General support
 Many VAST servers use tag variables to optimize fill and provide more information on how ads are being viewed. Applicaster supports several variables that can be added to your VAST tag URL. Once an ad call is made by Applicaster, the variables will be replaced accordingly.
 
