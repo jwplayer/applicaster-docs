@@ -6,11 +6,20 @@ nav_order: 1300
 
 # Subscriptions
 
-## How to make  TVOD offer 
-`productIds: <vendor>:<offerid>, <vendor>:<offerid>`
+## How to make video specific offers?
+By default a subscription gives viewers access to all videos. The subscription is checked at the moment of play. 
 
-Example: `cleeng:S916977979_NL, adobe:123456`
+It is possible to link an specific offer to an video by adding the custom field: `productIds` to the video and enter the productIds according the following format `productIds: <vendor>:<offerid>, <vendor>:<offerid>`. For example: `cleeng:S916977979_NL, adobe:123456`
 
-## How to TVOD only
+For Cleeng the product id is the `id` of the offer. 
+
+| Vendor | Prefix | Example| Comment |   |
+|---|---|---|---|---|
+| Cleeng | cleeng  | cleeng:S916977979_NL |  Subscripton offers can be recognized by `s` and transaction offers by `t` |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
+## How to TVOD only offer
 By starting the value with an exclamation mark `!` only the TVOD offers are accepted. E.g. `!cleeng:S916977979_NL, adobe:123456`
 
