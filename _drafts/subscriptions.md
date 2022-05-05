@@ -19,8 +19,8 @@ The values are as
 | InPlayer            |        |                 |                      |                                                                   |
 | MPX                 |        |                 |                      |                                                                   |
 
-## How to support TVOD only videos?
-Sometimes customers need to pay for a video, even if they already have a subscription. E.g. to support concepts like 'Premier Access': access to videos before they are provided to the all subscribers.
+## TVOD only videos
+Sometimes customers need to pay for a video, even if the customer already has a subscription. E.g. to support concepts like 'Premier Access': access to videos before they are provided to the all subscribers.
 
 This can be done by putting an exclamation mark `!` before the value . E.g. `!cleeng:S916977979_NL`. Applicaster will ignore the global subscription ids when checking if the user is entitled to access the video. 
 
