@@ -13,11 +13,12 @@ It is possible to link an specific offer to an video by adding the custom field:
 
 For Cleeng the product id is the `id` of the offer. 
 
-| Vendor | Prefix | Example| Comment |   |
-|---|---|---|---|---|
-| Cleeng | cleeng  | cleeng:S916977979_NL |  Subscripton offers can be recognized by `s` and transaction offers by `t` |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Vendor/System      | Prefix | Example              | Comment                                                                   |   |
+|--------------------|--------|----------------------|---------------------------------------------------------------------------|---|
+| Cleeng             | cleeng | cleeng:S916977979_NL | Subscripton offers can be recognized by `s` and transaction offers by `t` |   |
+| Adobe TV everywher | adobe  |                      |                                                                           |   |
+|                    |        |                      |                                                                           |   |
+
 
 
 ## How to TVOD only offer
