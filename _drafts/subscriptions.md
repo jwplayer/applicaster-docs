@@ -9,7 +9,7 @@ nav_order: 1300
 ## Transactional video on demand (TVOD)
 By default a subscription gives viewers access to all videos. It is possible to link an specific product id to an video. It allows viewers to buy access to an individual video, rather then the whole library. 
 
-You can link a specific product by adding custom field: `productIds` to the video and enter the product ids according the following format `productIds: <vendor-prefix>:<offerid>, <vendor-prefix>:<offerid>`. For example: `cleeng:S916977979_NL, adobe:123456`
+You can link a specific product by adding custom field: `productIds` to the video and enter the product ids according the following format `productIds: <vendor-prefix>:<product-id>, <vendor-prefix>:<product-id>`. For example: `cleeng:S916977979_NL, adobe:123456`
 
 The values are as 
 | Vendor/System       | Prefix | Product Id      | Example              | Comment                                                           |
