@@ -16,7 +16,7 @@ You can link a specific product by adding custom field: `productIds` to the vide
 The values are as 
 | Vendor/System       | Prefix | Product Id      | Example              | Comment                                                           |
 |---------------------|--------|-----------------|----------------------|-------------------------------------------------------------------|
-| Cleeng              | cleeng | Id of the offer | cleeng:S916977979_NL | Subscripton offers start with `s` and transaction offers with `t` |
+| Cleeng              | cleeng | Id of the offer | cleeng:S916977979_NL | Subscription offers start with `s` and transaction offers with `t` |
 | Adobe TV everywhere | adobe  |                 |                      |                                                                   |
 | InPlayer            |        |                 |                      |                                                                   |
 
