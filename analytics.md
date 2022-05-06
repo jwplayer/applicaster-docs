@@ -46,7 +46,9 @@ You need to have a proper the `User identity storage key` on the plugin.
 |Cleeng|`quick-brick-login-flow.username`| user@mail.com |
 |Oauth |`zapp_login_plugin_oauth_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
 
-For OAuth Applicaster can only share the 'access_token'. The access token is a [jwt](https://jwt.io/) provided by the Identity Provider. The token can be decoded and could include user information, depending on the identity provider configuration. 
+For OAuth Applicaster can only share the access token. The access token is a [jwt](https://jwt.io/) provided by the Identity Provider. The token can be decoded and could include user information, depending on the identity provider configuration. 
+
+Its also possible to match the JWT token to the userid using a data export from the identity system.
 
 Note that the user level data is only accessible using the Play Sessions Data Export.
 
