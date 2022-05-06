@@ -67,15 +67,13 @@ Here is an example token containing the user identifying claim (`sub`):
   "ver": 1,
   "jti": "AT.LUHBwdrv34Qn1YVER_2jt-04cgORNOvIQuKYPDDXz8c.oar2trhvfq34nYeLO696",
   "iss": "https://secure.demo.org/oauth2/ausgtj94oUNEAfD44556",
-  "aud": "test",
+  "aud": "ott.ios.app",
   "iat": 1650574107,
   "exp": 1650660507,
   "cid": "0oap0z42wQxngCMBy696",
   "uid": "00unpnaqaDKAQ50Mp696",
   "scp": [
     "offline_access",
-    "openid",
-    "email",
     "profile",
     "device_sso"
   ],
