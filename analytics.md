@@ -41,6 +41,8 @@ The metrics and dimension documented in the [OTT App Analytics documentation](ht
 - `custom_parameter_name`
 - `custom_parameter_value`
 
+Note: The field `platform_id` is used to identify the device platform. 
+
 ## How enable user level tracking (App User ID)? 
 The applicaster plug can send the App User ID for play session data. This is can be used to analyze traffic per user, instead of per session. 
 
