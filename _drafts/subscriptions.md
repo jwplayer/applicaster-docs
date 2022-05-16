@@ -21,7 +21,7 @@ The values are as
 
 Notes
 - InPlayer and MPX don't support TVOD package. 
-- Adobe: simply adding `adobe`, means adobe viewers are granted access to the video
+- Adobe: simply adding `adobe`, means Authenticated Adobe viewers are granted access to the video
 - Cleeng :
    -  Subscription offers start with `s` and transaction offers with `t`.
    - `_NL` is the Cleeng locale override. Cleeng automatically selects the proper locale (currency & amount). With `_NL`  you override that mechanism.
