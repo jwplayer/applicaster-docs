@@ -15,7 +15,7 @@ The values are as
 | Vendor/System       | Prefix   | Product Id      | Example                | Comment                |
 | ------------------- | -------- | --------------- | ---------------------- | ---------------------- |
 | Cleeng              | `cleeng` | Id of the offer | `cleeng:S916977979_NL` | See Cleeng Notes below |  
-| Adobe TV everywhere | `adobe`  | n/a             |                        |                        |
+| Adobe TV everywhere | `adobe`  | n/a             | `adobe                 |                        |
 | InPlayer            | n/a      |                 |                        |                        |
 | MPX                 | n/a      |                 |                        |                        |
 
