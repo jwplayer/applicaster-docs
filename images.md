@@ -38,6 +38,8 @@ You can change the image size you desire based on the resolutions delivered on t
 To upload a custom video thumbnails with a custom aspect ratio, see [here](https://support.jwplayer.com/articles/update-a-video-thumbnail)
 
 ## Adding additional images to a video in JW Player
+**Coming soon:**
+
 In some cases, a single JW video thumbnail is not enough. E.g. when you need 
 - a different aspect ratio on a specific layout e.g. landscape 9:13 on Roku
 - a wide banner for display in the "featured" shelf
