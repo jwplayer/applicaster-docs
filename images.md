@@ -31,7 +31,7 @@ You can change the image size you desire based on the resolutions delivered on t
 | Thumbnail 720px width               | `images.720` or simply `720`                         | TV shelf best practice              |
 | Thumbnail 1280px width              | `images.1280` or simply `1280`                       | TV library & hero best practice     |
 | Thumbnail 1920px width              | `images.1920` or simply `1920`                       |                                     |
-| Custom image with custom resolution | `extensions.img[LabelName]` or simply img[LabelName] |                                     |
+| Custom image with custom resolution | `images.img[LabelName]` or simply img[LabelName] |                                     |
 
 
 ## Uploading custom video thumbnail
