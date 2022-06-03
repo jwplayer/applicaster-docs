@@ -51,8 +51,9 @@ You need to have a proper the `User identity storage key` configured on the plug
 |Authentication provider|Setting|Example value |
 |----------|--------------|----------------------|
 |Cleeng|`quick-brick-login-flow.username`| user@mail.com |
-|Oauth |`zapp_login_plugin_oauth_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
-
+|OAuth |`zapp_login_plugin_oauth_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
+|OAuth (on TVs) |`zapp_login_plugin_oauth_tv_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
+|OAuth|`zapp_login_plugin_oauth_2_0.sub`| user@mail.com |
 
 <img src="./img/analytics-user-identity-key.png" width="768">
 
