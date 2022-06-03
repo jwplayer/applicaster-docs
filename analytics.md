@@ -48,13 +48,13 @@ The applicaster plugin can send the App User ID for play session data. This is c
 
 You need to have a proper the `User identity storage key` configured on the plugin:
 
-|Authentication provider|Setting|Example value |
+|Authentication provider|System|Data|Setting|Example value |
 |----------|--------------|----------------------|
-|Cleeng|`quick-brick-login-flow.username`| user@mail.com |
-|OAuth |`zapp_login_plugin_oauth_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
-|OAuth (on TVs) |`zapp_login_plugin_oauth_tv_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
-|OAuth|`zapp_login_plugin_oauth_2_0.sub`| user@mail.com |
-|OAuth (on TVs)|`zapp_login_plugin_oauth_tv_2_0.sub`| user@mail.com |
+|Cleeng| All | User Id|`quick-brick-login-flow.username`| user@mail.com |
+|OAuth | Mobile | User Session Token |`zapp_login_plugin_oauth_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
+|OAuth | TV | User Session Token |`zapp_login_plugin_oauth_tv_2_0.access_token` | eyJraWQiOiJEa1lUbmhTdkdT... |
+|OAuth| Mobile | User Session Subject | `zapp_login_plugin_oauth_2_0.sub`| user@mail.com |
+|OAuth |TV | User Session Subject |`zapp_login_plugin_oauth_tv_2_0.sub`| user@mail.com |
 
 
 <img src="./img/analytics-user-identity-key.png" width="768">
