@@ -32,8 +32,8 @@ A regular live event goes through the following state lifecycle:`PRE_LIVE` > `
   -  The title, thumbnail, and description set on this video will represent the event. 
   -  Add in custom parameters to the placeholder video.
   -  These custom parameters will contain the playlist id hosting the individual shows.  
-    - key: 'livePlaylistId'
-    - value: `playlistID`
+      - key: 'livePlaylistId'
+      - value: `playlistID`
   - Give the asset a tag so that it appears in a Future Events rail. This tag will need to be removed once the event is over so it is no longer shown in the Future Events section. 
     -   tag: 'future-live'
 
