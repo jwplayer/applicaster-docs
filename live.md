@@ -19,7 +19,7 @@ Broadcast Live will automatically update the fields in JW Player.The following f
 - VCH.ScheduledStart
 - VCH.ScheduledEnd 
 
-<img align="right" src="./img/broacast-live-stream-parameters.png" width="250">
+<img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
 
 
 ### Creating a Live Playlist
