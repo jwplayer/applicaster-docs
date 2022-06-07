@@ -33,11 +33,11 @@ A regular live event goes through the following state lifecycle:`PRE_LIVE` > `
     - Only `LIVE_PUBLISHED` content will have the following query params:
       ```?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any&exclude_tags=&page_limit=100&tags=Live```
 
-#### Grouping Together Events
+# Grouping together live streams
 - Create a Manual Playlist in the JW Dashboard that will house the content in the series. Place the videos from the event series within this playlist.
 - Create a Dynamic Playlist, set Filter by Tag to include `future_live`
-- Create a dummy asset for the event to group the individual shows for an event together. This dummy asset has no content, it will contain a thumbnail, metadata, and a reference to the playlist to display. 
-  -  To create the dummy asset upload a placeholder video into the JW Dashboard. A 1 second video is suggested as the video will not be played.
+- Create a dummy media item for the event to group the individual shows for an event together. This dummy asset has no content, it will contain a thumbnail, metadata, and a reference to the playlist to display. 
+  -  To create the dummy asset upload a placeholder video into the JW Dashboard. This can be simpl For DRM properties, you need a short (e.g. 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
   -  Add in custom parameters to the placeholder video.
   -  These custom parameters will contain the playlist id hosting the individual shows.  
@@ -46,6 +46,7 @@ A regular live event goes through the following state lifecycle:`PRE_LIVE` > `
   - Give the asset a tag so that it appears in a Future Events rail. This tag will need to be removed once the event is over so it is no longer shown in the Future Events section. 
     -   tag: 'future-live'
 
+<img src="./img/live-events-grouped.png" width="450">
 
 ## How to setup EPG?
 See [Applicaster documentation](https://applicaster.zendesk.com/hc/en-us/articles/360041871512-Create-an-EPG-like-program-list-with-existing-components-in-QB-Mobile)
