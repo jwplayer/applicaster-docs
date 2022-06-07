@@ -12,6 +12,7 @@ nav_exclude: false
 
 
 ## How to show Broadcast Live streams in Applicaster?
+<img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
 Broadcast Live streams are represented as media items in the JW Dashboard. Those media items can be grouped into playlists / Applicaster Feeds. 
 
 Broadcast Live will automatically update the fields in JW Player.The following fields are important
@@ -19,7 +20,7 @@ Broadcast Live will automatically update the fields in JW Player.The following f
 - VCH.ScheduledStart
 - VCH.ScheduledEnd 
 
-<img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
+
 
 
 ### Creating a Live Playlist
@@ -34,6 +35,7 @@ A regular live event goes through the following state lifecycle:`PRE_LIVE` > `
       ```?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any&exclude_tags=&page_limit=100&tags=Live```
 
 # Grouping together live streams
+<img align="right" src="./img/live-events-grouped.png" width="450">
 - Create a Manual Playlist in the JW Dashboard that will house the content in the series. Place the videos from the event series within this playlist.
 - Create a Dynamic Playlist, set Filter by Tag to include `future_live`
 - Create a dummy media item for the event to group the individual shows for an event together. This dummy asset has no content, it will contain a thumbnail, metadata, and a reference to the playlist to display. 
@@ -46,7 +48,6 @@ A regular live event goes through the following state lifecycle:`PRE_LIVE` > `
   - Give the asset a tag so that it appears in a Future Events rail. This tag will need to be removed once the event is over so it is no longer shown in the Future Events section. 
     -   tag: 'future-live'
 
-<img src="./img/live-events-grouped.png" width="450">
 
 ## How to setup EPG?
 See [Applicaster documentation](https://applicaster.zendesk.com/hc/en-us/articles/360041871512-Create-an-EPG-like-program-list-with-existing-components-in-QB-Mobile)
