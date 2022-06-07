@@ -10,8 +10,17 @@ nav_exclude: false
 - TOC
 {:toc}
 
+
 ## How to show Broadcast Live streams in Applicaster?
-Live events are like any other media item.  Once they’re created in the Broadcast Live Dashboard, media items representing those streams will appear. They can then be added to a playlist. 
+Broadcast Live streams are represented as media items in the JW Dashboard. Those media items can be grouped into playlists / Applicaster Feeds. 
+
+Broadcast Live will automatically update the fields in JW Player.The following fields are important
+- VCH.EventState
+- VCH.ScheduledStart
+- VCH.ScheduledEnd 
+
+<img align="right" src="./img/broacast-live-stream-parameters.png" width="250">
+
 
 ### Creating a Live Playlist
 - Create a dynamic playlist for anything with the tag `live` in your JW Dashboard account.
@@ -22,7 +31,7 @@ A regular live event goes through the following state lifecycle:`PRE_LIVE` > `
 
   e.g. 
     - Only `LIVE_PUBLISHED` content will have the following query params:
-      - `?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any&exclude_tags=&page_limit=100&tags=Live`
+      ```?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any&exclude_tags=&page_limit=100&tags=Live```
 
 #### Grouping Together Events
 - Create a Manual Playlist in the JW Dashboard that will house the content in the series. Place the videos from the event series within this playlist.
