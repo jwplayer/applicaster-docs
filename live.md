@@ -5,7 +5,7 @@ nav_order: 700
 nav_exclude: false
 ---
 # Live Video
-{: .no_toc}
+{:.no_toc}
 
 - TOC{:toc}
 
@@ -14,21 +14,22 @@ nav_exclude: false
 Broadcast Live streams are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and there shown as feeds in Applicaster.
 
 Broadcast Live will automatically update the fields in JW Player.The following fields are important
-- VCH.EventState.  A regular live event goes through the following states:`PRE_LIVE` > `LIVE_UNPUBLISHED` > `LIVE_PUBLISHED` > `INSTANT_VOD` > `VOD_PUBLIC`.
+- `VCH.EventState` which goes through the following states:`PRE_LIVE` > `LIVE_UNPUBLISHED` > `LIVE_PUBLISHED` > `INSTANT_VOD` > `VOD_PUBLIC`.
+- `VCH.ScheduledStart` in ISO 8601 format
+- `VCH.ScheduledEnd` in ISO 8601 format
 
-- VCH.ScheduledStart
-- VCH.ScheduledEnd 
-
-## Creating a playlist with live streams
-1. Create a dynamic playlist for anything with the tag `live` in your JW Dashboard account.
-1. On the [DAPI endpoint](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id) use the `exclude_media_filtering` query parameter to filter on `VCH.EventState` and exclude what you don't want to be shown.
-
-e.g.  Only `LIVE_PUBLISHED` content will have the following query params:
+## Showing live streams in your application
+1. Create a playlist in JW containing the live streams
+   - Manual playlist
+   - Dynamic playlist with the tag `live` in your JW Dashboard account.
+1. Create a feed in Applicaster and link it to the newly created playlists
+   - Use the [exclude_media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id) query parameter to filter on `VCH.EventState` and exclude the streams you don't want show
+  - E.g. when your feed should only have `LIVE_PUBLISHED` you should hae the following query params:
 ```
-?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any&exclude_tags=&page_limit=100&tags=Live
+?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
 ```
 
-## Grouping together live streams
+## Grouping together live streams on a page
 <img align="right" src="./img/live-events-grouped.png" width="450">
 
 1. Create a playlist representing the grouped live streams
@@ -44,7 +45,7 @@ e.g.  Only `LIVE_PUBLISHED` content will have the following query params:
   1 Give the asset a tag so that it appears in a future Events rail. This tag will need to be removed once the event is over so it is no longer shown in the Future Events section. 
     -   tag: 'future-live'
 
-## Opening live streams in a seperate target windo
+## Opening live streams in a seperate target window
 Coming soon.
 
 ## How to setup EPG?
