@@ -18,16 +18,19 @@ Broadcast Live will automatically update the fields in JW Player.The following f
 - `VCH.ScheduledStart` in ISO 8601 format
 - `VCH.ScheduledEnd` in ISO 8601 format
 
-## Showing live streams in your application
+## Showing a live streams in your application
+*Coming Soon*
+When they go live: `live`
+IF VCH.ScheduledStart < Now() AND VCH.ScheduledEnd > Now ()   OR VCH.ScheduledEnd = NULL
+ELSE IF VCH.EventState  =  LIVE_PUBLISHED
+
+## Showing a list of live streams in your application
 1. Create a playlist in JW containing the live streams
    - Manual playlist
    - Dynamic playlist with the tag `live` in your JW Dashboard account.
 1. Create a feed in Applicaster and link it to the newly created playlists
-   - Use the [exclude_media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id) query parameter to filter on `VCH.EventState` and exclude the streams you don't want show
-  - E.g. when your feed should only have `LIVE_PUBLISHED` you should hae the following query params:
-```
-?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
-```
+   - Use the [exclude_media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id) query parameter to filter on `VCH.EventState` and exclude the streams you don't want show. 
+   - E.g. only showing `LIVE_PUBLISHED` streams: `?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any`
 
 ## Grouping together live streams on a page
 <img align="right" src="./img/live-events-grouped.png" width="450">
