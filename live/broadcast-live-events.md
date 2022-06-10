@@ -36,6 +36,7 @@ Notes
 - Other fields added to the JW Player Dashboard or MAPI will not get overwritten
 
 ## Create a live and upcoming shelf
+<img align="right" src="../img/live-and-upcoming-shelf.png" width="250">
 1. Create a playlist in JW Player that contain your live events 
 1. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter`?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any`
 1. Add a list component in Applicaster and link it to the newly created  feed
@@ -47,7 +48,8 @@ Notes
 1. Create a video landing page *WITH a player* and link it based on live-future. See here
    - Videos will get type `live-future` in Applicaster when it will starts in the future based on `VCH.ScheduledStart`
 
-## Create a video-on-demand shelf of live events 
+## Create a video-on-demand shelf of live events
+<img align="right" src="../img/live-vod-shelf.png" width="250">
 Live events will automatically become VOD streams in Broadcast Live 
 1. Create a playlist in JW Player that contain your live events
 1. Create a feed in Applicaster, and filter it `INSTANT_VOD` or ‘VOD_PUBLIC’  using parameter `?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED&media_filtering_mode=any`
