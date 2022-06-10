@@ -3,11 +3,13 @@ layout: default
 title: Live
 nav_order: 700
 nav_exclude: true
+parent: Live
 ---
-# Live Events
+# Broadcst Live Events
 {:.no_toc}
 
-- TOC{:toc}
+- TOC
+{:toc}
 
 # Broadcast Live Events 
 
