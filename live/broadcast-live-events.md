@@ -1,17 +1,15 @@
 ---
 layout: default
-title: Live
+title: Broadcast Live Events
 nav_order: 700
 nav_exclude: true
 parent: Live
 ---
-# Broadcst Live Events
+# Broadcast Live Events
 {:.no_toc}
 
 - TOC
 {:toc}
-
-# Broadcast Live Events 
 
 ## DISCLAIMER
 This page explains functionality that is not fully developed and tested yet.
@@ -25,7 +23,7 @@ JW Player offers different types of live services:
 This article describes how to implement Broadcast Live Events
 
 ## Broadcast Live Events in JW Player and Applicaster
-<img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
+<img align="right" src="../img/broadcast-live-stream-parameters.png" width="250">
 Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and this can be registered as feed in Applicaster
 
 Broadcast Live will automatically update the fields in JW Player. The following fields are important
@@ -35,7 +33,7 @@ Broadcast Live will automatically update the fields in JW Player. The following 
 
 Notes
 - It takes a few minutes before updates propagate in Applicaster apps due to caching
-- Additional fields will not get overwritten
+- Other fields added to the JW Player Dashboard or MAPI will not get overwritten
 
 ## Create a live and upcoming shelf
 1. Create a playlist in JW Player that contain your live events 
@@ -61,7 +59,7 @@ Video streams will get type `live-vod` in Applicaster based on:
 - OR when VCH.EventState is `INSTANT_VOD` or ‘VOD_PUBLIC’, to handle last-minute manual override of the scheduled times 
 
 ## Grouping multiple live streams on a dedicated page
-<img align="right" src="./img/live-events-grouped.png" width="450">
+<img align="right" src="../img/live-events-grouped.png" width="450">
 1. Create a playlist representing the grouped live streams
 1. Create a media item for the event to group the individual shows for an event together. 
 - This media item asset has no content, it will contain a thumbnail, metadata, and a reference to the playlist to display. 
