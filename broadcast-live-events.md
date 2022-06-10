@@ -2,7 +2,7 @@
 layout: default
 title: Live
 nav_order: 700
-nav_exclude: false
+nav_exclude: true
 ---
 # Live Events
 {:.no_toc}
@@ -15,12 +15,12 @@ nav_exclude: false
 This page explains functionality that is not fully developed and tested yet.
 
 ## Introduction
-JW Player offers two types of live event services:
+JW Player offers different types of live services:
 - Broadcast Live 24x7
 - Broadcast Live Events
 - Instant Live 
 
-This article describes how to implement Broadcast Live Event
+This article describes how to implement Broadcast Live Events
 
 ## Broadcast Live Events in JW Player and Applicaster
 <img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
