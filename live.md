@@ -4,52 +4,73 @@ title: Live
 nav_order: 700
 nav_exclude: false
 ---
-# Live Video
+# Live Events
 {:.no_toc}
 
 - TOC{:toc}
 
-## How to show Broadcast Live streams in Applicaster?
-<img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
-Broadcast Live streams are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and there shown as feeds in Applicaster.
+# Broadcast Live Events 
 
-Broadcast Live will automatically update the fields in JW Player.The following fields are important
-- `VCH.EventState` which goes through the following states:`PRE_LIVE` > `LIVE_UNPUBLISHED` > `LIVE_PUBLISHED` > `INSTANT_VOD` > `VOD_PUBLIC`.
+## DISCLAIMER
+This page explains functionality that is not fully developed and tested yet.
+
+## Introduction
+JW Player offers two types of live event services:
+- Broadcast Live 24x7
+- Broadcast Live Events
+- Instant Live 
+
+This article describes how to implement Broadcast Live Event
+
+## Broadcast Live Events in JW Player and Applicaster
+<img align="right" src="./img/broadcast-live-stream-parameters.png" width="250">
+Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and this can be registered as feed in Applicaster
+
+Broadcast Live will automatically update the fields in JW Player. The following fields are important
+- `VCH.EventState` goes through the following states:`PRE_LIVE` > `LIVE_UNPUBLISHED` > `LIVE_PUBLISHED` > `INSTANT_VOD` > `VOD_PUBLIC`
 - `VCH.ScheduledStart` in ISO 8601 format
 - `VCH.ScheduledEnd` in ISO 8601 format
 
-## Showing a live streams in your application
-*Coming Soon*
-When they go live: `live`
-IF VCH.ScheduledStart < Now() AND VCH.ScheduledEnd > Now ()   OR VCH.ScheduledEnd = NULL
-ELSE IF VCH.EventState  =  LIVE_PUBLISHED
+Notes
+- It takes a few minutes before updates propagate in Applicaster apps due to caching
+- Additional fields will not get overwritten
 
-## Showing a list of live streams in your application
-1. Create a playlist in JW containing the live streams
-   - Manual playlist
-   - Dynamic playlist with the tag `live` in your JW Dashboard account.
-1. Create a feed in Applicaster and link it to the newly created playlists
-   - Use the [exclude_media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id) query parameter to filter on `VCH.EventState` and exclude the streams you don't want show. 
-   - E.g. only showing `LIVE_PUBLISHED` streams: `?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any`
+## Create a live and upcoming shelf
+1. Create a playlist in JW Player that contain your live events 
+1. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter `?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any`
+1. Add a list component in Applicaster and link it to the newly created  feed
+1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
+1. Create a video landing page *without a player* and link it based on type live-future. See here
+  - Videos streams get type `live` in Applicaster based on:  
+    - The stream is live based on`VCH.ScheduledStart` and `VCH.ScheduledEnd`, this will ensure the stream will be playable
+    - Or when the stream is live based on`VCH.EventState` is `LIVE_PUBLISHED`, to handle last-minute manual override of the scheduled time. 
+1. Create a video landing page *WITH a player* and link it based on live-future. See here
+   - Videos will get type `live-future` in Applicaster when it will starts in the future based on `VCH.ScheduledStart`
 
-## Grouping together live streams on a page
+## Create a video-on-demand shelf of live events 
+Live events will automatically become VOD streams in Broadcast Live 
+1. Create a playlist in JW Player that contain your live events
+1. Create a feed in Applicaster, and filter it `INSTANT_VOD` or ‘VOD_PUBLIC’  using parameter `?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED&media_filtering_mode=any`
+1. Add a list component in Applicaster and link it to the newly created  feed
+1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
+1. Create a video landing page *WITH a player* and link it based on live-future. See here
+Video streams will get type `live-vod` in Applicaster based on:  
+- The stream is live when its ended based on `VCH.ScheduledEnd`
+- OR when VCH.EventState is `INSTANT_VOD` or ‘VOD_PUBLIC’, to handle last-minute manual override of the scheduled times 
+
+## Grouping multiple live streams on a dedicated page
 <img align="right" src="./img/live-events-grouped.png" width="450">
-
 1. Create a playlist representing the grouped live streams
-   - A Manual Playlist in the JW Dashboard that will house the content in the series. Place the videos from the event series within this playlist.
-1. A Dynamic Playlist, set Filter by Tag to include `future_live`
-1. Create a dummy media item for the event to group the individual shows for an event together. This dummy asset has no content, it will contain a thumbnail, metadata, and a reference to the playlist to display. 
-  -  To create the dummy media item  upload a placeholder video into the JW Dashboard. For example, you could enter http://foo.com/bar.mp4. The actual URL is not important. For DRM properties, you need a short (e.g. 1 second) video. 
+1. Create a media item for the event to group the individual shows for an event together. 
+- This media item asset has no content, it will contain a thumbnail, metadata, and a reference to the playlist to display. 
+  -  To create the dummy media item upload a placeholder video into the JW Dashboard. For example, you could enter http://foo.com/bar.mp4. The actual URL is not important. For DRM properties, you need a short (e.g. 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
-  -  Add in custom parameters to the placeholder video.
-  -  These custom parameters will contain the playlist id hosting the individual shows.  
+  -  Add custom parameters that will contain the playlist id hosting the individual playlist.  
       - key: 'playlistId'
       - value: Id of the playlist, e.g. `0w1ITloK`
-  1 Give the asset a tag so that it appears in a future Events rail. This tag will need to be removed once the event is over so it is no longer shown in the Future Events section. 
-    -   tag: 'future-live'
+  
+## Promoting live & VOD content in a single list
+Instead of using a `media_filtering` attribute, you use the `exclude_media_filtering` attribute. 
+`?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any`
 
-## Opening live streams in a seperate target window
-Coming soon.
-
-## How to setup EPG?
-See [Applicaster documentation](https://applicaster.zendesk.com/hc/en-us/articles/360041871512-Create-an-EPG-like-program-list-with-existing-components-in-QB-Mobile)
+Ensure you handle the `live`, `live-future` and ‘live-vod’ video types as described above.
