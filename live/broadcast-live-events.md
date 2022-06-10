@@ -37,7 +37,7 @@ Notes
 
 ## Create a live and upcoming shelf
 1. Create a playlist in JW Player that contain your live events 
-1. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter `?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any`
+1. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter`?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any`
 1. Add a list component in Applicaster and link it to the newly created  feed
 1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
 1. Create a video landing page *without a player* and link it based on type live-future. See here
