@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Target screen 
+title: Target screen
 nav_order: 300
 nav_exclude: false
 ---
 
-#  Movie screen
+#  Target screens
 {: .no_toc}
 
 - TOC
 {:toc}
 
-## Target screens
+## About target screens
 <img align="right" src="./img/movie-target.png" width="250">
 A target screen is where the user lands after selecting a media item from a homepage, library or any other page.
 
