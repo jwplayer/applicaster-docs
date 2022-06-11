@@ -48,7 +48,9 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 | `live` | (`VCH.ScheduledStart`is in the past <br> AND`VCH.ScheduledEnd`in the future)  <br> OR `VCH.EventState` is `LIVE_PUBLISHED`  | Link to a landingpage WITH a player |     
 | `live-vod` | `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  Link to a landing page WITHOUT a player  |   
 
-<div style="display:flex; justify-content: center;"> <img src="../img/live-type-mapping.png" width="450"> </div>
+<div style="display:flex; justify-content: center;"> 
+  <img src="../img/live-type-mapping.png" width="650"> 
+</div>
 
 ## Create a live and upcoming shelf
 
@@ -61,11 +63,11 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
 
 <div style="display:flex; justify-content: center;"> 
-<img align="right" src="../img/live-and-upcoming-shelf.png" width="450"> 
+  <img src="../img/live-and-upcoming-shelf.png" width="650"> 
 </div>
 <br><br>
 <div style="display:flex; justify-content: center;"> 
-<img src="../img/live-filter-eventstate.png" width="600"> 
+  <img src="../img/live-filter-eventstate.png" width="650"> 
 </div>
 
 ## Create a video-on-demand shelf of live events
@@ -79,7 +81,7 @@ Live events will automatically become VOD streams in Broadcast Live
 1. Ensure the videos with type `live-vod` link to a video landing page *WITH a player*. See here
 
 <div style="display:flex; justify-content: center;"> 
-<img align="right" src="../img/live-vod-shelf.png" width="450">
+<img align="right" src="../img/live-vod-shelf.png" width="500">
 </div>
 
 
@@ -99,7 +101,7 @@ Live events will automatically become VOD streams in Broadcast Live
 <br>
 <br>
 <div style="display:flex; justify-content: center;"> 
-<img align="right" src="../img/live-events-grouped.png" width="450">
+<img align="right" src="../img/live-events-grouped.png" width="550">
 </div>
 
 ## Assigning a live now badge 
