@@ -11,14 +11,14 @@ nav_exclude: false
 - TOC
 {:toc}
 
-## Movie 'target' screen
+## Target screens
 <img align="right" src="./img/movie-target.png" width="250">
-A 'target' screen is where the user lands after selecting a video from a homepage or library.
+A target screen is where the user lands after selecting a video from a homepage or library.
 
 Commonly used target screens:
 - A movie target: that promotes a movie by giving the full details about the video, like a description, rating, duration, etc. 
 - Series target. That shows the episodes of the series. 
-- Player target. See video playback
+- Player target. See [video playback](https://jwplayer.github.io/applicaster-docs/video-playback.html)
 
 This article focuses on movie target screens. 
 
