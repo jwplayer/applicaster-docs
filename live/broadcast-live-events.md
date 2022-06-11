@@ -25,9 +25,9 @@ This article describes how to implement Broadcast Live Events with Applicaster Z
 
 Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and these playlist can be registered as feed in Applicaster. 
 
-### Media Fields
+### JWP Media Items
 <img align="right" src="../img/broadcast-live-stream-parameters.png" width="350">
-Broadcast Live will automatically add and update the fields in JW Player. Manually added fields will not get overwritten by Broadcast Live. 
+Broadcast Live will automatically add and update the media items with custom fields in JW Player. Manually added fields will not get overwritten by Broadcast Live. 
 
 The important fields are
 - `VCH.EventState`, which goes through the following states:
