@@ -20,7 +20,7 @@ JW Player offers different types of live services:
 - Broadcast Live Events
 - Instant Live 
 
-This article describes how to implement Broadcast Live Events
+This article describes how to implement Broadcast Live Events with Applicaster Zapp. 
 
 ## Broadcast Live Events
 
