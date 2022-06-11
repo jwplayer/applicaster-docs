@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Video landing page
+title: Target screen 
 nav_order: 300
 nav_exclude: false
 ---
@@ -13,7 +13,7 @@ nav_exclude: false
 
 ## Target screens
 <img align="right" src="./img/movie-target.png" width="250">
-A target screen is where the user lands after selecting a video from a homepage or library.
+A target screen is where the user lands after selecting a media item from a homepage, library or any other page.
 
 Commonly used target screens:
 - A movie target: that promotes a movie by giving the full details about the video, like a description, rating, duration, etc. 
