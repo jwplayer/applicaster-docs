@@ -107,7 +107,7 @@ Live events will automatically become VOD streams in Broadcast Live
 t.b.d.
 
 
-## Promoting live & VOD content in a single list
+##  Live and VOD items in a single list
 Instead of using a `media_filtering` attribute, you use the `exclude_media_filtering` attribute. 
 ```
 ?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
