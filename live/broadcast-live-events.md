@@ -62,8 +62,8 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 ```?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any```
 3. Add a list component in Applicaster and link it to the newly created  feed
 4. Set autorefresh on 60 seconds to deal with VCH.EventState changes
-5. Ensure the videos with type `live-future` link to a video landing page *WITHOUT a player*. See [video landing page]((https://jwplayer.github.io/applicaster-docs/video-landing-page.html)
-6. Ensure the videos with type `live` link to a video landing page *WITH a player*. See  See [video landing page]((https://jwplayer.github.io/applicaster-docs/video-landing-page.html)
+5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screen.html) *WITHOUT a player*
+6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screen.html) *WITH a player*
  
 ## Create a video-on-demand shelf of live events
 <img align="right" src="../img/live-vod-shelf.png" width="350">
