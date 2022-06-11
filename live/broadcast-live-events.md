@@ -31,6 +31,18 @@ Broadcast Live will automatically update the fields in JW Player. The following 
 - `VCH.ScheduledStart` in ISO 8601 format
 - `VCH.ScheduledEnd` in ISO 8601 format
 
+Applicaster will assing a video type based on the fields:
+|Zapp Video Type|Conditions|Comments|
+|`live-future`| Stream is in future based on `VCH.ScheduledStart`|
+|`live`||
+
+
+   - The stream is live based on`VCH.ScheduledStart` and `VCH.ScheduledEnd`, this will ensure the stream will be playable
+   - Or when the stream is live based on`VCH.EventState` is `LIVE_PUBLISHED`, to handle last-minute manual override of the scheduled time. 
+- `live-vod` whe:  
+    - The stream is live when its ended based on `VCH.ScheduledEnd`
+    - OR when VCH.EventState is `INSTANT_VOD` or ‘VOD_PUBLIC’, to handle last-minute manual override of the scheduled times 
+
 Notes
 - It takes a few minutes before updates propagate in Applicaster apps due to caching
 - Other fields added to the JW Player Dashboard or MAPI will not get overwritten
@@ -38,16 +50,12 @@ Notes
 ## Create a live and upcoming shelf
 <img align="right" src="../img/live-and-upcoming-shelf.png" width="350">
 1. Create a playlist in JW Player that contain your live events 
-1. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter`?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any`
-1. Add a list component in Applicaster and link it to the newly created  feed
-1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
-1. Create a video landing page *without a player* and link it based on type live-future. See here
-  - Videos streams get type `live` in Applicaster based on:  
-    - The stream is live based on`VCH.ScheduledStart` and `VCH.ScheduledEnd`, this will ensure the stream will be playable
-    - Or when the stream is live based on`VCH.EventState` is `LIVE_PUBLISHED`, to handle last-minute manual override of the scheduled time. 
-1. Create a video landing page *WITH a player* and link it based on live-future. See here
-   - Videos will get type `live-future` in Applicaster when it will starts in the future based on `VCH.ScheduledStart`
-
+2. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter`?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any`
+3. Add a list component in Applicaster and link it to the newly created  feed
+4. Set autorefresh on 60 seconds to deal with VCH.EventState changes
+6. Ensure the videos with type `live-future` link to a video landing page *WITHOUT a player*. See here
+6. Ensure the videos with type `live` link to a video landing page *WITH a player*. See here
+ 
 ## Create a video-on-demand shelf of live events
 <img align="right" src="../img/live-vod-shelf.png" width="350">
 Live events will automatically become VOD streams in Broadcast Live 
@@ -55,10 +63,7 @@ Live events will automatically become VOD streams in Broadcast Live
 1. Create a feed in Applicaster, and filter it `INSTANT_VOD` or `VOD_PUBLIC`  using parameter `?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED&media_filtering_mode=any`
 1. Add a list component in Applicaster and link it to the newly created  feed
 1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
-1. Create a video landing page *WITH a player* and link it based on live-future. See here
-Video streams will get type `live-vod` in Applicaster based on:  
-- The stream is live when its ended based on `VCH.ScheduledEnd`
-- OR when VCH.EventState is `INSTANT_VOD` or ‘VOD_PUBLIC’, to handle last-minute manual override of the scheduled times 
+6. Ensure the videos with type `live-vod` link to a video landing page *WITH a player*. See here
 
 ## Grouping multiple live streams on a dedicated page
 <img align="right" src="../img/live-events-grouped.png" width="450">
