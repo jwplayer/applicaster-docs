@@ -51,7 +51,6 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 <div style="display:flex; justify-content: center;"> <img src="../img/live-type-mapping.png" width="450"> </div>
 
 ## Create a live and upcoming shelf
-<img align="right" src="../img/live-and-upcoming-shelf.png" width="350">
 
 1. Create a playlist in JW Player that contain your live events 
 2. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using parameter
@@ -61,10 +60,12 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITHOUT a player*
 6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
 
- <div style="display:flex; justify-content: center;"> <img src="../img/live-filter-eventstate.png" width="600"> </div>
+<div style="display:flex; justify-content: center;"> 
+<img align="right" src="../img/live-and-upcoming-shelf.png" width="350">
+<img src="../img/live-filter-eventstate.png" width="600"> 
+</div>
 
 ## Create a video-on-demand shelf of live events
-<img align="right" src="../img/live-vod-shelf.png" width="350">
 
 Live events will automatically become VOD streams in Broadcast Live 
 1. Create a playlist in JW Player that contain your live events
@@ -74,9 +75,12 @@ Live events will automatically become VOD streams in Broadcast Live
 1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
 1. Ensure the videos with type `live-vod` link to a video landing page *WITH a player*. See here
 
-## Grouping multiple live streams on a dedicated page
-<img align="right" src="../img/live-events-grouped.png" width="450">
+<div style="display:flex; justify-content: center;"> 
+<img align="right" src="../img/live-vod-shelf.png" width="350">
+</div>
 
+
+## Grouping multiple live streams on a dedicated page
 1. Create a JW Player playlist representing the grouped live streams
 1. Create a JW Player media item for the event to group the individual shows for an event together. 
   -  To create the dummy media item upload a placeholder video into the JW Dashboard. For example http://foo.com/bar.mp4. The actual URL is not important. For DRM properties, you need a short (e.g. 1 second) video. 
@@ -84,6 +88,10 @@ Live events will automatically become VOD streams in Broadcast Live
   -  Add custom parameters that will contain the playlist id hosting the individual playlist.  
      - key: 'livePlaylistId' and value: Id of the playlist, e.g. `0w1ITloK`
      - key: 'vodPlaylistId' and value: Id of the playlist, e.g. `jMi9bAdi`
+
+<div style="display:flex; justify-content: center;"> 
+<img align="right" src="../img/live-events-grouped.png" width="450">
+</div>
 
 ## Assigning a live now badge 
 t.b.d.
