@@ -58,8 +58,8 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 ```?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any```
 3. Add a list component in Applicaster and link it to the newly created  feed
 4. Set autorefresh on 60 seconds to deal with VCH.EventState changes
-5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screen.html) *WITHOUT a player*
-6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screen.html) *WITH a player*
+5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITHOUT a player*
+6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
 
  <div style="display:flex; justify-content: center;"> <img src="../img/live-filter-eventstate.png" width="600"> </div>
 
@@ -82,8 +82,8 @@ Live events will automatically become VOD streams in Broadcast Live
   -  To create the dummy media item upload a placeholder video into the JW Dashboard. For example http://foo.com/bar.mp4. The actual URL is not important. For DRM properties, you need a short (e.g. 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
   -  Add custom parameters that will contain the playlist id hosting the individual playlist.  
-     - key: 'playlistId'
-     - value: Id of the playlist, e.g. `0w1ITloK`
+     - key: 'livePlaylistId' and value: Id of the playlist, e.g. `0w1ITloK`
+     - key: 'vodPlaylistId' and value: Id of the playlist, e.g. `jMi9bAdi`
 
 ## Assigning a live now badge 
 t.b.d.
