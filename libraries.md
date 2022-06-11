@@ -11,7 +11,7 @@ nav_order: 200
 {:toc}
 
 ## What is a library screen?
-<img align="right" src="./img/library.png" width="200">
+<img align="right" src="./img/library.png" width="250">
 
 A library allows viewers to browse all videos.
 
