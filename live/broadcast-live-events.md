@@ -32,9 +32,16 @@ Broadcast Live will automatically update the fields in JW Player. The following 
 - `VCH.ScheduledEnd` in ISO 8601 format
 
 Applicaster will assing a video type based on the fields:
-|Zapp Video Type|Conditions|Comments|
+|Zapp Video Type|Conditions||
 |`live-future`| Stream is in future based on `VCH.ScheduledStart`|
 |`live`||
+
+| Zapp Video Type | Conditions | Comments |  
+|----|----|----|---|---|
+| `live-future`|`VCH.ScheduledStart` is in the future  |   n/a |      
+| `live`| `VCH.ScheduledStart`is in the past and `VCH.ScheduledEnd`in the future   |  t.b.d  |   
+|       |  `VCH.EventState` is `LIVE_PUBLISHED`  |to handle last-minute manual override of the scheduled time   |   
+| `live-vod`| `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  to handle last-minute manual override of the scheduled times  |   
 
 
    - The stream is live based on`VCH.ScheduledStart` and `VCH.ScheduledEnd`, this will ensure the stream will be playable
