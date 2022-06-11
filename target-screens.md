@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Target screen
+title: Target screens
 nav_order: 300
 nav_exclude: false
 ---
