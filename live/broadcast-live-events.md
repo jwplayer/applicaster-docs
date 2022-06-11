@@ -26,29 +26,20 @@ This article describes how to implement Broadcast Live Events
 <img align="right" src="../img/broadcast-live-stream-parameters.png" width="250">
 Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and this can be registered as feed in Applicaster
 
+### JW Player Media Field
 Broadcast Live will automatically update the fields in JW Player. The following fields are important
 - `VCH.EventState` goes through the following states:`PRE_LIVE` > `LIVE_UNPUBLISHED` > `LIVE_PUBLISHED` > `INSTANT_VOD` > `VOD_PUBLIC`
 - `VCH.ScheduledStart` in ISO 8601 format
 - `VCH.ScheduledEnd` in ISO 8601 format
 
-Applicaster will assing a video type based on the fields:
-|Zapp Video Type|Conditions||
-|`live-future`| Stream is in future based on `VCH.ScheduledStart`|
-|`live`||
-
+### Applicaster Zapp Video Types
+Zapp will assign assign a video type based on the fields
 | Zapp Video Type | Conditions | Comments |  
-|----|----|----|---|---|
-| `live-future`|`VCH.ScheduledStart` is in the future  |   n/a |      
-| `live`| `VCH.ScheduledStart`is in the past and `VCH.ScheduledEnd`in the future   |  t.b.d  |   
-|       |  `VCH.EventState` is `LIVE_PUBLISHED`  |to handle last-minute manual override of the scheduled time   |   
-| `live-vod`| `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  to handle last-minute manual override of the scheduled times  |   
-
-
-   - The stream is live based on`VCH.ScheduledStart` and `VCH.ScheduledEnd`, this will ensure the stream will be playable
-   - Or when the stream is live based on`VCH.EventState` is `LIVE_PUBLISHED`, to handle last-minute manual override of the scheduled time. 
-- `live-vod` whe:  
-    - The stream is live when its ended based on `VCH.ScheduledEnd`
-    - OR when VCH.EventState is `INSTANT_VOD` or ‘VOD_PUBLIC’, to handle last-minute manual override of the scheduled times 
+| ------ | ------ | ------ |
+| `live-future` | `VCH.ScheduledStart` is in the future  |   n/a |      
+| `live` | `VCH.ScheduledStart`is in the past and `VCH.ScheduledEnd`in the future   |  To hean |   
+|        |  `VCH.EventState` is `LIVE_PUBLISHED`  | To handle last-minute manual override of the scheduled time   |   
+| `live-vod` | `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  To handle last-minute manual override of the scheduled times  |   
 
 Notes
 - It takes a few minutes before updates propagate in Applicaster apps due to caching
