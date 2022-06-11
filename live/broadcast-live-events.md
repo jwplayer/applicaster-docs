@@ -61,7 +61,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screen.html) *WITHOUT a player*
 6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screen.html) *WITH a player*
 
- <div style="display:flex; justify-content: center;"> <img src="../img/live-filter-eventstate.png" width="450"> </div>
+ <div style="display:flex; justify-content: center;"> <img src="../img/live-filter-eventstate.png" width="600"> </div>
 
 ## Create a video-on-demand shelf of live events
 <img align="right" src="../img/live-vod-shelf.png" width="350">
