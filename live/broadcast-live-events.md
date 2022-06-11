@@ -61,7 +61,10 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
 
 <div style="display:flex; justify-content: center;"> 
-<img align="right" src="../img/live-and-upcoming-shelf.png" width="450"> <br>
+<img align="right" src="../img/live-and-upcoming-shelf.png" width="450"> 
+</div>
+<br><br>
+<div style="display:flex; justify-content: center;"> 
 <img src="../img/live-filter-eventstate.png" width="600"> 
 </div>
 
