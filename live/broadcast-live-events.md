@@ -91,13 +91,13 @@ Live events will automatically become VOD streams in Broadcast Live
   -  Add custom parameters that will contain the playlist id hosting the individual playlist.  
      - key: 'livePlaylistId' and value: Id of the playlist, e.g. `0w1ITloK`
      - key: 'vodPlaylistId' and value: Id of the playlist, e.g. `jMi9bAdi`
-1. Assign the `playlistId` key to lists components in Zapp
+1. Assign the `playlistId` key to list components in Zapp
 
 <div style="display:flex; justify-content: center;"> 
 <img align="right" src="../img/live-zapp-playlistkey.png" width="300">
 </div>
-
-
+<br>
+<br>
 <div style="display:flex; justify-content: center;"> 
 <img align="right" src="../img/live-events-grouped.png" width="450">
 </div>
