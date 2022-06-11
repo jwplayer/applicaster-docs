@@ -29,18 +29,15 @@ Broadcast Live Events are represented as media items in the JW Dashboard. Those 
 <img align="right" src="../img/broadcast-live-stream-parameters.png" width="350">
 Broadcast Live will automatically add and update the fields in JW Player. Manually added fields will not get overwritten by Broadcast Live. 
 
-The important fields are `VCH.EventState`, `VCH.ScheduledStart` and `VCH.ScheduledEnd`
-
-#### VCH.EventState
-Goes through the following states:
-1. `PRE_LIVE`
-2. `LIVE_UNPUBLISHED` 
-3. `LIVE_PUBLISHED` 
-4. `INSTANT_VOD` 
-5. `VOD_PUBLIC`
-
-#### VCH.ScheduledStart and VCH.ScheduledEnd
-These written in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601O). 
+The important fields are
+- `VCH.EventState`, which goes through the following states:
+  1. `PRE_LIVE`
+  2. `LIVE_UNPUBLISHED` 
+  3. `LIVE_PUBLISHED` 
+  4. `INSTANT_VOD` 
+  5. `VOD_PUBLIC`
+- `VCH.ScheduledStart` and `VCH.ScheduledEnd`
+  - These written in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601O). 
 
 ### Zapp Video Types
 Zapp assigns a video type based on the fields. It takes a few minutes before changes to media items fields are availalbe in Applicaster apps due to caching. Applicaster Zapp therefore also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
