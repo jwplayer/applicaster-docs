@@ -61,7 +61,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 6. Ensure the videos with type `live` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
 
 <div style="display:flex; justify-content: center;"> 
-<img align="right" src="../img/live-and-upcoming-shelf.png" width="350">
+<img align="right" src="../img/live-and-upcoming-shelf.png" width="450"> <br>
 <img src="../img/live-filter-eventstate.png" width="600"> 
 </div>
 
@@ -76,7 +76,7 @@ Live events will automatically become VOD streams in Broadcast Live
 1. Ensure the videos with type `live-vod` link to a video landing page *WITH a player*. See here
 
 <div style="display:flex; justify-content: center;"> 
-<img align="right" src="../img/live-vod-shelf.png" width="350">
+<img align="right" src="../img/live-vod-shelf.png" width="450">
 </div>
 
 
@@ -99,6 +99,7 @@ t.b.d.
 
 ## Promoting live & VOD content in a single list
 Instead of using a `media_filtering` attribute, you use the `exclude_media_filtering` attribute. 
-```?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
+```
+?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
 ```
 Ensure you handle the `live-now`, `live-future` and `live-vod` video types as described above.
