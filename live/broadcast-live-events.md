@@ -2,7 +2,6 @@
 layout: default
 title: Broadcast Live Events
 nav_order: 700
-nav_exclude: false
 parent: Live
 ---
 # Broadcast Live Events
