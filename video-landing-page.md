@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Movie screen
+title: Video landing page
 nav_order: 300
 nav_exclude: false
 ---
