@@ -21,7 +21,7 @@ JW Player offers different types of live services:
 
 This article describes how to implement Broadcast Live Events with Applicaster Zapp. 
 
-## Event Stream Media in JWP
+## Events as Media in JW Player
 Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and these playlist can be registered as feed in Applicaster. 
 
 Broadcast Live will automatically add and update the media items with custom fields in JW Player. Manually added fields will not get overwritten by Broadcast Live. 
@@ -41,7 +41,7 @@ The important fields are
 </div>
 
 
-## Media Types in Zapp
+## Event Media Types in Zapp
 Zapp assigns a video type based on the fields. It takes a few minutes before changes to media items fields are availalbe in Applicaster apps due to caching. Applicaster Zapp therefore also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
 
 | Zapp Video Type | Conditions | Comments |  
