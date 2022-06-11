@@ -51,7 +51,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 | `live-vod` | `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  Link to a landing page WITH a player  |   
 
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/live-type-mapping.png" width="650"> 
+  <img src="../img/live-type-mapping.png" width="450"> 
 </div>
 
 ## Create a live and upcoming shelf
