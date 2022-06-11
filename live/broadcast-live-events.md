@@ -72,7 +72,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
   <img src="../img/live-filter-eventstate.png" width="650"> 
 </div>
 
-## Create a video-on-demand shelf of live events
+## Create a video-on-demand shelf
 
 Live events will automatically become VOD streams in Broadcast Live 
 1. Create a playlist in JW Player that contain your live events
