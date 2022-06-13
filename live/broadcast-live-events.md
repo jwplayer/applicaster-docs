@@ -52,7 +52,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 | Zapp Video Type | Conditions | Comments |  
 | ------ | ------ | ------ |
 | `live-future` | `VCH.ScheduledStart` is in the future  |  Link to a landing page WITHOUT a player |      
-| `live` | (`VCH.ScheduledStart`is in the past <br> AND`VCH.ScheduledEnd`in the future)  <br> OR `VCH.EventState` is `LIVE_PUBLISHED`  | Link to a landingpage WITH a player |     
+| `live-now` | (`VCH.ScheduledStart`is in the past <br> AND`VCH.ScheduledEnd`in the future)  <br> OR `VCH.EventState` is `LIVE_PUBLISHED`  | Link to a landingpage WITH a player |     
 | `live-vod` | `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  Link to a landing page WITH a player  |   
 
 <div style="display:flex; justify-content: center;"> 
