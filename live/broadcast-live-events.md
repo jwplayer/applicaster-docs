@@ -21,6 +21,12 @@ JW Player offers different types of live services:
 
 This article describes how to implement Broadcast Live Events with Applicaster Zapp. 
 
+<div style="display:flex; justify-content: center;"> 
+  <img src="../img/live-bl-events.png" width="450"> 
+</div>
+
+
+
 ## Events as Media in JW Player
 Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and these playlist can be registered as feed in Applicaster. 
 
