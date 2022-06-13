@@ -120,13 +120,13 @@ Instead of using a `media_filtering` attribute, you use the `exclude_media_filte
 Ensure you handle the `live-now`, `live-future` and `live-vod` video types as described above.
 
 ## Going live later then planned
-<div style="display:flex; justify-content: center;"> 
-   <img src="../img/live-slate-config.png" width="400">
-</div>
-
 You can fill the stream with a 'slate': an image stating something like "going live soon" or "we will start 10 minutes later". This can be configured in Broadcast Live using the API and the UI.
 
 This works for Broadcast Live Media Live and Media Excel Encoders. It will take about 30 seconds before the slates will be shown to the viewers. Please note that the images need to be uploaded before the stream starts.
+
+<div style="display:flex; justify-content: center;"> 
+   <img src="../img/live-slate-config.png" width="400">
+</div>
 
 The slate can also be updated using [the API](https://docs.vualto.com/projects/VIS/en/latest/events.html?highlight=slate#put-event-stream-replacesource-id)
 ```
