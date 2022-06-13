@@ -61,10 +61,12 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 
 ## Create a live and upcoming shelf
 
-1. Create a playlist in JW Player that contain your live events 
+1. Create a dynamic playlist in JW Player that contain your live events. NOTE: A manual playlist cannot be used for this purpose
 2. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using [media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id-1):
-```?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any```
-3. Add a list component in Applicaster and link it to the newly created  feed
+```
+?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any
+```
+3. Add a list component in Applicaster and link it to the newly created feed
 4. Set autorefresh on 60 seconds to deal with VCH.EventState changes
 5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITHOUT a player*
 6. Ensure the videos with type `live-now` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
@@ -80,9 +82,11 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 ## Create a video-on-demand shelf
 
 Live events will automatically become VOD streams in Broadcast Live 
-1. Create a playlist in JW Player that contain your live events
+1. Create a playlist in JW Player that contain your live events. NOTE: A manual playlist cannot be used for this purpose
 1. Create a feed in Applicaster, and filter it `INSTANT_VOD` or `VOD_PUBLIC`  using [media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id-1):
-```?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED&media_filtering_mode=any```
+```
+?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED&media_filtering_mode=any
+```
 1. Add a list component in Applicaster and link it to the newly created  feed
 1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
 1. Ensure the videos with type `live-vod` link to a video landing page *WITH a player*. See here
