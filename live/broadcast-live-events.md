@@ -121,7 +121,7 @@ Ensure you handle the `live-now`, `live-future` and `live-vod` video types as de
 
 ## Going live later then planned
 <div style="display:flex; justify-content: center;"> 
-   <img align="right" src="../img/live-slate-config.png" width="400">
+   <img src="../img/live-slate-config.png" width="400">
 </div>
 
 You can fill the stream with a 'slate': an image stating something like "going live soon" or "we will start 10 minutes later". This can be configured in Broadcast Live using the API and the UI.
