@@ -19,15 +19,8 @@ Broadcast Live will automatically add and update the media items with custom fie
   <img src="../img/broadcast-live-stream-parameters.png" width="450">
 </div>
 
-
 ## Media types in Zapp
-Zapp assigns a video type based on the fields. It takes a few minutes before changes to media item fields are available in Applicaster apps due to caching. Applicaster Zapp also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
-
-| Zapp Video Type | Conditions | Comments |  
-| ------ | ------ | ------ |
-| `live-future` | `VCH.ScheduledStart` is in the future  |  Link to a landing page WITHOUT a player |      
-| `live-now` | (`VCH.ScheduledStart`is in the past <br> AND`VCH.ScheduledEnd`in the future)  <br> OR `VCH.EventState` is `LIVE_PUBLISHED`  | Link to a landingpage WITH a player |     
-| `live-vod` | `VCH.EventState` is `INSTANT_VOD` or `VOD_PUBLIC` |  Link to a landing page WITH a player  |   
+Zapp assigns a type `live-now` to 24x7 streams based on `VCH.EventState` = `LIVE_PUBLISHED`. 
 
 ## How to setup EPG?
 See [Applicaster documentation](https://applicaster.zendesk.com/hc/en-us/articles/360041871512-Create-an-EPG-like-program-list-with-existing-components-in-QB-Mobile)
