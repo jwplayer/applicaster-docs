@@ -16,12 +16,16 @@ JW Player offers different types of live services:
 - Broadcast Live Events
 - Instant Live 
 
-This article describes how to implement Broadcast Live Events with Applicaster Zapp. 
+This article describes how to implement Broadcast Live Events with Applicaster Zapp. The article describes how to build 
+- a shelf with *live and upcoming* items
+- a shelf with historical streams: *video on demand*
+- a page that groups multiple events streams on a single page
+
+And takes into account transitioning feeds from upcoming to live to vod
 
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/live-bl-events.png" width="450"> 
+  <img src="../img/live-bl-events.png" width="600"> 
 </div>
-
 
 ## Events as media in JW Player
 Broadcast Live Events are available as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists, and these playlists can be registered as feeds in Applicaster. 
@@ -35,8 +39,7 @@ The important fields are
   3. `LIVE_PUBLISHED` 
   4. `INSTANT_VOD` 
   5. `VOD_PUBLIC`
-- `VCH.ScheduledStart` and `VCH.ScheduledEnd`
-  - These written in the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601O). 
+- `VCH.ScheduledStart` and `VCH.ScheduledEnd`. These follow the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601O). 
 
 <div style="display:flex; justify-content: center;"> 
   <img src="../img/broadcast-live-stream-parameters.png" width="450">
