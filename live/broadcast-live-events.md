@@ -86,9 +86,9 @@ Live events will automatically become VOD streams in Broadcast Live
 ```
 ?media_filtering=VCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&media_filtering_mode=any
 ```
-1. Add a list component in Applicaster and link it to the newly created  feed
+1. Add a list component in Applicaster and link it to the newly created feed
 1. Set autorefresh on 60 seconds to deal with VCH.EventState changes
-1. Ensure the videos with type `live-vod` link to a video landing page *WITH a player*. See here
+1. Ensure the videos with type `live-vod` link to a target screen *WITH a player*. See [here](https://jwplayer.github.io/applicaster-docs/target-screens.html)
 
 <div style="display:flex; justify-content: center;"> 
 <img align="right" src="../img/live-vod-shelf.png" width="500">
@@ -100,7 +100,7 @@ Live events will automatically become VOD streams in Broadcast Live
   -  To create the dummy media item, upload a placeholder video into the JW Dashboard. For example, `http://foo.com/bar.mp4`. The actual URL is not important. Note: For DRM properties, you need a short (e.g., 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
   -  Add custom parameters that will contain the playlist ids. Prefered: `playlistId`
-1. Ensure your Live and VOD feeds take the playlist id as input `{{playlistId}}`
+1. Ensure your Live and VOD feeds take the playlist id as input ` { {playlistId} }`
 1. Assign the `playlistId` key to list components in Zapp. E.g. `extensions.playlistId`
 
 
@@ -121,7 +121,7 @@ Live events will automatically become VOD streams in Broadcast Live
 ## Assigning a live now badge 
 Note: this will become available soon.
 
-Broacast live events have a true/false field called `extensions.isLive` which can be used to assign  a 'live lock badge'
+Broacast live events have a true/false field called `extensions.isLive` which can be used to assign a 'live lock badge'. This field is automatically assigned by Applicaster Zapp and will not appear in JW Player media item fields. 
 
 ## Combine live streams with other videos in a shelf
 You might want to promote a live event together with other videos in single shelf. E.g. in a 'featured' shelf in the top of the homepage. 
