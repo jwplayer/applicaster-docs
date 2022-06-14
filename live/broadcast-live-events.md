@@ -100,6 +100,12 @@ Live events will automatically become VOD streams in Broadcast Live
 1. Ensure your Live and VOD feeds are dynamically `{{playlistId}}`
 1. Assign the `playlistId` key to list components in Zapp. E.g. `extensions.playlistId`
 
+
+<div style="display:flex; justify-content: center;"> 
+  <img src="../img/live-event-applicaster-feeds.png" width="650"> 
+</div>
+<br>
+<br>
 <div style="display:flex; justify-content: center;"> 
 <img align="right" src="../img/live-zapp-playlistkey.png" width="300">
 </div>
