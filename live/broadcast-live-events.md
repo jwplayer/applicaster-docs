@@ -124,8 +124,7 @@ You can achieve this by usong`exclude_media_filtering` attribute, instead of the
 Ensure you handle the `live-now`, `live-future` and `live-vod` video types as described above.
 
 ## Handling delays and live stream issues
-Live streams can 
-You can fill the stream with a 'slate': an image stating something like "going live soon" or "we will start 10 minutes later". This can be configured in Broadcast Live using the API and the UI. It works for both the Media Live and Media Excel Encoders. 
+You want to inform viewers when the streams starts later or when you have an issue in the live stream. You can do this using a 'slate': an image stating something like "going live soon", "we are experiencing issues, stay tuned' . This can be configured in Broadcast Live using the API and the UI.
 
 It will take about 30 seconds before the slates will be visible to the viewers. Please note that the images need to be uploaded before the stream starts.
 
@@ -140,3 +139,4 @@ PUT /event/stream/replacesource/{id}
   "sourceReplacementImage": "channel_unavailable.png"
 }
 ```
+This works for both the Media Live and Media Excel Encoders. 
