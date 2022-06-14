@@ -10,9 +10,6 @@ parent: Live
 - TOC
 {:toc}
 
-## DISCLAIMER
-This page explains functionality that is not fully developed and tested yet.
-
 ## Introduction
 JW Player offers different types of live services:
 - Broadcast Live 24x7
@@ -60,7 +57,6 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 </div>
 
 ## Create a live and upcoming shelf
-
 1. Create a dynamic playlist in JW Player that contain your live events. NOTE: A manual playlist cannot be used for this purpose
 2. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using [media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id-1):
 ```
@@ -114,19 +110,21 @@ Live events will automatically become VOD streams in Broadcast Live
 </div>
 
 ## Assigning a live now badge 
-t.b.d.
+Note: this will become availble soon.
 
-extension.isLive 
+Broacast live events have a true/false field called `extensions.isLive` which can be used to assign  a 'live lock badge'
 
+## Combine live streams with other videos in a shelf
+You might want to promote a live event together with itger videos in single shelf. E.g. in a 'featured' shelf in the top of the homeoage. 
 
-##  Live and VOD items in a single list
-Instead of using a `media_filtering` attribute, you use the `exclude_media_filtering` attribute. 
+You can achieve this by usong`exclude_media_filtering` attribute, instead of the `media_filtering` attribute. Example
 ```
 ?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
 ```
 Ensure you handle the `live-now`, `live-future` and `live-vod` video types as described above.
 
-## Going live later than planned 
+## Handling delays and live stream issues
+Live streams can 
 You can fill the stream with a 'slate': an image stating something like "going live soon" or "we will start 10 minutes later". This can be configured in Broadcast Live using the API and the UI. It works for both the Media Live and Media Excel Encoders. 
 
 It will take about 30 seconds before the slates will be visible to the viewers. Please note that the images need to be uploaded before the stream starts.
