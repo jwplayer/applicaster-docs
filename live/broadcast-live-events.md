@@ -97,7 +97,7 @@ Live events will automatically become VOD streams in Broadcast Live
   -  To create the dummy media item, upload a placeholder video into the JW Dashboard. For example, `http://foo.com/bar.mp4`. The actual URL is not important. Note: For DRM properties, you need a short (e.g., 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
   -  Add custom parameters that will contain the playlist ids. Prefered: `playlistId`
-1. Ensure your Live and VOD feeds are dynamic based on a`{{playlistId}}`
+1. Ensure your Live and VOD feeds take the playlist id as input `{{playlistId}}`
 1. Assign the `playlistId` key to list components in Zapp. E.g. `extensions.playlistId`
 
 
