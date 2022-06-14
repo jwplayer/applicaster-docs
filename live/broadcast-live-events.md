@@ -24,9 +24,9 @@ This article describes how to implement Broadcast Live Events with Applicaster Z
 
 
 ## Events as media in JW Player
-Broadcast Live Events are represented as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists and these playlist can be registered as feed in Applicaster. 
+Broadcast Live Events are available as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists, and these playlists can be registered as feeds in Applicaster. 
 
-Broadcast Live will automatically add and update the media items with custom fields in JW Player. Manually added fields will not get overwritten by Broadcast Live. 
+Broadcast Live will automatically add and update the media items with custom fields in JW Player. Manually added fields do not get overwritten by Broadcast Live. 
 
 The important fields are
 - `VCH.EventState`, which goes through the following states:
@@ -44,7 +44,7 @@ The important fields are
 
 
 ## Event media types in Zapp
-Zapp assigns a video type based on the fields. It takes a few minutes before changes to media items fields are availalbe in Applicaster apps due to caching. Applicaster Zapp therefore also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
+Zapp assigns a video type based on the fields. It takes a few minutes before changes to media item fields are available in Applicaster apps due to caching. Applicaster Zapp also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
 
 | Zapp Video Type | Conditions | Comments |  
 | ------ | ------ | ------ |
@@ -57,7 +57,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 </div>
 
 ## Create a live and upcoming shelf
-1. Create a dynamic playlist in JW Player that contain your live events. NOTE: A manual playlist cannot be used for this purpose
+1. Create a dynamic JW Player playlist that contains your live events. NOTE: A manual playlist cannot be used for this purpose
 2. Create a feed in Applicaster, and filter it on PRE_LIVE, LIVE_UNPUBLISHED and LIVE_PUBLISHED using [media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id-1):
 ```
 ?media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:LIVE_PUBLISHED&media_filtering_mode=any
@@ -94,10 +94,10 @@ Live events will automatically become VOD streams in Broadcast Live
 ## Creating an event page
 1. Create a JW Player playlist representing the grouped live streams
 1. Create a JW Player media item for the event to group the individual shows for an event together. 
-  -  To create the dummy media item upload a placeholder video into the JW Dashboard. For example `http://foo.com/bar.mp4`. The actual URL is not important. Note: For DRM properties, you need a short (e.g. 1 second) video. 
+  -  To create the dummy media item, upload a placeholder video into the JW Dashboard. For example, `http://foo.com/bar.mp4`. The actual URL is not important. Note: For DRM properties, you need a short (e.g., 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
   -  Add custom parameters that will contain the playlist ids. Prefered: `playlistId`
-1. Ensure your Live and VOD feeds are dynamically `{{playlistId}}`
+1. Ensure your Live and VOD feeds are dynamic based on a`{{playlistId}}`
 1. Assign the `playlistId` key to list components in Zapp. E.g. `extensions.playlistId`
 
 
@@ -116,14 +116,14 @@ Live events will automatically become VOD streams in Broadcast Live
 </div>
 
 ## Assigning a live now badge 
-Note: this will become availble soon.
+Note: this will become available soon.
 
 Broacast live events have a true/false field called `extensions.isLive` which can be used to assign  a 'live lock badge'
 
 ## Combine live streams with other videos in a shelf
-You might want to promote a live event together with itger videos in single shelf. E.g. in a 'featured' shelf in the top of the homeoage. 
+You might want to promote a live event together with other videos in single shelf. E.g. in a 'featured' shelf in the top of the homepage. 
 
-You can achieve this by usong`exclude_media_filtering` attribute, instead of the `media_filtering` attribute. Example
+You can achieve this by using`exclude_media_filtering` attribute instead of the `media_filtering` attribute. Example
 ```
 ?exclude_media_filtering=VCH.EventState:PRE_LIVE%2CVCH.EventState:LIVE_UNPUBLISHED%2CVCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&exclude_media_filtering_mode=any
 ```
@@ -145,4 +145,4 @@ PUT /event/stream/replacesource/{id}
   "sourceReplacementImage": "channel_unavailable.png"
 }
 ```
-This works for both the Media Live and Media Excel Encoders. 
+Broadcast Live slates can be used in the Media Live and Media Excel Encoders. 
