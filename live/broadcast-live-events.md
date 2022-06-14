@@ -115,6 +115,8 @@ Live events will automatically become VOD streams in Broadcast Live
 ## Assigning a live now badge 
 t.b.d.
 
+extension.isLive 
+
 
 ##  Live and VOD items in a single list
 Instead of using a `media_filtering` attribute, you use the `exclude_media_filtering` attribute. 
