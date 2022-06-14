@@ -98,10 +98,10 @@ Live events will automatically become VOD streams in Broadcast Live
 ## Creating an event page
 1. Create a JW Player playlist representing the grouped live streams
 1. Create a JW Player media item for the event to group the individual shows for an event together. 
-  -  To create the dummy media item upload a placeholder video into the JW Dashboard. For example http://foo.com/bar.mp4. The actual URL is not important. For DRM properties, you need a short (e.g. 1 second) video. 
+  -  To create the dummy media item upload a placeholder video into the JW Dashboard. For example `http://foo.com/bar.mp4`. The actual URL is not important. Note: For DRM properties, you need a short (e.g. 1 second) video. 
   -  The title, thumbnail, and description set on this video will represent the event. 
-  -  Add custom parameters that will contain the playlist ids. E.g. `livePlaylistId` and `vodPlaylistId`
-1. Assign the `playlistId` key to list components in Zapp. E.g. `extensions.livePlaylistId`
+  -  Add custom parameters that will contain the playlist ids. Prefered: `playlistId`
+1. Assign the `playlistId` key to list components in Zapp. E.g. `extensions.playlistId`
 
 <div style="display:flex; justify-content: center;"> 
 <img align="right" src="../img/live-zapp-playlistkey.png" width="300">
