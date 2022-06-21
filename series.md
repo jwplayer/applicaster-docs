@@ -9,13 +9,22 @@ nav_order: 600
 - TOC
 {:toc}
 
-## Define a series in JW 
-Instructions for defining a series in JW can be found [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist). 
+## Introduction
+This page describes how to define and show series, with seasons and episodes.
 
-In summary you need:
+The method describe here is compatible with the [JW Player OTT Web App](https://github.com/jwplayer/ott-web-app).
+
+It is an impproved version of what is described in the [Applicaster docs](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
+
+## Define a series in JW 
+You need:
 - A media item (a.k.a. card) that links to the series playlist using `seriesId`
 - A 'series' playlist that includes episodes based on a tag 
 - Episodes with fields `episodeNumber` and `seasonNumber` and a tag, that includes the epsidoe in the in the series playlist
+
+Detailed instructions for defining a series in JW can be found [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist). 
+
+
 
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-jw-card.png" width="500"> 
