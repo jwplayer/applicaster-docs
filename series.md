@@ -15,21 +15,27 @@ See [Applicaster documentation](https://docs.applicaster.com/integrations/jw-end
 Note: for the web app another structure is used. See [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist)
 
 ## Create series in JW 
-Instructions for defining a series in JW can be found [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist). In summary you need
-- A dynamic playlist containing all the episodes based on a tag 
+Instructions for defining a series in JW can be found [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist). 
+
+In summary you need:
 - Episodes
    - tag that includes themin the playlist
    - episodeNumber
    - seasonNumber
-- Series media item (card), with series 
+- A dynamic playlist containing all the episodes based on a tag 
+- Series media item (card), that links to the series playlist
   - title, description and image
-  - seriesId playlist
+  - `seriesId` field, pointing to the playlist
 
 
 ## Create an all series playlist in JW 
-Create a playlist in JW Player, containing all the series
+Create a playlist in JW Player, containing all the series. There are no special requirements
 
-## Create an all shows screen
+## Create an all series screen
+1. Create a all series/shows feed using the middleware endpoint  `/jw/all-series-playlists/`. This endpoint will ensure the type to `series`
+1. Create a series/shows screen pointing to the newly created feed
+1. Do the type mapping to the series screen
+
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-all-feed.png" width="500"> 
 </div>
@@ -40,7 +46,11 @@ Create a playlist in JW Player, containing all the series
   <img src="./img/series-type-mapping.png" width="500"> 
 </div>
 
-## Create an show screen
+## Create an series screen
+1. Create an feed for all possible seasons in your enviroment. E.g seasons 4 looks like this:  `/jw/playlists/{{playlistId}}?media_filtering=seasonNumber:4&feedTitle=Season%204
+1. Create a series/show screen containing all possible seaons
+1. Ensure to enable 'Hide Component if data is empty' 
+
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-season-feeds.png" width="500"> 
 </div>
