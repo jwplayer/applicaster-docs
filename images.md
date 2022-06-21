@@ -48,12 +48,12 @@ It is possible to assign additional images to a media:
 1. Assign the custom property with the image url
 1. Open Aplicaster studio and assign the image key of the cell used, e.g. `extensions.imgHeroRoku`
 
-It is possible to upload additional images in JW Player as follows: 
+It is possible to upload additional images in JW Player a small trick: 
 1. Upload a dummy video in the media library. E.g. foo.mp4
 1. Override the default image with a new image. This can be of a different aspect ratio
 1. The Image URL will be created media according to format: `https://content.jwplatform.com/v2/media/{mediaid}/poster.jpg?width={width}`. For example: `https://content.jwplatform.com/v2/media/dwEE1oBP/poster.jpg?width=720`
 
-Note: A more simple workflow is under development.
+Note: A more simple 'alternate images' workflow is under development.
 
 ## Motion thumbnails
 Applicaster does not support motion thumbnail at the moment. 
