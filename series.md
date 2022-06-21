@@ -25,9 +25,11 @@ In summary you need:
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-jw-card.png" width="500"> 
 </div>
+<br>
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-jw-playlist.png" width="500"> 
 </div>
+<br>
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-jw-episode.png" width="500"> 
 </div>
@@ -43,9 +45,11 @@ Create a playlist in JW Player, containing all the series. There are no special 
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-all-feed.png" width="500"> 
 </div>
+<br>
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-all-screen.png" width="500"> 
 </div>
+<br>
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-type-mapping.png" width="500"> 
 </div>
@@ -58,7 +62,7 @@ Create a playlist in JW Player, containing all the series. There are no special 
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-season-feeds.png" width="500"> 
 </div>
-
+<br>
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-show-screen.png" width="500"> 
 </div>
