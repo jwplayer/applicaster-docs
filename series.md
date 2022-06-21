@@ -18,15 +18,19 @@ Note: for the web app another structure is used. See [here](https://support.jwpl
 Instructions for defining a series in JW can be found [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist). 
 
 In summary you need:
-- Episodes
-   - tag that includes themin the playlist
-   - episodeNumber
-   - seasonNumber
-- A dynamic playlist containing all the episodes based on a tag 
-- Series media item (card), that links to the series playlist
-  - title, description and image
-  - `seriesId` field, pointing to the playlist
+- A media item (a.k.a. card) that links to the series playlist using `seriesId`
+- A dynamic playlist that includes episodes based on a tag 
+- Episodes with `episodeNumber` and `seasonNumber` and a tag, that include it in the playlist
 
+<div style="display:flex; justify-content: center;"> 
+  <img src="./img/series-jw-card.png" width="500"> 
+</div>
+<div style="display:flex; justify-content: center;"> 
+  <img src="./img/series-jw-playlist.png" width="500"> 
+</div>
+<div style="display:flex; justify-content: center;"> 
+  <img src="./img/series-jw-episode.png" width="500"> 
+</div>
 
 ## Create an all series playlist in JW 
 Create a playlist in JW Player, containing all the series. There are no special requirements
