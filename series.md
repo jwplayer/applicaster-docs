@@ -27,24 +27,24 @@ Instructions for defining a series in JW can be found [here](https://support.jwp
 
 
 ## Create an all series playlist in JW 
-t.b.d.
+Create a playlist in JW Player, containing all the series
 
 ## Create an all shows screen
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/series-all-feed.png" width="500"> 
+  <img src="./img/series-all-feed.png" width="500"> 
 </div>
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/series-all-screen.png" width="500"> 
+  <img src="./img/series-all-screen.png" width="500"> 
 </div>
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/series-type-mapping.png" width="500"> 
+  <img src="./img/series-type-mapping.png" width="500"> 
 </div>
 
 ## Create an show screen
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/series-season-feeds.png" width="500"> 
+  <img src="./img/series-season-feeds.png" width="500"> 
 </div>
 
 <div style="display:flex; justify-content: center;"> 
-  <img src="../img/series-show-screen.png" width="500"> 
+  <img src="./img/series-show-screen.png" width="500"> 
 </div>
