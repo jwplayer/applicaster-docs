@@ -16,7 +16,7 @@ The method describe here is compatible with the [JW Player OTT Web App](https://
 
 Notes
 - A easier series management workflow is under development.
-- The method described here is an impproved version of what is described in the [Applicaster docs](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
+- The method described of is an improved version of what is described in the [Applicaster docs](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
 
 ## Define a series in JW 
 You need:
@@ -29,15 +29,15 @@ Detailed instructions for defining a series in JW can be found [here](https://su
 
 
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-jw-card.png" width="500"> 
+  <img src="./img/series-jw-card.png" width="600"> 
 </div>
 <br>
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-jw-playlist.png" width="500"> 
+  <img src="./img/series-jw-playlist.png" width="600"> 
 </div>
 <br>
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-jw-episode.png" width="500"> 
+  <img src="./img/series-jw-episode.png" width="600"> 
 </div>
 
 ## Create an all series playlist in JW 
@@ -46,18 +46,18 @@ Create a playlist in JW Player, containing all the series. There are no special 
 ## Create an all series screen
 1. Create a all series/shows feed using the middleware endpoint  `/jw/all-series-playlists/`. This endpoint will ensure the type to `series`
 1. Create a series/shows screen pointing to the newly created feed
-1. Do the type mapping to the series screen
+1. Do the type mapping to the [series target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html)
 
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-all-feed.png" width="500"> 
+  <img src="./img/series-all-feed.png" width="600"> 
 </div>
 <br>
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-all-screen.png" width="500"> 
+  <img src="./img/series-all-screen.png" width="600"> 
 </div>
 <br>
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-type-mapping.png" width="500"> 
+  <img src="./img/series-type-mapping.png" width="600"> 
 </div>
 
 ## Create an series screen
@@ -66,9 +66,9 @@ Create a playlist in JW Player, containing all the series. There are no special 
 1. Ensure to enable 'Hide Component if data is empty' 
 
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-season-feeds.png" width="500"> 
+  <img src="./img/series-season-feeds.png" width="600"> 
 </div>
 <br>
 <div style="display:flex; justify-content: center;"> 
-  <img src="./img/series-show-screen.png" width="500"> 
+  <img src="./img/series-show-screen.png" width="600"> 
 </div>
