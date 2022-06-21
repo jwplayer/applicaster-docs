@@ -19,8 +19,8 @@ Instructions for defining a series in JW can be found [here](https://support.jwp
 
 In summary you need:
 - A media item (a.k.a. card) that links to the series playlist using `seriesId`
-- A dynamic playlist that includes episodes based on a tag 
-- Episodes with `episodeNumber` and `seasonNumber` and a tag, that include it in the playlist
+- A 'series' playlist that includes episodes based on a tag 
+- Episodes with fields `episodeNumber` and `seasonNumber` and a tag, that includes the epsidoe in the in the series playlist
 
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-jw-card.png" width="500"> 
@@ -55,7 +55,7 @@ Create a playlist in JW Player, containing all the series. There are no special 
 </div>
 
 ## Create an series screen
-1. Create an feed for all possible seasons in your enviroment. E.g seasons 4 looks like this:  `/jw/playlists/{{playlistId}}?media_filtering=seasonNumber:4&feedTitle=Season%204
+1. Create an feed for all possible seasons in your enviroment. E.g seasons 4 looks like this:  `/jw/playlists/{{playlistId}}?media_filtering=seasonNumber:4&feedTitle=Season%204`
 1. Create a series/show screen containing all possible seaons
 1. Ensure to enable 'Hide Component if data is empty' 
 
