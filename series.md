@@ -12,11 +12,9 @@ nav_order: 600
 ## Introduction
 This page describes how to define and show series, with seasons and episodes.
 
-The method describe here is compatible with the [JW Player OTT Web App](https://github.com/jwplayer/ott-web-app).
+The method describe here is compatible with the [JW Player OTT Web App](https://github.com/jwplayer/ott-web-app) and is an improved version of what is described in the [Applicaster docs](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
 
-Notes
-- A easier series management workflow is under development.
-- The method described of is an improved version of what is described in the [Applicaster docs](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
+Notes: An easier series management workflow is under development.
 
 ## Define a series in JW 
 You need:
