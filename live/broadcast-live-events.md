@@ -47,7 +47,7 @@ The important fields are
 
 
 ## Event media types in Zapp
-Zapp assigns a video type based on the fields. It takes a few minutes before changes to media item fields are available in Applicaster apps due to caching. Applicaster Zapp also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
+Zapp assigns a video type based on the fields. It takes a few minutes before changes to media item fields are available in Applicaster apps due to caching. Applicaster Zapp therefore also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
 
 | Zapp Video Type | Conditions | Comments |  
 | ------ | ------ | ------ |
@@ -82,7 +82,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 
 Live events will automatically become VOD streams in Broadcast Live 
 1. Create a playlist in JW Player that contain your live events. NOTE: A manual playlist cannot be used for this purpose
-1. Create a feed in Applicaster, and filter it `INSTANT_VOD` or `VOD_PUBLIC`  using [media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id-1):
+1. Create a feed in Applicaster, and filter it `INSTANT_VOD` or `VOD_PUBLIC` using [media_filtering](https://developer.jwplayer.com/jwplayer/reference/get_v2-playlists-playlist-id-1):
 ```
 ?media_filtering=VCH.EventState:INSTANT_VOD%2CVCH.EventState:VOD_PUBLIC&media_filtering_mode=any
 ```
