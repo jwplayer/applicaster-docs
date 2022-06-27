@@ -17,7 +17,7 @@ Additionally, this playbook complements the following standard documentation:
 Issues and requests are welcome on [GitHub](https://github.com/jwplayer/applicaster-docs).
 
 To change a page:
-1. Click the link `Edit this page on GitHub` link in the bottom of the page.
+1. Click the `Edit this page on GitHub` link in the bottom of the page.
 2. Click edit page 🧷. 
 3. Commit*.
 
@@ -26,10 +26,6 @@ To change a page:
 <br />
 <br />
 
-> 💡 **Tips**
-> - To add a page, go the [Github Repo](https://github.com/jwplayer/applicaster-docs) and copy an existing page.
-> - Place draft topics in the `_drafts` folder
-> - Use `< !-- This is commented out. -->` to make draft additions to an existing page.
-> - Allow 10 minutes to elapse after publishing an update. Unless there is a build failure, your changes will appear.
-> - Clear your browser cache after applying a change.
-> - If changes are not showing, check Github Actions to see if any build failures have occurred.
+| 💡 **Tips** |
+|--- |
+| &bull; To add a page, go the [Github Repo](https://github.com/jwplayer/applicaster-docs) and copy an existing page.<br />&bull; Place draft topics in the `_drafts` folder<br />&bull; Use `< !-- This is commented out. -->` to make draft additions to an existing page.<br />&bull; Allow 10 minutes to elapse after publishing an update. Unless there is a build failure, your changes will appear.<br />&bull; Clear your browser cache after applying a change.<br />&bull; If changes are not showing, check Github Actions to see if any build failures have occurred. |
