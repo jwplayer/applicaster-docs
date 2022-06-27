@@ -18,10 +18,13 @@ Issues and requests are welcome on [GitHub](https://github.com/jwplayer/applicas
 
 To change a page:
 1. Click the `Edit this page on GitHub` link in the bottom of the page.
-2. Click edit page 🧷. 
-3. Commit*.
+2. Click the edit page icon 🧷.
+3. Make an edit to the page
+4. (Optional) Under `Commit changes`, add a commit message.
+5. Choose to `Commit directly to the main branch` or `Create a new branch for this commit and start a pull request`.
+6. Click `Commit changes`.
 
-\* *People without direct edit rights need to create a pull request. The pull request will then be reviewed before being approved.*
+\* *People without direct edit rights need to select `Create a new branch for this commit and start a pull request`. The pull request will then be reviewed before being approved.*
 
 <br />
 <br />
