@@ -41,7 +41,7 @@ Applicaster will filter the feed/playlist on field `language`
 - the regions variant of the operating system, e.g `lang:en-US`
 - the regions variant of the operating system, e.g `lang:all`
 
-<img align="right" src="./img/language-selection.png" width="200">
+<img align="right" src="./img/language-selection.png" width="300">
 
 Note:
 - Benefits of parameters: we can use a lookup field of possible valuales 
