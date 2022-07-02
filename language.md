@@ -10,12 +10,15 @@ nav_exclude: true
 - TOC
 {:toc}
 
-## Translation type
-There are two ways
+## Langauge handling
+There are two ways of handling different language
 1. Subtitles and alternate audio tracks on the video
-2. Language specific videos?
+2. Language specific videos
 
-## How to filter on language specific videos?
+## Adding subtitles and alternate audio tracks
+See JW documentation
+
+## Language specific videos
 <img align="right" src="./img/applicaster-di-plugin.png" width="200">
 *This is NOT yet available.*
 
@@ -42,7 +45,8 @@ Todo: should we use tags or custom parameters?
 ### OPTION 2: RULE APPROACH
 1. Define rules in system JW App Config / Applicaster Config
    - Rule: NL - Included: `nl-BE`, `nl-NL`, `en_US`. 
-   - Rule: Belgium - Inlcuded: `nl-BE`, `fr`, `fr-
+   - Rule: Belgium - Inlcuded: `nl-BE`, `fr`, ...
    - Rule: English - Excluded: `nl-BE`, ...
+1. Add `languages` tot the media. E.g. `nl-BE`
 1. Filter delivery API based on rules
 
