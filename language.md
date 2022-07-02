@@ -20,7 +20,7 @@ See JW documentation
 
 ## Language specific videos
 <img align="right" src="./img/applicaster-di-plugin.png" width="200">
-*This is NOT yet available.*
+**This is NOT yet available.**
 
 A language tag, also known as the 'locale', consists of a 2-3 letter base language tag that indicates a language, optionally followed by the country or regions variant by '-', e.g. 'en-US' or 'fr-CA'. 
 
@@ -40,7 +40,8 @@ Todo: check language codes and formatting
 - Android: ...
 
 Todo: should we use tags or custom parameters?
-- Benefits of custom parameters: we can use a lookup field. This is different from the GEO solution. However we want to move to the JW native geo solution in Q4 or later
+- Benefits of custom parameters: we can use a lookup field. 
+- This is different from the GEO solution. However we want to move to the [JW native geo solution](https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos) in Q4
 
 ### OPTION 2: RULE APPROACH
 1. Define rules in system JW App Config / Applicaster Config
