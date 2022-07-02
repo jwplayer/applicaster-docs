@@ -36,12 +36,11 @@ Applicaster will filter the feed/playlist on tags according to format `lang:{cou
 - the regions variant of the operating system, e.g `lang:all`
 
 ### Alternative 2 Parameter based
+<img align="right" src="./img/language-selection.png" width="300">
 Applicaster will filter the feed/playlist on field `language`
 - the base language the operating system, e.g `lang:en`
 - the regions variant of the operating system, e.g `lang:en-US`
 - the regions variant of the operating system, e.g `lang:all`
-
-<img align="right" src="./img/language-selection.png" width="300">
 
 Note:
 - Benefits of parameters: we can use a lookup field of possible valuales 
