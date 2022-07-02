@@ -16,14 +16,13 @@ nav_exclude: true
 *This is NOT yet available.*
 
 
-A language tag, also known as the 'locale', consists of a 2-3 letter base language tag that indicates a language, optionally followed by additional subtags separated by '-'. The most common extra information is the country or region variant like 'en-US' or 'fr-CA'. 
+A language tag, also known as the 'locale', consists of a 2-3 letter base language tag that indicates a language, optionally followed by the country or regions variant by '-', e.g. 'en-US' or 'fr-CA'. 
 
 1. Add the Applicaster DI Plugin to your project
 1. Add an [ISO 2 letter language  code]() as Tag according to format `lang:{country code}` on JW Player media items that are only available in specific country. E.g. `lang:nl-BE`.
-1. 
 
+The system will query the [playlist API](https://developer.jwplayer.com/jwplayer/reference/playlists) using tags.
 
-The system will query take the base language of the operating system
-It will always query on language AND (if apprlicable) the region variant
-
-To 
+It will filter on: 
+- the base language the operating system, e.g `en`
+- the regions variant of the operating system, e.g `en-US
