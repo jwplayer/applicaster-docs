@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Protection
+title: Language
 nav_order: 875
 nav_exclude: true
 ---
@@ -32,16 +32,17 @@ The system will query the [playlist API](https://developer.jwplayer.com/jwplayer
 - the regions variant of the operating system, e.g `lang:all`
 
 Todo: check language codes and formatting
-- Roku: ISO 639-2 Code and `_` as divider. E.g. en_US 
-- Apple:  ISO 639-2 Code and `_` as divider. E.g. en-US 
+- Roku: ISO 639-2 Code and `_` as divider. E.g. `en_US`
+- Apple:  ISO 639-2 Code and `_` as divider. E.g. `en-US`
 - Android: ...
 
 Todo: should we use tags or custom parameters?
-- Benefits of custom parameters: we can use a lookup field
+- Benefits of custom parameters: we can use a lookup field. This is different from the GEO solution. However we want to move to the JW native geo solution in Q4 or later
 
 ### OPTION 2: RULE APPROACH
 1. Define rules in system JW App Config / Applicaster Config
-   - Rule: NL - Included: nl-BE, nl-NL, en_US. Excluded: fr_FR
-   - Rule: 
+   - Rule: NL - Included: `nl-BE`, `nl-NL`, `en_US`. 
+   - Rule: Belgium - Inlcuded: `nl-BE`, `fr`, `fr-
+   - Rule: English - Excluded: `nl-BE`, ...
 1. Filter delivery API based on rules
 
