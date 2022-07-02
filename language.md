@@ -11,11 +11,15 @@ nav_exclude: true
 {:toc}
 
 ## Language handling
-There are two ways of handling different language
-1. Subtitles and alternate audio tracks on the video
-2. Language specific videos
+There are 3 ways of supporting different video language
+1. Subtitles
+2. Alternate audio tracks 
+3. Language specific videos
 
-## Adding subtitles and alternate audio tracks
+## Adding subtitles to videos
+See JW documentation
+
+## Adding alternate audio tracks 
 See JW documentation
 
 ## Language specific videos
@@ -25,7 +29,7 @@ See JW documentation
 A language tag, also known as the 'locale', consists of a 2-3 letter base language tag that indicates a language, optionally followed by the country or regions variant by '-', e.g. 'en-US' or 'fr-CA'. 
 
 1. Add the Applicaster DI Plugin to your project
-1. Add an [ISO 2 letter language  code]() to the media items in JW Player media items 
+1. Add an ISO 2 letter language  code to the media items in JW Player media items 
 
 The system will filter the feed/playlist on the language
 
