@@ -47,7 +47,8 @@ Applicaster will filter the feed/playlist on custom field `language`
 - the regions variant of the operating system, e.g `all`
 
 Note:
-- Benefits of parameters: we can use a lookup field of possible values
+- Benefits of parameters: clearer workflow: we a lookup field of possible values
+- Drawback: unable to combine with subtitles & audio tracks. E.g. an English video, with Spanish subtitles. So it is availble for people with two languages
 - This is different from the GEO solution. However we want to move to the [JW native geo solution](https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos) in Q4
 
 Todo: check language codes and formatting
