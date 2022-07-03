@@ -31,7 +31,7 @@ A language tag, also known as the 'locale', consists of a 2-3 letter base langua
 1. Add the Applicaster DI Plugin to your project
 1. Add an ISO 2 letter language  code to the media items in JW Player media items 
 
-The system will filter the feed/playlist on the language
+The pipes2 middleware will filter the feed/playlist on the language
 
 ### Alternative 1 Tag based
 Applicaster will filter the feed/playlist on tags according to format `lang:{country code}`
@@ -39,19 +39,19 @@ Applicaster will filter the feed/playlist on tags according to format `lang:{cou
 - the regions variant of the operating system, e.g `lang:en-US`
 - the regions variant of the operating system, e.g `lang:all`
 
-### Alternative 2 Parameter based
+### Alternative 2 Parameter based 
 <img align="right" src="./img/language-selection.png" width="300">
-Applicaster will filter the feed/playlist on field `language`
-- the base language the operating system, e.g `lang:en`
-- the regions variant of the operating system, e.g `lang:en-US`
-- the regions variant of the operating system, e.g `lang:all`
+Applicaster will filter the feed/playlist on custom field `language`
+- the base language the operating system, e.g `en`
+- the regions variant of the operating system, e.g `en-US`
+- the regions variant of the operating system, e.g `all`
 
 Note:
-- Benefits of parameters: we can use a lookup field of possible valuales 
+- Benefits of parameters: we can use a lookup field of possible values
 - This is different from the GEO solution. However we want to move to the [JW native geo solution](https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos) in Q4
 
 Todo: check language codes and formatting
 - Roku: ISO 639-2 Code and `_` as divider. E.g. `en_US`
-- Apple: ISO 639-2 Code and `_` as divider. E.g. `en-US`
+- Apple: ISO 639-2 Code and `-` as divider. E.g. `en-US`
 - Android: ...
 
