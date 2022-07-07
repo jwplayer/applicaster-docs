@@ -44,8 +44,8 @@ In some cases, a single JW video thumbnail is not enough. E.g. when you need
 - a thumbnail with the title as part of the image for a specific platform. 
 
 It is possible to assign additional images to a media: 
-1. Add a custom property on the media according to the format `img[LabelName]` for example, `imgHeroRoku`. See also the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html) 
-1. Assign the custom property with the image url
+1. Add a custom parameter on the media according to the format `img[LabelName]` for example, `imgHeroRoku`. 
+1. Assign the custom parameter with the image url. E.g. `https://mysite.com/images/hero.jpg'
 1. Open Aplicaster studio and assign the image key of the cell used, e.g. `extensions.imgHeroRoku`
 
 ## Hosting additional images at JW Player
