@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Setup
@@ -11,65 +12,37 @@ nav_exclude: false
 - TOC
 {:toc}
 
-## Intro
-Follow the steps in this document to set up your JW Player - Applicaster environment. The first 3 steps require the help of a JW and/or Applicaster Customer Success representative.
+<br />
+<hr />
 
+## Requirements
 
-## Pre-requisistes
-- A JW Player account with the OTT Apps entitlement
-- Applicaster Zap environment
+| Item | Information
+| --- | --- |
+| Applicaster Zapp environment | Contact your Applicater representative |
+| JWP Analytics token | Contact your JWP representative<br /><br />See: [Analytics](https://jwplayer.github.io/applicaster-docs/analytics.html) |
+| JWP API Credentials | 1. From your [API Credentials page](https://dashboard.jwplayer.com/account/api-credentials), scroll down to the **v1 API Credentials** section.<br />2. Click **Show Credentials** in the row of the relevant **PROPERTY NAME**.<br />3. Copy both the **Key** and **Secret**.<br /><br />If you are connecting multiple properties for your OTT apps, be sure to copy the API credentials for each property. |
+| OTT App entitlement for a JWP account | Contact your JWP representative |
 
-## 1. Create and register the JW middleware endpoint in Applicaster (required)
-Applicaster needs to set up middleware (Firebase) for the communication between JW Player and Applicaster.  To set up the middleware: 
-1. Retrieve the v1 API Credentials
-   1. From your JW Player dashboard, click the gear next to your name > API Credentials.
-   2. In the v1 API Credentials section, click SHOW CREDENTIALS next to a property name.
-   3. Copy the `key` and the `Secret`.
-2. Share them with the Applicaster Customer Success representative for the creation of the middleware in a secure way
-3. Wait until you get the base URL back: e.g. `https://zapp-706-jw-player-demo.web.app`. 
-4. Registering the URL as an endpoint in Applicaster. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
+<br />
+<hr />
 
-Note: If you need to connect multiple properties, individual endpoints need to be added for each of these properties. Each property has v1 API credentials. 
+## Implementation
 
-<img src="./img/jw-endpoint.png" width="1024">
-
-## 2. Enable the JW Analytics plugin (required)
-- Provide Applicaster JW analytics token. Each platform can contain and report to only one analytics token
-- See [analytics](https://jwplayer.github.io/applicaster-docs/analytics.html)
-
-## 3. Enable in-manifest subtitles for Samsung and LG 
-The video players used in Samsung and LG require 'in-manifest subtitles': these players expect the language attributes in the manifest. JW Player HLS streams expose only the language name. As a result, the viewer will not be able to choose another subtitle.
-
-This can be enabled on a property level. This can't be controlled from the dashboard yet. Ask your JW Player Account Manager or Solution Engineer to adjust this.
-
-JW internal instructions: Create a Serv Ticket titled 'Enable in-manifest subtitles' with the account id & property id. (Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))
-
-## 4. Enabling the Subscription Mgmt system 
-For Cleeng see [here](https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist)
-
-For other platforms, refer to their documentation. 
-
-## 5. Setup default metadata 
-The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be defined as custom parameters. A list of advised parameters can be found in the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html). Note that parameters are case-sensitive.
-
-These custom parameters can be pre-defined on a property level using the [default custom parameter configration](https://support.jwplayer.com/articles/manage-default-custom-parameters). These custom parameters are automatically added to all new videos uploaded through your JW Player dashboard.
-
-## 6. Add videos to your JW library 
-See [here](https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library)
-Make sure to assign the metadata to your videos.
-
-## 7. Create and register JW Playlist as feeds
-1. Create a manual or dynamic playlist with the videos you want to make available in the Applicaster Apps. See [here](https://support.jwplayer.com/articles/create-a-playlist)
-2. Register the playlist as a feed in Applicaster Zapp. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
-<img src="./img/feeds.png" width="1024">
-
-## 8. Register JW Playlist search playlist as feed 
-1. Create a search playlist in JW Player. See [here](https://support.jwplayer.com/articles/create-a-playlist)
-2. Register the playlist as a feed in Applicaster Zapp. 
-
-## 9. Link JW ad schedules to your feeds 
-1. [Create an ad schedule](https://support.jwplayer.com/articles/how-to-schedule-ad-breaks) in the JW Dashboard
-2. Links it to your feeds by adding `?adId={scheduleId)` to the URL 
+1. Securely provide your JWP API credentials to your Applicaster Customer Success representative. The representative will set up middleware (Firebase) to enable communication between JWP and Applicaster. Once the middleware has been set up, you should be given the base URL, for example: `https://zapp-706-jw-player-demo.web.app`.
+2. <a href="https://docs.applicaster.com/integrations/jw-endpoints" target="_blank">Register the base URL</a> as an endpoint in Applicaster. <br /><br /> <img src="./img/jw-endpoint.png" width="1024"><br /><br />
+3. Provide your JWP analytics token to your Applicaster Customer Success representative. Each platform can only contain and report to one analytics token.
+4. (Samsung, LG) Ask your JWP representative to enable in-manifest subtitles.<br /><br />The video players used in Samsung and LG require the language attributes to be exposed within the manifest. Since JWP HLS streams expose only the language name, a  viewer will not be able to choose another subtitle. Your JWP representative can adjust this for you.<br /><br />JWP internal instructions: Create a SERV ticket titled 'Enable in-manifest subtitles' that includes the account ID and property ID. (Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))<br /><br />
+5. Enable the <a href="https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist" target="_blank">subscription management system</a>.
+6. Set default metadata. Using the <a href="https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html" target="_blank">list of advised parameters</a>, create property-level <a href="https://support.jwplayer.com/articles/manage-default-custom-parameters" target="_blank">default custom parameters</a> that are automatically added to all new videos uploaded through your JWP dasboard. **All parameters are case-sensitive**.<br /><br />By default, the video title and video description will be displayed.<br /><br />
+7. <a href="https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library" target="_blank">Add videos</a> to your JWP library.
+8. <a href="https://support.jwplayer.com/articles/create-a-playlist" target="_blank">Create a manual or dynamic playlist</a> with the videos that viewers can watch in the Applicaster apps.
+9. Copy the manual or dynamic playlist ID to a text file.
+10. <a href="https://support.jwplayer.com/articles/create-a-playlist" target="_blank">Create a search playlist</a>. 
+11. Copy the search playlist ID to a text file.
+12. Register the <a href="https://docs.applicaster.com/integrations/jw-endpoints/#create-a-simple-playlist-feed" target="_blank">manual or dynamic playlist</a> and the <a href="https://docs.applicaster.com/integrations/jw-endpoints/#create-a-search-feed" target="_blank">seach playlist</a> as feeds in Zapp.
+13. <a href="https://support.jwplayer.com/articles/how-to-schedule-ad-breaks" target="_blank">Create an ad schedule.</a>
+14.  Copy the ad schedule ID and append it to the registered (manual or dynamic) feeds in Zapp: `?adId={scheduleId}`. Do not append the ad schedule ID to the search playlist feed.<br /><br /><img src="./img/feeds.png" width="1024">
 
 <!-- pending:
 - JW Watchlist ID - to lookup favorites and continue watching
