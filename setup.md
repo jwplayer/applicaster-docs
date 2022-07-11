@@ -49,7 +49,7 @@ Roku requires 'trickplay', a particular way of sharing preview images during fas
 
 This can be enabled on a property level. This can't be controlled from the dashboard yet. Ask your JW Player Account Manager or Solution Engineer to adjust this.
 
-JW internal instructions: Create a Serv Ticket titled 'Enable Trickplay' with the account id & property id. (Reference: [SERV-11603](https://jwplayer.atlassian.net/browse/SERV-11603)
+JW internal instructions: Create a Serv Ticket titled 'Enable Trickplay' with the account id & property id. (Reference: [SERV-11603](https://jwplayer.atlassian.net/browse/SERV-11603))
 
 ## 5. Enabling the Subscription Mgmt system 
 For Cleeng see [here](https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist)
