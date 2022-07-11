@@ -44,21 +44,28 @@ This can be enabled on a property level. This can't be controlled from the dashb
 
 JW internal instructions: Create a Serv Ticket titled 'Enable in-manifest subtitles' with the account id & property id. (Reference: [SERV-10412](https://jwplayer.atlassian.net/browse/SERV-10412))
 
-## 4. Enabling the Subscription Mgmt system 
+## 4. Enable Trickplay for Roku
+Roku requires 'trickplay', a particular way of sharing preview images during fast-forward and rewind operations.
+
+This can be enabled on a property level. This can't be controlled from the dashboard yet. Ask your JW Player Account Manager or Solution Engineer to adjust this.
+
+JW internal instructions: Create a Serv Ticket titled 'Enable Trickplay' with the account id & property id. (Reference: [SERV-11603](https://jwplayer.atlassian.net/browse/SERV-11603)
+
+## 5. Enabling the Subscription Mgmt system 
 For Cleeng see [here](https://publisher.support.cleeng.com/hc/en-us/articles/4417301124252-Go-Live-Checklist)
 
 For other platforms, refer to their documentation. 
 
-## 5. Setup default metadata 
+## 6. Setup default metadata 
 The default metadata displayed from JW platform are the title of the video and description. Additional metadata like rating, genre, cast can be defined as custom parameters. A list of advised parameters can be found in the [field catalog](https://jwplayer.github.io/applicaster-docs/reference/field-catalog.html). Note that parameters are case-sensitive.
 
 These custom parameters can be pre-defined on a property level using the [default custom parameter configration](https://support.jwplayer.com/articles/manage-default-custom-parameters). These custom parameters are automatically added to all new videos uploaded through your JW Player dashboard.
 
-## 6. Add videos to your JW library 
+## 7. Add videos to your JW library 
 See [here](https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library)
 Make sure to assign the metadata to your videos.
 
-## 7. Create and register JW Playlist as feeds
+## 8. Create and register JW Playlist as feeds
 1. Create a manual or dynamic playlist with the videos you want to make available in the Applicaster Apps. See [here](https://support.jwplayer.com/articles/create-a-playlist)
 2. Register the playlist as a feed in Applicaster Zapp. See [here](https://docs.applicaster.com/integrations/jw-endpoints)
 <img src="./img/feeds.png" width="1024">
