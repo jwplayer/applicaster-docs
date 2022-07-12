@@ -33,21 +33,13 @@ A language tag, also known as the 'locale', consists of a 2-3 letter base langua
 
 The pipes2 middleware will filter the feed/playlist on the language
 
-### Alternative 1 Tag based --> 
+### Tag based -
 Applicaster will filter the feed/playlist on tags according to format `lang:{country code}`
 - the base language the operating system, e.g `lang:en`
 - the regions variant of the operating system, e.g `lang:en-US`
-- the regions variant of the operating system, e.g `lang:all`
+- all languages, e.g `lang:all`
 
-### Alternative 2 Parameter based 
-<img align="right" src="./img/language-selection.png" width="300">
-Applicaster will filter the feed/playlist on custom field `language`
-- the base language the operating system, e.g `en`
-- the regions variant of the operating system, e.g `en-US`
-- the regions variant of the operating system, e.g `all`
 
-Note:
-- Benefits of parameters: clearer workflow: we a lookup field of possible values
 - Drawback: unable to combine with subtitles & audio tracks. E.g. an English video, with Spanish subtitles. So it is availble for people with two languages
 - This is different from the GEO solution. However we want to move to the [JW native geo solution](https://support.jwplayer.com/articles/set-geoblocking-rules-for-videos) in Q4
 
