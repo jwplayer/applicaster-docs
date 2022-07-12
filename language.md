@@ -56,3 +56,6 @@ Todo: check language codes and formatting
 - Apple: ISO 639-2 Code and `-` as divider. E.g. `en-US`
 - Android: ...
 
+Todo: explain geo vs language selection
+Todo: when to apply what? 
+
