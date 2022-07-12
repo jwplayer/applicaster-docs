@@ -12,9 +12,9 @@ nav_exclude: true
 
 ## Language handling
 There are 3 ways of supporting different video language
-1. Subtitles
+1. Subtitles: 
 2. Alternate audio tracks 
-3. Language specific videos
+3. Language specific videos. 
 
 ## Adding subtitles to videos
 See JW documentation
@@ -52,6 +52,6 @@ Todo: explain geo vs language selection
 Todo: when to apply what? 
  - Subtitles
  - Audio tracks for dubbing
- - Language based: if your show is availble multiple language. E.g an English and Spanish video. You get two media items in JW Player. You can have one playlist with all items. E.g. a baby video. We are not able to correlate the videos belonging to each other. 
-
+ - Language based: if your show is availble multiple language. E.g an English and Spanish video. You get two media items in JW Player.  E.g. a baby video. We are not able to correlate the videos belonging to each other. 
+Todo: You can have one playlist with all items. And filter out the video out the videos which are language specifc. 
 
