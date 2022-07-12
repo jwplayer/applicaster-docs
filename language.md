@@ -33,7 +33,7 @@ A language tag, also known as the 'locale', consists of a 2-3 letter base langua
 
 The pipes2 middleware will filter the feed/playlist on the language
 
-### Alternative 1 Tag based
+### Alternative 1 Tag based --> 
 Applicaster will filter the feed/playlist on tags according to format `lang:{country code}`
 - the base language the operating system, e.g `lang:en`
 - the regions variant of the operating system, e.g `lang:en-US`
@@ -56,6 +56,10 @@ Todo: check language codes and formatting
 - Apple: ISO 639-2 Code and `-` as divider. E.g. `en-US`
 - Android: ...
 
-Todo: explain geo vs language selection
+Todo: explain geo vs language selection 
 Todo: when to apply what? 
+ - Subtitles
+ - Audio tracks for dubbing
+ - Language based: if your show is availble multiple language. E.g an English and Spanish video. You get two media items in JW Player. You can have one playlist with all items. E.g. a baby video. We are not able to correlate the videos belonging to each other. 
+
 
