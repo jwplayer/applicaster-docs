@@ -11,10 +11,10 @@ nav_exclude: false
 {:toc}
 
 ## Updating a plugin
-1. Go to Zapp Studio
-1. Select the release / layout
-1. Select the plugin configuration
-1. Select the new version 
-1. Trigger a new build 
 
-Note: this needs to be repeated for all platforms. 
+For all platforms, use the following steps to update a plugin:
+
+1. In Zapp Studio, select the release / layout.
+2. Select the plugin configuration.
+3. Select the new version.
+4. Trigger a new build.
