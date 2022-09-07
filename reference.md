@@ -22,7 +22,7 @@ JWP OTT apps powered by Applicaster give you an end-to-end solution that allows 
 | Topic | Information |
 | --- | --- |
 | **Features** | <a href="https://view.monday.com/2481297474-2b0cf38fcf4e95c7fdb76bb9ffd14eb0?r=use1" target="_blank">Applicaster Supported Features</a> |
-| **Platforms** | <a href="https://docs.applicaster.com/using-zapp/supported-devices/" target="_blank">Mobile</a><br /><a href="" target="_blank">Web App</a> |
+| **Platforms** | <a href="https://docs.applicaster.com/using-zapp/supported-devices/" target="_blank">Supported platforms</a>|
 
 <br />
 <hr/>
