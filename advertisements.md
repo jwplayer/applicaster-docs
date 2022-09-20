@@ -33,19 +33,19 @@ Applicaster uses Google Ad Manager SDKs.
  
 |         | JW Macros         | Supported |
 |---------|-------------------|-----------|
-| General | __player-height__ | Yes       |
-|         | __player-width__  | Yes       |
-|         | __timestamp__     | Yes       |
-|         | __random-number__ | Yes       |
-| App     | __device-id__     | Yes       |
-|         | __app-bundle__    | Yes       |
-|         | __app-name__      | Yes       |
-| Content | __item-title__    | Yes       |
-|         | __item-mediaid__  | Yes       |
-|         | __item-file__     | Yes       |
-|         | __item-duration__ | Yes       |
-|         | __item-tags__     | Yes       |
-|         | __item-{custom}__ | Yes       |
+| General | `__player-height__` | Yes       |
+|         | `__player-width__`  | Yes       |
+|         | `__timestamp__`     | Yes       |
+|         | `__random-number__` | Yes       |
+| App     | `__device-id__`     | Yes       |
+|         | `__app-bundle__`    | Yes       |
+|         | `__app-name__`      | Yes       |
+| Content | `__item-title__`    | Yes       |
+|         | `__item-mediaid__`  | Yes       |
+|         | `__item-file__`     | Yes       |
+|         | `__item-duration__` | Yes       |
+|         | `__item-tags__`     | Yes       |
+|         | `__item-{custom}__` | Yes       |
 
 Please note that Applicaster supports other ad macros then [JW Player player](https://support.jwplayer.com/articles/ad-tag-targeting-macro-reference) 
 
@@ -57,9 +57,9 @@ Below are the [ad macros](https://support.jwplayer.com/articles/ad-tag-targeting
 | pvrn=(page_view_random)               | Dynamic      | No                   |
 | vprn=(video_player_random)            | Dynamic      | No                   |
 | vip=(end_user_ip_address)             | Dynamic      | No                   |
-| (custom_video_asset_id)               | Dynamic      | __item-mediaid__     |
-| vrdu=(video_request_duration)         | Dynamic      | __item-duration__    |
-| _fw_did=(device_id)                   | Dynamic      | __device-id__        |
+| (custom_video_asset_id)               | Dynamic      | `__item-mediaid__`     |
+| vrdu=(video_request_duration)         | Dynamic      | `__item-duration__`    |
+| _fw_did=(device_id)                   | Dynamic      | `__device-id__`       |
 | _fw_vcid2=(unique_customer_id)        | Dynamic      | No                   |
 | csid=(Platform)                       | Dynamic      | Yes                  |
 | slid=(slot_custom_id)                 | Static Value | Entered by publisher |
