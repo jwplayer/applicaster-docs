@@ -38,6 +38,7 @@ Applicaster uses Google Ad Manager SDKs.
 |         | `__timestamp__`     | Yes       |
 |         | `__random-number__` | Yes       |
 | App     | `__device-id__`     | Yes       |
+|         | `__platform__`      | Yes       |
 |         | `__app-bundle__`    | Yes       |
 |         | `__app-name__`      | Yes       |
 | Content | `__item-title__`    | Yes       |
