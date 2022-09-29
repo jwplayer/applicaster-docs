@@ -21,7 +21,7 @@ JW Player makes this data available throuh the JW Player dashboard, through the 
 
 ## How to enable JW analytics in Applicaster?
 The JW plugin needs to be enabled in Applicaster:
-1. Retrieve the JW token from the JW account manager or solution engineer.
+1. Retrieve the JW analytics token from the JW account manager or solution engineer.
 1. Add the JW Analytics plugin from the gallery
 1. Insert the JW token provided by the JW AM/SE and save
 1. Optional: Add the `User identity storage key` for tracking user level traffic (see below)
