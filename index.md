@@ -8,7 +8,7 @@ This playbook explains how to implement OTT apps with Applicaster and JW Player.
 
 Additionally, this playbook complements the following standard documentation:
 - [JW Player platform documentation](https://docs.jwplayer.com) 
-- [Applicaster documentation](https://jwplayer.github.io/applicaster-docs/reference/applicaster-docs.html)
+- [Applicaster documentation](https://docs.applicaster.com/)
 - <a href="https://docs.vualto.com/en/latest/" target="_blank">JW Player Broadcast Live documentation</a>
 
 <br />
