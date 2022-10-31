@@ -35,7 +35,7 @@ You can change the image size you desire based on the resolutions delivered on t
 
 
 ## Uploading custom video thumbnail
-To upload a custom video thumbnails with a custom aspect ratio, see [here](https://support.jwplayer.com/articles/update-a-video-thumbnail)
+To upload a custom video thumbnails with a custom aspect ratio, see [here](https://docs.jwplayer.com/platform/reference/post_videos-thumbnails-update)
 
 ## Adding additional images to a video
 In some cases, a single JW video thumbnail is not enough. E.g. when you need 
