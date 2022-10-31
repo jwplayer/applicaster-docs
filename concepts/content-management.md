@@ -26,7 +26,7 @@ A video, including its
 - (custom) fields: title, descripton, genre, rating, actors, etc. 
 - tags
 
-Details [here](https://support.jwplayer.com/articles/add-videos-to-your-jw-player-library)
+Details [here](https://docs.jwplayer.com/platform/docs/vdh-upload-videos)
 
 ## Playlists
 A playlist is a collection of media items. There are several types of playlists. The following are relevant in combination with Applicaster:
@@ -35,7 +35,7 @@ A playlist is a collection of media items. There are several types of playlists.
 - recommendations: creates a list of videos based on the video that a viewer watches
 - search: creates a list of videos in your library based on a keyword search
 
-Details [here](https://support.jwplayer.com/articles/create-a-playlist)
+Details [here](https://docs.jwplayer.com/platform/docs/vdh-playlist-overview)
 
 
 ## Components
