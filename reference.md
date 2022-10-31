@@ -17,7 +17,7 @@ has_children: false
 
 JWP OTT apps powered by Applicaster give you an end-to-end solution that allows you to deliver rich video experiences to mobile devices and connected TV platforms.
 
-## Supported Features and Platforms
+## Supported Platforms
 
 | Topic | Information |
 | --- | --- |
