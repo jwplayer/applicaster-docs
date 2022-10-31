@@ -48,7 +48,7 @@ Applicaster uses Google Ad Manager SDKs.
 |         | `__item-tags__`     | Yes       |
 |         | `__item-{custom}__` | Yes       |
 
-Please note that Applicaster supports other ad macros then [JW Player player](https://support.jwplayer.com/articles/ad-tag-targeting-macro-reference) 
+Please note that Applicaster supports other ad macros then [JW Player player](https://docs.jwplayer.com/platform/docs/ad-tag-targeting-macro-reference) 
 
 ## Ad Macros - FreeWheel
 Below are the [ad macros](https://docs.jwplayer.com/platform/docs/ad-tag-targeting-macro-reference) supported for Freewheel ad server:
