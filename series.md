@@ -22,8 +22,7 @@ You need:
 - A 'series' playlist that includes episodes based on a tag 
 - Episodes with fields `episodeNumber` and `seasonNumber` and a tag, that includes the epsidoe in the in the series playlist
 
-Detailed instructions for defining a series in JW can be found [here](https://support.jwplayer.com/articles/build-an-ott-apps-series-playlist). 
-
+Note: Applicaster does not yet support the new way of [creating series in JW Player](https://docs.jwplayer.com/platform/docs/ott-create-a-series)
 
 
 <div style="display:flex; justify-content: center;"> 
