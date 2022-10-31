@@ -42,10 +42,10 @@ Tips
 
 
 ## Popular videos shelf 
-To add the most popular content in the beginning of the row, make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on 'Most played first".
+To add the most popular content in the beginning of the row, make sure to use a [dynamic playlist](https://docs.jwplayer.com/platform/docs/vdh-create-a-dynamic-playlist) which is sorted on 'Most played first".
 
 ## Newly published shelf
-To add the new content at the beginning of the row, make sure to use a [dynamic playlist](https://support.jwplayer.com/articles/create-a-dynamic-playlist) which is sorted on 'Most recently published".
+To add the new content at the beginning of the row, make sure to use a [dynamic playlist](https://docs.jwplayer.com/platform/docs/vdh-create-a-dynamic-playlist) which is sorted on 'Most recently published".
 
 <!--
 Because you watched' shelf
