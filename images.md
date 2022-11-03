@@ -44,17 +44,10 @@ In some cases, a single JW video thumbnail is not enough. E.g. when you need
 - a thumbnail with the title as part of the image for a specific platform. 
 
 It is possible to assign additional images to a media: 
+1. Upload an alternate image in JW Player.  See [here](https://docs.jwplayer.com/platform/docs/vdh-upload-alternate-thumbnails#upload-alternative-thumbnails)
 1. Add a custom parameter on the media according to the format `img[LabelName]` for example, `imgHeroRoku`. 
 1. Assign the custom parameter with the image url. E.g. `https://mysite.com/images/hero.jpg'
 1. Open Aplicaster studio and assign the image key of the cell used, e.g. `extensions.imgHeroRoku`
-
-## Hosting additional images at JW Player
-It is possible to host images in JW Player:
-1. Upload a dummy video in the media library. E.g. foo.mp4
-1. Override the default image with a new image. This can be of a different aspect ratio
-1. The image URL will be created according to format: `https://content.jwplatform.com/v2/media/{mediaid}/poster.jpg?width={width}`. For example: `https://content.jwplatform.com/v2/media/dwEE1oBP/poster.jpg?width=720`
-
-Note: A more simple 'alternate images' workflow is under development.
 
 ## Motion thumbnails
 Applicaster does not support motion thumbnail at the moment. 
