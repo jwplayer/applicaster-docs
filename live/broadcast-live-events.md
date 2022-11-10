@@ -66,7 +66,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
   - Filter on parameter: `VCH.EventState`: `PRE_LIVE`
   - Filter on parameter: `VCH.EventState`: `LIVE_UNPUBLISHED`
   - Filter on parameter: `VCH.EventState`: `LIVE_PUBLISHED`
-  - Have the list sorted by 'Publish date'. This field automatically is derived from `VCH.ScheduledStart` and a configurable offset in Broadcast Live.
+  - Have the list sorted by 'Publish date'. This field automatically is derived from `VCH.ScheduledStart` and a configurable offset in Broadcast Live (`publish_start_date_offset_hours`) 
 2. Register the playlist as a feed in Applicaster
 3. Add a list component in Applicaster and link it to the newly created feed
 4. Set autorefresh on 60 seconds to deal with VCH.EventState changes
