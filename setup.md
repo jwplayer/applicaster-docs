@@ -36,7 +36,7 @@ nav_exclude: false
 7. Set default metadata, create property-level <a href="https://docs.jwplayer.com/platform/docs/vdh-manage-default-custom-parameters" target="_blank">default custom parameters</a> that are automatically added to all new videos uploaded through your JWP dasboard. **All parameters are case-sensitive**.<br /><br />By default, the video title and video description will be displayed.<br /><br />
 8. (Live Events) Set the `publish_start_date_offset_hours` in Broadcast Live (BCL) to ensure events become available in Applicaster feeds, before the scheduled start date. Contact your JWP representative.
 
-## Making videos available to Applicaster
+## Import playlists as feeds
 1. <a href="https://docs.jwplayer.com/platform/docs/vdh-upload-videos" target="_blank">Add videos</a> to your JWP library.
 2. <a href="https://docs.jwplayer.com/platform/docs/vdh-playlist-overview" target="_blank">Create a manual or dynamic playlist</a> with the videos that viewers can watch in the Applicaster apps.
 3. Copy the manual or dynamic playlist ID to a text file.
