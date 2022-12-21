@@ -70,7 +70,7 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 2. Register the playlist as a feed in Applicaster
 3. Add a list component in Applicaster and link it to the newly created feed
 4. Set autorefresh on 60 seconds to deal with VCH.EventState changes
-5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITHOUT a player*
+5. Ensure the videos with type `live-future` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITHOUT a player*. Tip: show a message on the page: "Event is not live, come back when the event has started"
 6. Ensure the videos with type `live-now` link to a [target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html) *WITH a player*
 
 <div style="display:flex; justify-content: center;"> 
