@@ -24,7 +24,7 @@ Each video in Zapp has a type. By default, a JWP media item will be mapped to ty
 
 You can override this default on two levels:
 - Media level, using custom parameter `contentType`
-- Feed level, using `?overrideType=movie`
+- Feed level, using `?overrideType=<zapp-video-type>`
 
 ## Find the Zapp video type
 You can find the video type in your Zapp feed. See screenshot below
@@ -32,7 +32,7 @@ You can find the video type in your Zapp feed. See screenshot below
 <img src="./img/zapp-video-type.png" width="1024">
 
 ## Map a video type to a screen
-You can define type mapping in Zapp Studio. See screenshot below and in [Applicater Docs](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping]
+You can define type mapping in Zapp Studio. See screenshot below and in [Applicaster Docs](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping]
 <img src="./img/type-mapping.png" width="1024">
 
 ## Define the video type on a JWP media item
@@ -41,7 +41,7 @@ You can define type mapping in Zapp Studio. See screenshot below and in [Applica
 Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh-manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily changed afterwards. 
 
 ## Define the video type on Feed level
-1. Add `?overrideType=<type>` to the feed URL. E.g. `?overrideType=movie`
+1. Add `?overrideType=<zapp-video-type>` to the feed URL. E.g. `?overrideType=movie`
 
 <img src="./img/feeds.png" width="1024">
 
