@@ -2,6 +2,7 @@
 layout: default
 title: Series
 nav_order: 600
+parent: screens
 ---
 # Series
 {: .no_toc}
