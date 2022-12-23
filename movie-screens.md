@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Movie target screen
+title: Movie screen
 nav_order: 300
 nav_exclude: false
 ---
