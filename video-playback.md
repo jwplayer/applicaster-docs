@@ -24,13 +24,7 @@ This article focuses on the player target screen
 ## Create a player target screen 
 1. Create a 'general content screen' 
 1. Add a player, and if needed a related videos shelf
-1. Define it as a 'target' for 'video' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
-
-Everytime a feed is added in Applicaster, there has to be a  `type` value defined. This value used by Zapp to determine what screen is opened. When the value is 'video' the video player target screen is opened. 
-
-Applicaster by default, defines the type as `Video` in the feeds that are returned from JW Platform. 
-
-<img src="./img/type-mapping.png" width="1024">
+1. Define it as a 'target' for 'video' using [type mapping](https://jwplayer.github.io/applicaster-docs/type-mapping.html)
 
 ## How to add subtitles / captions?
 See JW Documentation on [adding closed captions](https://docs.jwplayer.com/platform/docs/vdh-add-closed-captions). Captions will automatically appear in Applicaster Apps. 
