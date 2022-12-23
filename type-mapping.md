@@ -43,6 +43,6 @@ Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh
 ## Define the video type on Feed level
 Add `?overrideType=<zapp-video-type>` to the feed URL. E.g. `?overrideType=movie`
 
-<img src="./img/feeds.png" width="1024">
+<img src="./img/feed-override-type.png" width="1024">
 
 Note: The feed-level overrides the media type level. 
