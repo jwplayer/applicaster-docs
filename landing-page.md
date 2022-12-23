@@ -3,7 +3,7 @@ layout: default
 title: Landing page
 nav_order: 100
 nav_exclude: false
-parent: screens
+parent: Screens
 ---
 # Landing page
 {: .no_toc }
