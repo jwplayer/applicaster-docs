@@ -2,6 +2,7 @@
 layout: default
 title: Library screen
 nav_order: 200
+parent: screens
 ---
 
 # Libraries
