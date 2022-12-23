@@ -13,7 +13,7 @@ nav_exclude: false
 
 ## About Type Mapping
 <img align="right" src="./img/movie-target.png" width="250">
-Type mapping defines on which screen a viewer lands after selecting a media item from a landingpage, library or any other page.
+Type mapping defines on which screen a viewer lands after selecting a video item from a landingpage, library or any other page.
 
 Commonly used screens:
 - A movie screen: that promotes a movie by giving the full details about the video, like a description, rating, duration, etc. 
@@ -24,7 +24,7 @@ You can override this default on two levels:
 - Media level, using custom parameter `contentType`
 - Feed level, using `?overrideType=movie`
 
-## Find the video type
+## Find the Zapp video type
 You can find the video type your Applicaster feed. See screenshot below
 
 <img src="./img/zapp-video-type.png" width="1024">
