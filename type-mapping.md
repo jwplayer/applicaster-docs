@@ -13,7 +13,6 @@ parent: Screens
 {:toc}
 
 ## About Type Mapping
-<img align="right" src="./img/movie-target.png" width="250">
 Type mapping defines on which screen a viewer lands after selecting a video item from a landingpage, library or any other page.
 
 Commonly used screens:
