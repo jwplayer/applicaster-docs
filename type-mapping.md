@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Type Mapping
+title: Type mapping
 nav_order: 350
 nav_exclude: false
 ---
 
-#  Type Mapping
+#  Type mapping
 {: .no_toc}
 
 - TOC
