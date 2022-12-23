@@ -17,7 +17,7 @@ In JWP each media item has a thumbnail, which has the following behavior:
 - The thumbnails are included in the delivery API in the Media and Playlist endpoints
 - Thumbnails are made available in different widths: 320/460/640/720/1280/1920px. The aspect ratio is not adjusted.
 
-In addion you can upload alternate images to the JWP:
+In addion you can [upload alternate images](https://docs.jwplayer.com/platform/docs/vdh-upload-alternate-thumbnails) to a JWP media item:
 - Alternate media images can uploaded in JWP dashboard`
 - Images are accessble from JWP using: `https://img.jwplayer.com/v1/media/<mediaid>/images/<label>.jpg?width=<pixels>`
 - The images can be retrieved in different image formats 
