@@ -20,12 +20,14 @@ Commonly used screens:
 - Series screen. That shows the episodes of the series. 
 - Player screen. See [video playback](https://jwplayer.github.io/applicaster-docs/video-playback.html)
 
+Each video in Zapp has a type. By default, a JWP media item will be mapped to type `video`
+
 You can override this default on two levels:
 - Media level, using custom parameter `contentType`
 - Feed level, using `?overrideType=movie`
 
 ## Find the Zapp video type
-You can find the video type your Applicaster feed. See screenshot below
+You can find the video type in your Zapp feed. See screenshot below
 
 <img src="./img/zapp-video-type.png" width="1024">
 
@@ -33,14 +35,14 @@ You can find the video type your Applicaster feed. See screenshot below
 You can define type mapping in Zapp Studio. See screenshot below and in [Applicater Docs](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping]
 <img src="./img/type-mapping.png" width="1024">
 
-## Assign a JWP media item to Zapp video type
-By default, a JWP media item will be mapped to type `video`
-
 ## Define the video type on a JWP media item
-
-<img src="./img/contentType.png" width="1024">
+1. Add custom parameter 'contentType' 
+<img src="./img/content-type.png" width="1024">
+Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh-manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily changed afterwards. 
 
 ## Define the video type on Feed level
+1. Add `?overrideType=<type>` to the feed URL. E.g. `?overrideType=movie`
+
 <img src="./img/feeds.png" width="1024">
 
-Note: The feed-level override the media type level. 
+Note: The feed-level overrides the media type level. 
