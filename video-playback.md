@@ -16,7 +16,7 @@ parent: Screens
 A 'target' screen is where the user lands after selecting a video from a homepage or library.
 
 Commonly used target screens:
-- A movie target: that promotes a movie by giving the full details about the movie, like a description, rating, duration, etc. 
+- A movie target.
 - Series target. 
 - Player target. 
 
