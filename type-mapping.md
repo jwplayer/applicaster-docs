@@ -37,7 +37,8 @@ You can define type mapping in Zapp Studio. See screenshot below and in [Applica
 
 ## Define the video type on a JWP media item
 1. Add custom parameter 'contentType' 
-<img src="./img/content-type.png" width="1024">
+<img src="./img/content-type.png" width="800">
+
 Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh-manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily changed afterwards. 
 
 ## Define the video type on feed level
