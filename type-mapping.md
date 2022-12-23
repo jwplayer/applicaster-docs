@@ -3,6 +3,7 @@ layout: default
 title: Type mapping
 nav_order: 410
 nav_exclude: false
+parent: screens
 ---
 
 #  Type mapping
