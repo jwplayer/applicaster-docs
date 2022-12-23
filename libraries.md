@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Libraries
+title: Library screen
 nav_order: 200
 ---
 
