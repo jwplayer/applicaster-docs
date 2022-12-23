@@ -10,12 +10,20 @@ nav_order: 625
 - TOC
 {:toc}
 
-## Image handling in JW Player
-In JW Player each media item has a thumbnail, which has the following behavior:
+## Image handling in JWP
+In JWP each media item has a thumbnail, which has the following behavior:
 - A static thumbnail is automatically taken from a frame of the video in 16:9 ratio. It is possible to select another frame from the video. 
 - A custom thumbnail can be uploaded with a custom aspect ratio
 - The thumbnails are included in the delivery API in the Media and Playlist endpoints
 - Thumbnails are made available in different widths: 320/460/640/720/1280/1920px. The aspect ratio is not adjusted.
+
+In addion you can upload alternate images to the JWP:
+- Alternate media images can uploaded in JWP dashboard`
+- Images are accessble from JWP using: `https://img.jwplayer.com/v1/media/<mediaid>/images/<label>.jpg?width=<pixels>`
+- The images can be retrieved in different image formats 
+  - Content editors can upload a PNG 
+  - The app can get JPG version of the image, if needed
+- Images can be resized using the `width` paramater are resized on the fly. The aspect ratio is not adjusted.
 
 ## Image handling in Applicaster: 
 When creating/modifying a cell style, you can assign the image using the `image key`. The default is: `image_base`. 
