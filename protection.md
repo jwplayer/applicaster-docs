@@ -27,7 +27,7 @@ Content can be protected is protected in various ways:
 Notes
 - The video files (MP4) are still accessible at JW in other countries. This is not an issue as  JW URL signing is applied, so MP4 are only accessible to Applicaster apps.
 - Do NOT enable to geo-blocking of JW Platform. See also below. 
-- The web app using standard [JW geo blocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos). So need geo on web app and applicaster in combination is not possible at this moment. 
+- The JWP web app using standard [JW geo blocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos). So need geo on web app and applicaster in combination is not possible at this moment. 
 
 ## Why can't we use the JW player geo blocking rules?
 JW Players [geoblocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos) automatically remove country specific media items from playlists based on the clients IP address. The 'client' is the system that retrieves the playlist from the JW Player API. 
@@ -37,4 +37,6 @@ Applicaster uses [middleware component](https://jwplayer.github.io/applicaster-d
 See also [here](https://docs.applicaster.com/integrations/jw-endpoints/#appendix-2---geo-blocking)
 
 ## Enabling DRM
-Ask your JWP or Applicaster representative
+Applicaster supports DRM on JWP VOD and Live Streams.
+
+Ask your JWP or Applicaster representative to get this enabled. 
