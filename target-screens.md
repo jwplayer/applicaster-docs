@@ -11,16 +11,16 @@ nav_exclude: false
 - TOC
 {:toc}
 
-## About target screens
+## Target screens
 <img align="right" src="./img/movie-target.png" width="250">
-A target screen is where the user lands after selecting a media item from a homepage, library or any other page.
+A target screen is where the user lands after selecting a media item from a landingpage, library or any other page.
 
 Commonly used target screens:
 - A movie target: that promotes a movie by giving the full details about the video, like a description, rating, duration, etc. 
 - Series target. That shows the episodes of the series. 
 - Player target. See [video playback](https://jwplayer.github.io/applicaster-docs/video-playback.html)
 
-This article focuses on movie target screens. 
+This article focuses on movie target screens.
 
 ## Structure of a movie target screen
 A typical movie target screen consists of:
@@ -28,20 +28,12 @@ A typical movie target screen consists of:
 1. A trailer
 1. A related videos shelf
 
-## Define movie metadata in JW Player
+## Define movie metadata in JWP
 1. Make sure that you have all the meta data like MPAA Rating, Run Time, and other details that you want to show added as custom parameters in the JW platform.
 2. Add `movieId` as a custom field within the media item in JW Player. 
 3. Make sure you have `trailerId` as custom field in JW Player. 
 
 Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh-manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily changed afterwards. 
-
-## Define a movie screen as a 'target' 
-1. A 'general content screen' 
-1. Define it a 'target' for 'movies' using [type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping)
-1. Ensure the videos in your library and shelves `?overrideType=movie`
-
-<img src="./img/type-mapping.png" width="1024">
-<img src="./img/feeds.png" width="1024">
 
 ## Adding an hero component and link it with JW movie metadata 
 1. Add a video [Hero Quick Brick (`Hero QB`)](https://docs.applicaster.com/using-zapp/qb-app-structure/#heroes) component to your video target page
@@ -59,10 +51,11 @@ Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh
 1. Insert the entry value: `extensions.trailerId`
 1. Assign a [cell style](https://docs.applicaster.com/using-zapp/qb-app-structure/#cell-style) and save
 
+## Open videos in your new screen
+1. Map videos to your new screen using [type mapping](https://jwplayer.github.io/applicaster-docs/type-mapping.html)
+
 <!--
 ## How to add a recommendations shelf?
 . A recommendations / related videos shelf (group with group title and horizontal lists)
 -->
 
-## Defining multiple target screens
-You can make multiple video target screens. E.g. a 'movie target' and a 'show target'. With [Type mapping](https://docs.applicaster.com/using-zapp/app-building-walk-through/#add-type-mapping) you can map a video type with a target screen.
