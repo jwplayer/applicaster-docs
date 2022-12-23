@@ -3,6 +3,7 @@ layout: default
 title: Video playback
 nav_order: 400
 nav_exclude: false
+parent: Screens
 ---
 # Video playback 
 {: .no_toc}
