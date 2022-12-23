@@ -1,6 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
-title: JWP Applicaster Playbook
-description: A playbook for developing mobile apps using Applicaster and JW Player.
+title: JWP Applicaster Guide
+description: A guide for developing mobile apps using Applicaster and JW Player.
 baseurl: "/applicaster-docs" # the subpath of your site, e.g. /blog
 url: "https://jwplayer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: [README.md]
