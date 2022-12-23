@@ -12,7 +12,7 @@ parent: Screens
 - TOC
 {:toc}
 
-## About Type Mapping
+## About type mapping
 Type mapping defines on which screen a viewer lands after selecting a video item from a landingpage, library or any other page.
 
 Commonly used screens:
@@ -40,7 +40,7 @@ You can define type mapping in Zapp Studio. See screenshot below and in [Applica
 <img src="./img/content-type.png" width="1024">
 Tip: Use [default custom parameters](https://docs.jwplayer.com/platform/docs/vdh-manage-default-custom-parameters). This automatically populates these values at the media level when the video gets uploaded and can be easily changed afterwards. 
 
-## Define the video type on Feed level
+## Define the video type on feed level
 Add `?overrideType=<zapp-video-type>` to the feed URL. E.g. `?overrideType=movie`
 
 <img src="./img/feed-override-type.png" width="1024">
