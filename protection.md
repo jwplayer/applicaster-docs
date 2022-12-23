@@ -14,7 +14,8 @@ nav_exclude: false
 Content can be protected is protected in various ways: 
 - URL signing: Ensures only Applicaster Apps can access videos
 - Geo blocking: Ensures videos can only be accessed in a specific country
-- Entitlement checking: Ensures only entitled users can access videos based on purchases
+- DRM: Ensure only entitle users can playback video
+
 
 ## How to apply geo blocking?
 <img align="right" src="./img/applicaster-di-plugin.png" width="200">
@@ -34,3 +35,6 @@ JW Players [geoblocking rules](https://docs.jwplayer.com/platform/docs/protectio
 Applicaster uses [middleware component](https://jwplayer.github.io/applicaster-docs/concepts/content-delivery.html) to retrieve playlists from JW.  So the location of the Applicaster middleware determines the filter. As a results viewers don't the right videos. 
 
 See also [here](https://docs.applicaster.com/integrations/jw-endpoints/#appendix-2---geo-blocking)
+
+## Enabling DRM
+Ask your JWP or Applicaster representative
