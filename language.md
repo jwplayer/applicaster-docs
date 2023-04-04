@@ -10,6 +10,9 @@ nav_exclude: true
 - TOC
 {:toc}
 
+##
+Applicaster UI translation: https://www.figma.com/file/C3M4NDjoWQvULpjcv1yvTG/Apps-assets?node-id=1782-30832
+
 ## Language handling
 There are 3 ways of supporting viewers with a different language than the source video
 1. Subtitles
