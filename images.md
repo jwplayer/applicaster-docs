@@ -55,7 +55,7 @@ It is possible to assign additional images to a media:
 1. Upload an alternate image in JW Player.  See [here](https://docs.jwplayer.com/platform/docs/vdh-upload-alternate-thumbnails#upload-alternative-thumbnails)
 1. Add a custom parameter on the media according to the format `img[LabelName]` for example, `imgHeroRoku`. 
 1. Assign the custom parameter with the image url. E.g. `https://img.jwplayer.com/v1/media/<mediaid>/images/<label>.jpg?width=<pixels>`
-1. Open Aplicaster studio and assign the image key of the cell used, e.g. `extensions.imgHeroRoku`
+1. Open Aplicaster studio and assign the image key of the cell used, e.g. `imgHeroRoku`
 
 ## Motion thumbnails
 Applicaster does not support motion thumbnail at the moment. 
