@@ -52,3 +52,7 @@ Applicaster:
 Requires a custom param on the item `hqme=true`
 
 See [Applicaster docs](https://docs.applicaster.com/using-zapp/mobile/downloads/download-and-offline/)
+
+## Multi-lingual audio tracks
+To ensure that multiple audio tracks show up in the player correctly it is neccessary for customers to set the audio track NAME in the JW dashboard (not just the language). Additionally if an Application has a language selector for the Application UI as well as an audio language selector in the player and the desire is for the default audio in the player to follow the UI language then it is neccessary to set the language of the default audio track as well which can only be managed through the create media or update media endpoints of the Management API (This can not be managed in the dashboard as yet). 
+
