@@ -4,7 +4,7 @@ title: Subscriptions
 nav_order: 1300
 ---
 
-# Subscriptions
+# Subscriptions updated
 
 ## Transactional video on demand (TVOD)
 By default a subscription gives viewers access to all videos. It is possible to link an specific product id to an video. It allows viewers to buy access to an individual video, rather then the whole library. 
