@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Subscriptions
-nav_order: 1300
+nav_order: 885
 ---
 
 # Subscriptions
