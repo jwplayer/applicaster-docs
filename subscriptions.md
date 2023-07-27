@@ -45,11 +45,12 @@ Specific details on how both steps can be completed for each app store account c
 The final step in the process is to add metadata parameters on your JWP media items to indicate that they are available for playing only if a viewer has purchased a subscription. To do so, the following metadata parameter should be added on all your premium videos: `inplayer_id` with the value of the InPlayer asset created in the previous step. 
 
 ![image](https://github.com/matejpetrovjwp/applicaster-docs/assets/138796738/8fe2eb69-ac39-4f9e-bac8-a5c6553e7704)
+<img src="./img/subscriptions_params.jpg" width="1024">
 
 Last thing to note is that if you wish specific videos to be free, meaning available without a subscription to be purchased, you need to add the tag `free` to it, as shown on the screenshot below
 
 ![image](https://github.com/matejpetrovjwp/applicaster-docs/assets/138796738/75dc775d-90a0-417c-bf40-87df99dd1ad1)
-
+<img src="./img/subscriptions_tags.jpg" width="1024">
 
 - every media should have a parameter indicating which prices are available
 - every free media is marked with free
