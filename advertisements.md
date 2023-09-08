@@ -20,7 +20,7 @@ Below is a step by step walkthrough:
 1. Setup ads as by selecting GoogleIMA as ad client.
 2. Add your adtags in there as preroll, midroll or Vmap, whatever applicable. VMAP is recommended over VAST.
 3. Save the ad schedule and grab the adid from there.
-4. Go in [Zapp]([url](https://zapp.applicaster.com/)) (Applicaster) platform and in the playlist data feed that you want to show ads, add the schedule id: ?adId=<<ad_scheduled_id>>
+4. Go to Zapp (Applicaster) platform and in the playlist data feed that you want to show ads, add the schedule id: ?adId=<<ad_scheduled_id>>
 5. Make sure you add the Google IMA plugin from the plugin gallery, if it wasn’t added before you’ll need to build the version again for the plugin to be enabled.
 
 Notes
