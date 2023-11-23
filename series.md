@@ -13,18 +13,18 @@ parent: Screens
 ## Introduction
 This page describes how to define and show series, with seasons and episodes.
 
-The method describe here is compatible with the [JW Player OTT Web App](https://github.com/jwplayer/ott-web-app) and is an improved version of what is described in the [Applicaster docs](https://docs.applicaster.com/integrations/jw-endpoints/#create-an-episodic-structure-using-jw-playlists)
-
-Notes: An easier series management workflow is under development.
-
 ## Define a series in JW 
+# [Create series in JW Player](https://docs.jwplayer.com/platform/docs/ott-create-a-series) 
+# Ask you Applicaster representative how to consume the series in Zapp
+
+Note: support for JWP native series mgmt is in beta. Consult your JWP or Applicaster representative to enable it.
+
+
+## Define a series in JW (Playlist based)
 You need:
 - A media item (a.k.a. card) that links to the series playlist using `seriesId`
 - A 'series' playlist that includes episodes based on a tag 
 - Episodes with fields `episodeNumber` and `seasonNumber` and a tag, that includes the epsidoe in the in the series playlist
-
-Note: Applicaster does not yet support the new way of [creating series in JW Player](https://docs.jwplayer.com/platform/docs/ott-create-a-series)
-
 
 <div style="display:flex; justify-content: center;"> 
   <img src="./img/series-jw-card.png" width="600"> 
@@ -38,11 +38,11 @@ Note: Applicaster does not yet support the new way of [creating series in JW Pla
   <img src="./img/series-jw-episode.png" width="600"> 
 </div>
 
-## Create an all series playlist in JW 
-Create a playlist in JW Player, containing all the series. There are no special requirements
+## Create an all-series playlist in JW 
+Create a playlist in JW Player, containing all the series. There are no special requirements.
 
 ## Create an all series screen
-1. Create a all series/shows feed using the middleware endpoint  `/jw/all-series-playlists/`. This endpoint will ensure the type to `series`
+1. Create a all-series/shows feed using the middleware endpoint  `/jw/all-series-playlists/`. This endpoint will ensure the type to `series`
 1. Create a series/shows screen pointing to the newly created feed
 1. Do the type mapping to the [series target screen](https://jwplayer.github.io/applicaster-docs/target-screens.html)
 
@@ -59,8 +59,8 @@ Create a playlist in JW Player, containing all the series. There are no special 
 </div>
 
 ## Create an series screen
-1. Create an feed for all possible seasons in your enviroment. E.g seasons 4 looks like this:  `/jw/playlists/{{playlistId}}?media_filtering=seasonNumber:4&feedTitle=Season%204`
-1. Create a series/show screen containing all possible seaons
+1. Create a feed for all possible seasons in your environment. E.g season 4 looks like this:  `/jw/playlists/{{playlistId}}?media_filtering=seasonNumber:4&feedTitle=Season%204`
+1. Create a series/show screen containing all possible seasons
 1. Ensure to enable 'Hide Component if data is empty' 
 
 <div style="display:flex; justify-content: center;"> 
