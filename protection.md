@@ -17,11 +17,13 @@ Content can be protected is protected in various ways:
 - DRM: Ensure only entitle users can playback video
 
 ## How to apply geo blocking?
-Applicaster Zapp supports [JW geo blocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos). Applying these rules automatically removes country-specific media items from playlists based on the viewer's location
+Applicaster Zapp supports [JW geo blocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos). Applying these rules automatically removes country-specific media items from playlists based on the viewer's location. 
+
+This feature is enabled on the latest applicaster Zapp version (check your account manager).
 
 Note: Zapp determines the country based on the IP address of the viewer and feeds the country as a filter to JWP Delivery APIs (part of the URL signature).
 
-## How to apply geo blocking? (Deprecated Method)
+## How to apply geo-blocking? (Deprecated Method)
 <img align="right" src="./img/applicaster-di-plugin.png" width="200">
 
 1. Add the Applicaster DI Plugin to your project
