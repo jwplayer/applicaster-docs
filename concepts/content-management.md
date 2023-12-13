@@ -61,7 +61,7 @@ Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-
 The app config can control which playlist is linked to a feed. E.g. the playlist App Config position 1 is linked to feed A. Feed A  is linked to the top rail in a layout.
 
 ## Device-type specific content
-In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout.
+In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout. Each layout is linked to different feeds/playlists.
 
 ## Geo-specific content
 Geo-specific rails will be automatically hidden based on the content:
