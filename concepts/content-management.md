@@ -17,13 +17,19 @@ nav_order: 1300
 <img src="../img/content-mgmt.png" width="768">
 </a>
 
+## Layout
+- In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout
+- Each layout consists of components, E.g. a rail with "Live now" and another rail with "Popular"
+- Each component gets JWP media from a JWP playlist.
+- Each layout can be connected with a JWP App Config for determining which playlist maps to what component. E.g. JWP  App Config "TV" is mapped to Zapp layout "TV". And App Config position 1, matches component  1 in the TV Layout
 
 ## Media
 A video, including its 
 - video assets: the video in different qualities, e.g 720p, 1080p, etc. 
 - audio tracks: audio in different languages, or without music, etc. 
-- images: thumbnails
-- (custom) fields: title, description, genre, rating, actors, etc. 
+- images: thumbnails, additional immages
+- fields: title, description, genre, rating, actors, etc.  (customizable per type)
+- geo rules
 - tags
 
 Details [here](https://docs.jwplayer.com/platform/docs/vdh-upload-videos)
@@ -52,8 +58,6 @@ Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-
 To be able to display the list of media it needs to access the data to render an item or list of items (e.g. its title, its description, its thumbnail and what screen to open). Feeds can be defined within Zapp Studio. The data on feeds comes from JW playlists. 
 
 Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-data)
-
-## Layout
 
 
 
