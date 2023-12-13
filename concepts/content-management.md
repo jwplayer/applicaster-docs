@@ -17,11 +17,6 @@ nav_order: 1300
 <img src="../img/content-mgmt.png" width="768">
 </a>
 
-## Layout
-- In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout
-- Each layout consists of components, E.g. a rail with "Live now" and another rail with "Popular"
-- Each component gets JWP media from a JWP playlist.
-- Each layout can be connected with a JWP App Config to determine which playlist maps to what feed. E.g. JWP  App Config "TV" is mapped to Zapp layout "TV".  App Config position 1, matches the feed linked to component 1 in the TV Layout
 
 ## Media
 A video, including its 
@@ -59,6 +54,12 @@ To be able to display the list of media it needs to access the data to render an
 
 Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-data)
 
+## Layout
+- In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout
+- Each layout consists of components, E.g. a rail with "Live now" and another rail with "Popular"
+- Each component gets JWP media from a JWP playlist through a feed
 
+## App config
+- The app config can control which playlist is linked to a feed. E.g. the playlist App Config position 1 is linked to feed A. Feed A  is linked to the top rail in a layout.
 
 
