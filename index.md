@@ -9,7 +9,6 @@ This guide explains how to implement apps with Applicaster and JWP.
 This playbook complements the following standard documentation:
 - [JW Player platform documentation](https://docs.jwplayer.com) 
 - [Applicaster documentation](https://docs.applicaster.com/)
-- <a href="https://docs.vualto.com/en/latest/" target="_blank">JW Player Broadcast Live documentation</a>
 
 <br />
 
