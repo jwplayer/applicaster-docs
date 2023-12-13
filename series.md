@@ -14,10 +14,10 @@ parent: Screens
 This page describes how to define and show series, with seasons and episodes.
 
 ## Define a series in JW 
-# [Create series in JW Player](https://docs.jwplayer.com/platform/docs/ott-create-a-series) 
-# Ask you Applicaster representative how to consume the series in Zapp
+1. [Create series in JW Player](https://docs.jwplayer.com/platform/docs/ott-create-a-series) 
+2. Ask you Applicaster representative how to consume the series in Zapp
 
-Note: support for JWP native series mgmt is in beta. Consult your JWP or Applicaster representative to enable it.
+Note: Support for JWP native series management is in beta. Consult your JWP or Applicaster representative to enable it.
 
 
 ## Define a series in JW (Playlist based)
