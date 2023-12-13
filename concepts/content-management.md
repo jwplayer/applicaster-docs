@@ -21,13 +21,13 @@ nav_order: 1300
 - In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout
 - Each layout consists of components, E.g. a rail with "Live now" and another rail with "Popular"
 - Each component gets JWP media from a JWP playlist.
-- Each layout can be connected with a JWP App Config for determining which playlist maps to what component. E.g. JWP  App Config "TV" is mapped to Zapp layout "TV". And App Config position 1, matches component  1 in the TV Layout
+- Each layout can be connected with a JWP App Config to determine which playlist maps to what feed. E.g. JWP  App Config "TV" is mapped to Zapp layout "TV".  App Config position 1, matches the feed linked to component 1 in the TV Layout
 
 ## Media
 A video, including its 
 - video assets: the video in different qualities, e.g 720p, 1080p, etc. 
 - audio tracks: audio in different languages, or without music, etc. 
-- images: thumbnails, additional immages
+- images: thumbnails, additional images
 - fields: title, description, genre, rating, actors, etc.  (customizable per type)
 - geo rules
 - tags
