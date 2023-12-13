@@ -20,7 +20,7 @@ This page describes how to define and show series, with seasons and episodes.
 Note: Support for JWP native series management is in beta. Consult your JWP or Applicaster representative to enable it.
 
 
-## Define a series in JW (Playlist based)
+## Define a series in JW (Deprecated - playlist based method)
 You need:
 - A media item (a.k.a. card) that links to the series playlist using `seriesId`
 - A 'series' playlist that includes episodes based on a tag 
