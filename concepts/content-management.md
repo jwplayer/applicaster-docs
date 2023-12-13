@@ -60,10 +60,10 @@ Details [here](https://docs.applicaster.com/integrations/#how-zapp-apps-consume-
 ## App config
 The app config can control which playlist is linked to a feed. E.g. the playlist App Config position 1 is linked to feed A. Feed A  is linked to the top rail in a layout.
 
-# Device-specific content
+## Device-type specific layouts
 In Zapp, every platform links to a layout. E.g. Roku & Apple TV use the TV Layout and iOS uses the Mobile Layout.
 
-# Geo-specific content
+## Geo-specific content
 - Each media item in JWP can be linked to [geo blocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos). 
 - Media items are organized in the playlists.
 - The JWP Delivery API filters content based on the end-user's country, based on the defined rules
