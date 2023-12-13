@@ -18,9 +18,9 @@ nav_order: 1200
 </a>
 
 ## Middleware
-Zapp apps on all platforms get video lists and video metadata from feeds. Feeds are contructed from JW Player playlist. 
+Zapp apps on all platforms get video lists and video metadata from feeds. Feeds are constructed from JW Player playlist. 
 
-Pipes2 is the Zapp middleware that translates JW Player playlists into the feeds structure that Zapp apps can understand. 
+Pipes2 is the Zapp middleware that translates JW Player playlists into the feed structure that Zapp apps can understand. 
 
 Some characteristics of Pipes2: 
 - Realtime translation (no content synchronization)
@@ -31,7 +31,7 @@ Some characteristics of Pipes2:
 - API Monitoring
 
 ## Video Assets
-The video assets (m3u8, mp4, aac, jpg, srt, etc) are consumed by the end users devices directly from the JW Player CDNs. 
+The video assets (m3u8, mp4, aac, jpg, srt, etc) are consumed by the end users' devices directly from the JW Player CDNs. 
 
 ## Zapp Feeds vs JW Player Playlist
 Notice that
