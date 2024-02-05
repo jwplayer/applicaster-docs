@@ -48,17 +48,8 @@ To add the most popular content in the beginning of the row, make sure to use a 
 ## Newly published shelf
 To add the new content at the beginning of the row, make sure to use a [dynamic playlist](https://docs.jwplayer.com/platform/docs/vdh-create-a-dynamic-playlist) which is sorted on 'Most recently published".
 
-<!--
-Because you watched' shelf
-Grab the most recently completed movie and put its MediaID in the Related videos feed.-->
-
-## Favorites shelf 
-See [Applicaster documentation](https://docs.applicaster.com/using-zapp/favourites)
-
-Note that syncing favorites and favorites across devices is not supported. 
-
 ## Continue watching shelf 
-See [Applicaster documentation](https://docs.applicaster.com/using-zapp/continue-watching)
+See [Applicaster documentation](https://docs.applicaster.com/integrations/continue-watching-feed)
 
 ## Sync favorites and continue watching across devices
 Requires client to support cloud events via 3rd party like cognito/okta/cleeng. See https://docs.applicaster.com/integrations/cloud-events/
