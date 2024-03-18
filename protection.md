@@ -16,6 +16,9 @@ Content can be protected is protected in various ways:
 - Geo blocking: Ensures videos can only be accessed in a specific country
 - DRM: Ensure only entitle users can playback video
 
+## How to apply URL Signing?
+URL signing is enabled by default on the Applicaster Zapp Middleware. Signed URLs are automatically used by the middleware based on the API keys provided at the time of setup. This means URL signing can simply be enabled on the JW Platform and used within Applicaster apps. 
+
 ## How to apply geo blocking?
 Applicaster Zapp supports [JW geo blocking rules](https://docs.jwplayer.com/platform/docs/protection-set-geoblocking-rules-for-videos). Applying these rules automatically removes country-specific media items from playlists based on the viewer's location. 
 

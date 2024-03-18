@@ -4,7 +4,7 @@ title: Broadcast Live Events
 nav_order: 700
 parent: Live
 ---
-# Broadcast Live Events
+# Broadcast Live Events (SaaS)
 {:.no_toc}
 
 - TOC
@@ -12,14 +12,14 @@ parent: Live
 
 ## Introduction
 JW Player offers different types of live services:
-- Broadcast Live 24x7
-- Broadcast Live Events
+- Broadcast Live Events (With Broadcast Live Standalone)
+- Broadcast Live Events (With Broadcast Live SaaS)
 - Instant Live 
 
-This article describes how to implement Broadcast Live Events with Applicaster Zapp. The article describes how to build 
+This article describes how to implement Broadcast Live Events (SaaS) with Applicaster Zapp. The article describes how to build 
 - a shelf with *live and upcoming* items
 - a shelf with historical streams: *video on demand*
-- a page that groups multiple events streams on a single page
+- a page that groups multiple events streams on a single screen
 
 And takes into account transitioning feeds from upcoming to live to vod
 
@@ -46,6 +46,7 @@ The important fields are
   <img src="../img/broadcast-live-stream-parameters.png" width="450">
 </div>
 
+**Important Note:** When creating broadcast live events in SaaS these parameters will only appear when selecting a contentType. Also note the selection for contentType when creating a new BCL stream will only appear if at least one contentType exists with `hosting_type = live_bcl`
 
 ## Event media types in Zapp
 Zapp assigns a video type based on the fields. It takes a few minutes before changes to media item fields are available in Applicaster apps due to caching. Applicaster Zapp therefore also uses `VCH.ScheduledStart` and `VCH.ScheduledEnd` to determine when an event is live. 
@@ -59,6 +60,13 @@ Zapp assigns a video type based on the fields. It takes a few minutes before cha
 <div style="display:flex; justify-content: center;"> 
   <img src="../img/live-type-mapping.png" width="450"> 
 </div>
+
+### With contentTypes
+Where a contentType is defined in the JW platform the Zapp middleware will use this to replace the `live-` part of the Zapp video type. eg if a live asset has a content Type `liveEvent` Zapp will use the three video types:
+`liveEvent-future`
+`liveEvent-now`
+`liveEvent-vod`
+This can be used to manage live assets with content type metadata and allow for multiple live workflows and application logic.
 
 ## Create a live and upcoming shelf
 1.  [Create a dynamic playlist](https://docs.jwplayer.com/platform/docs/vdh-create-a-dynamic-playlist#sort-and-filter) that contains your live and upcoming events, with 
