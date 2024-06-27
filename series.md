@@ -13,20 +13,20 @@ parent: Screens
 ## Introduction
 This page describes how to define and show series, with seasons and episodes.
 
-## Define a series in JW (Using contentTypes)
+## Define a series in JW (Using Series Management, note that this is currently not working with Applicaster, please use the playlist based method from below)
 
 ### Create Series in JWP
 Create a series media asset in JW Player [JWP Add a Series](https://docs.jwplayer.com/platform/docs/add-a-series) 
 
 ### Create Feeds in Zapp
-- series/series hero: `zapp-dsp-base-url/jw/series/{{seriesId}}` 
-- seasons tabs: `zapp-dsp-base-url/jw/series/{{seriesId}}/seasons`
-- episodes within a season: `zapp-dsp-base-url/jw/series/{{seriesId}}/seasons/{{seasonId}}/episodes`
+- series/series hero: `zapp-dsp-base-url/jw/series/[seriesId]` 
+- seasons tabs: `zapp-dsp-base-url/jw/series/[seriesId]/seasons`
+- episodes within a season: `zapp-dsp-base-url/jw/series/[seriesId]/seasons/[seasonId]/episodes`
   - seasonId= `extensions.season_number`
 
 If you do not use seasons here is the feed format for all episodes:
 
-- episodes within a series: `zapp-dsp-base-url/jw/series/{{seriesId}}/episodes`
+- episodes within a series: `zapp-dsp-base-url/jw/series/[seriesId]/episodes`
  - seriesId= `id`
 
 ### Zapp setup
@@ -38,7 +38,7 @@ Type mapping: `series` to connect to your tabs season screen in zapp
 Type mapping: `season` to connect to the screen to display the episode list within a season tab
 
 
-## Define a series in JW (Deprecated - playlist based method)
+## Define a series in JW (Playlist based method)
 You need:
 - A media item (a.k.a. card) that links to the series playlist using `seriesId`
 - A 'series' playlist that includes episodes based on a tag 
