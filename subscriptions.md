@@ -46,9 +46,9 @@ The final step in the process is to add metadata parameters on your JWP media it
 
 <img src="./img/subscriptions_params.png">
 
-Last thing to note is that if you wish specific videos to be free, meaning available without a subscription to be purchased, you need to add the tag `free` to it, as shown on the screenshot below
+Last thing to note is that if you wish specific videos to be free, meaning available without a subscription to be purchased, you need to add a custom parameter `free:true` to it, as shown on the screenshot below:
 
-<img src="./img/subscriptions_tags.png">
+<img src="./img/free-custom-param.jpg">
 
 - every media should have a parameter indicating which prices are available
 - every free media is marked with free
