@@ -33,7 +33,7 @@ Note: Zapp determines the country based on the IP address of the viewer and feed
 1. Add an [ISO 2 letter country code]() as Tag according to format `geo:{iso2CountryCode}` on JW Player media items that are only available in specific country. E.g. `geo:NL`.
 1. Make sure you have [URL signing](https://docs.jwplayer.com/platform/docs/how-to-enable-url-token-signing#url-signing-options) enabled on the JW content. This ensures only Applicaster apps can access the video files. 
 
-Notes
+Notes (for the deprecated method, not applicable when using the JW Geo Blocking Rules)
 - The video files (MP4) are still accessible at JW in other countries. This is not an issue as  JW URL signing is applied, so MP4 are only accessible to Applicaster apps.
 - The Applicaster geoblocking supports 'allow list': "this video can be viewed in country x,yz". It doesn't support 'block list': "this video cannot be viewed in country a, b, c.:
 
