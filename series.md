@@ -14,7 +14,7 @@ parent: Screens
 This page describes how to define and show series, with seasons and episodes.
 
 ## Define a series in JW (Using JWP Series Management)
-> ℹ️ note that this is ONLY works when using an interstitial screen between episodes and playback.
+> ℹ️  note that this is ONLY works when using an interstitial screen between episodes and playback.
 
 ### Create Series in JWP
 Create a series media asset in JW Player [JWP Add a Series](https://docs.jwplayer.com/platform/docs/add-a-series) 
@@ -32,7 +32,7 @@ If you do not use seasons here is the feed format for all episodes:
 
 ### ℹ️ Interstitial screen:
 Currently the JWP deliery API does not add the video URLs to the episode list endpoint. Due to this playback will not work directly from the episode list and you need to create an interstitial screen before playback that shows the selected media asset using the media endpoint:
-- single media asset: `zapp-dsp-base-url/jw/media/{{matchId}}`
+- single media asset: `zapp-dsp-base-url/jw/media/{% raw %}{{mediaId}}{% endraw %}`
 
 
 ### Zapp setup
@@ -46,6 +46,7 @@ Type mapping: `season` to connect to the screen to display the episode list with
 Add an interstitial episode screen:
 Type mapping: `episode` to connect to your episode screen
 
+<br>
 ## Define a series in JW (Playlist based method)
 You need:
 - A 'series' playlist for each season that includes episodes for that season
@@ -58,8 +59,8 @@ You need:
 
 ## Setup series in Zapp
 Add a series of Feeds in Zapp
-- One feed for the list of series: `zapp-dsp-base-url/jw/seriplaylistses/[playlistid]` 
-- One dynamic feed to load the list of episodes from the playlists: `zapp-dsp-base-url/jw/seriplaylistses/{{seasonplaylistID}}`
+- One feed for the list of series: `zapp-dsp-base-url/jw/series/[playlistid]` 
+- One dynamic feed to load the list of episodes from the playlists: `zapp-dsp-base-url/jw/playlist/{% raw %}{{seasonplaylistID}}{% endraw %}`
 
 In Zapp studio you then need the following rails/screens:
 - A rail to show all series covers using the list of series playlist above. 
