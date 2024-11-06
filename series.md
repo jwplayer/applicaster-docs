@@ -14,7 +14,7 @@ parent: Screens
 This page describes how to define and show series, with seasons and episodes.
 
 ## Define a series in JW (Using JWP Series Management)
-> :information_source: note that this is ONLY works when using an interstitial screen between episodes and playback.
+> ℹ️ note that this is ONLY works when using an interstitial screen between episodes and playback.
 
 ### Create Series in JWP
 Create a series media asset in JW Player [JWP Add a Series](https://docs.jwplayer.com/platform/docs/add-a-series) 
@@ -30,7 +30,7 @@ If you do not use seasons here is the feed format for all episodes:
 - episodes within a series: `zapp-dsp-base-url/jw/series/[seriesId]/episodes`
  - seriesId= `id`
 
-### :information_source: Interstitial screen:
+### ℹ️ Interstitial screen:
 Currently the JWP deliery API does not add the video URLs to the episode list endpoint. Due to this playback will not work directly from the episode list and you need to create an interstitial screen before playback that shows the selected media asset using the media endpoint:
 - single media asset: `zapp-dsp-base-url/jw/media/{{matchId}}`
 
