@@ -28,7 +28,7 @@ Create a series media asset in JW Player [JWP Add a Series](https://docs.jwplaye
 If you do not use seasons here is the feed format for all episodes:
 
 - episodes within a series: `zapp-dsp-base-url/jw/series/[seriesId]/episodes`
- - seriesId= `id`
+   * seriesId= `id`
 
 ### ℹ️ Interstitial screen:
 Currently the JWP deliery API does not add the video URLs to the episode list endpoint. Due to this playback will not work directly from the episode list and you need to create an interstitial screen before playback that shows the selected media asset using the media endpoint:
@@ -49,9 +49,10 @@ Type mapping: `episode` to connect to your episode screen
 <br>
 ## Define a series in JW (Playlist based method)
 You need:
+
 - A 'series' playlist for each season that includes episodes for that season
 - A contentType for new series that are NOT using series management. 
- - This contentType needs a set of custom parameters that let a user select the season playlists using: `"field_type": "playlist_select"` with the number of params equal to the maximum number of seasons being managed.
+  * This contentType needs a set of custom parameters that let a user select the season playlists using: `"field_type": "playlist_select"` with the number of params equal to the maximum number of seasons being managed.
 - A media item for each series with the contentType defined above 
 - A playlist that contains all of the Series to be shown in a rail in tha app 
  
@@ -65,10 +66,10 @@ Add a series of Feeds in Zapp
 In Zapp studio you then need the following rails/screens:
 - A rail to show all series covers using the list of series playlist above. 
 - A new **Series screen** to show the list of seasons and episodes. 
- - This screen has a large number of rails equal to the maximum amount of seasons that may need to be shown
- - Each rail is associated with the dynamic episode list feed above
- - {{seasonplaylistID}} can be set to the custom parameters defined in the new series contentType for example:
-  - `extensions.season1`
-  - `extensions.season2`
-  - `extensions.season3`
+  * This screen has a large number of rails equal to the maximum amount of seasons that may need to be shown
+  * Each rail is associated with the dynamic episode list feed above
+  * {{seasonplaylistID}} can be set to the custom parameters defined in the new series contentType for example:
+    + `extensions.season1`
+    + `extensions.season2`
+    + `extensions.season3`
 
