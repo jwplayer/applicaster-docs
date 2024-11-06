@@ -32,7 +32,7 @@ If you do not use seasons here is the feed format for all episodes:
 
 ### ℹ️ Interstitial screen:
 Currently the JWP deliery API does not add the video URLs to the episode list endpoint. Due to this playback will not work directly from the episode list and you need to create an interstitial screen before playback that shows the selected media asset using the media endpoint:
-- single media asset: `zapp-dsp-base-url/jw/media/{{mediaId}}`
+- single media asset: `zapp-dsp-base-url/jw/media/{% raw %}{{mediaId}}{% endraw %}`
 
 
 ### Zapp setup
@@ -60,7 +60,7 @@ You need:
 ## Setup series in Zapp
 Add a series of Feeds in Zapp
 - One feed for the list of series: `zapp-dsp-base-url/jw/series/[playlistid]` 
-- One dynamic feed to load the list of episodes from the playlists: `zapp-dsp-base-url/jw/playlist/{{seasonplaylistID}}`
+- One dynamic feed to load the list of episodes from the playlists: `zapp-dsp-base-url/jw/playlist/{% raw %}{{seasonplaylistID}}{% endraw %}`
 
 In Zapp studio you then need the following rails/screens:
 - A rail to show all series covers using the list of series playlist above. 
