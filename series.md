@@ -73,3 +73,6 @@ In Zapp studio you then need the following rails/screens:
     + `extensions.season2`
     + `extensions.season3`
 
+  
+ℹ️ it is highly recommended to utilise content types to make selection of the playlists easier. You can create fields that allow easy selection of the playlists. (see https://docs.jwplayer.com/platform/docs/add-a-content-type). If you have any questions around this please contact your JWP support/account team. 
+
