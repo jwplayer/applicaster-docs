@@ -14,10 +14,10 @@ parent: Screens
 This page describes how to define and show series, with seasons and episodes.
 
 ## Define a series in JW (Using JWP Series Management)
-> ℹ️  note that this is ONLY works when using an interstitial screen between episodes and playback.
 
 ### Create Series in JWP
-Create a series media asset in JW Player [JWP Add a Series](https://docs.jwplayer.com/platform/docs/add-a-series) 
+- Create a series media asset in JW Player [JWP Add a Series](https://docs.jwplayer.com/platform/docs/add-a-series)
+- Create a content type for episodes that is assigned to all episodes (example video-episode).  
 
 ### Create Feeds in Zapp
 - series/series hero: `zapp-dsp-base-url/jw/series/[seriesId]` 
@@ -30,11 +30,6 @@ If you do not use seasons here is the feed format for all episodes:
 - episodes within a series: `zapp-dsp-base-url/jw/series/[seriesId]/episodes`
    * seriesId= `id`
 
-### ℹ️ Interstitial screen:
-Currently the JWP deliery API does not add the video URLs to the episode list endpoint. Due to this playback will not work directly from the episode list and you need to create an interstitial screen before playback that shows the selected media asset using the media endpoint:
-- single media asset: `zapp-dsp-base-url/jw/media/{% raw %}{{mediaId}}{% endraw %}`
-
-
 ### Zapp setup
 For the zapp set up of a series without tabs use a playlist with a series item that uses series management
 Type mapping: `series` to connect to your series screen in zapp
@@ -42,9 +37,12 @@ Type mapping: `series` to connect to your series screen in zapp
 For the zapp set up of a series with tabs use a playlist with a series item that user series management
 Type mapping: `series` to connect to your tabs season screen in zapp
 Type mapping: `season` to connect to the screen to display the episode list within a season tab
+(Ask your Applicaster CSM how to create a tabbed series screen)
 
-Add an interstitial episode screen:
-Type mapping: `episode` to connect to your episode screen
+Finally you must create a new player screen for the episode content type (created in step the step above "Create Series in JWP"). This player must be configured with a "Video preload" configuration. This can be found in the player screen in Zapp under Screen Storyboard --> Before Load configuration:
+player-pre-load-plugin
+<img src="./img/player-pre-load-plugin.png">
+THis before-load configuration tells the player to load the GET media API endpoint before playing the media asset (since the playback URL is not in the series management feed), This does introduce a small amount of additional load time when playing an episode asset. 
 
 <br>
 ## Define a series in JW (Playlist based method)
