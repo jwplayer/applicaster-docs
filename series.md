@@ -31,10 +31,11 @@ If you do not use seasons here is the feed format for all episodes:
    * seriesId= `id`
 
 ### Zapp setup
-For the zapp set up of a series without tabs use a playlist with a series item that uses series management  
-Type mapping: `series` to connect to your series screen in zapp  
+For the zapp set up of a series **without tabs** use a playlist with a series item that uses series management  
+- Type mapping: `series` to connect to your series screen in zapp  
+- You can then create a rail for each season by using the season numbers 1-20 (or a high number that is more than the max amount of seasons!) and use the season numbering to address the season in the feed (rather than the season ID) eg: https://zapp-706-jw-player-demo.web.app/jw/series/{{seriesid}}/seasons/1/episodes
 
-For the zapp set up of a series with tabs use a playlist with a series item that user series management  
+For the zapp set up of a series **with tabs** use a playlist with a series item that user series management  
 Type mapping: `series` to connect to your tabs season screen in zapp  
 Type mapping: `season` to connect to the screen to display the episode list within a season tab  
 (Ask your Applicaster CSM how to create a tabbed series screen)  
@@ -45,7 +46,9 @@ player-pre-load-plugin  <br>
 This before-load configuration tells the player to load the GET media API endpoint before playing the media asset (since the playback URL is not in the series management feed), This does introduce a small amount of additional load time when playing an episode asset.  
 
 <br>
+
 ## Define a series in JW (Playlist based method)  
+
 You need:  
 
 - A 'series' playlist for each season that includes episodes for that season
@@ -56,7 +59,7 @@ You need:
  
  The setup above will allow customers to create a new series as a media asset, name it, add a description, upload an image and then select the season playlists against the custom parameters.  
 
-## Setup series in Zapp
+### Setup series in Zapp 
 Add a series of Feeds in Zapp  
 - One feed for the list of series: `zapp-dsp-base-url/jw/series/[playlistid]` 
 - One dynamic feed to load the list of episodes from the playlists: `zapp-dsp-base-url/jw/playlist/{% raw %}{{seasonplaylistID}}{% endraw %}`
