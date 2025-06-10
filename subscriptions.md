@@ -41,7 +41,7 @@ Specific details on how both steps can be completed for each app store account c
 
 \* _make sure to use the **external In-App ID** when connecting the product with the price_
 
-## [JWP] Media setup for monetisation
+## [JWP] Media setup for monetisation with Inplayer
 The final step in the process is to add metadata parameters on your JWP media items to indicate that they are available for playing only if a viewer has purchased a subscription. To do so, the following metadata parameter should be added on all your premium videos: `inplayer_id` with the value of the InPlayer asset created in the previous step. 
 
 <img src="./img/subscriptions_params.png">
@@ -56,3 +56,14 @@ Last thing to note is that if you wish specific videos to be free, meaning avail
 ## [Applicaster] Zapp app config setup
 On the Applicaster side, the Zapp application should be marked as premium, in order to automatically check for the subscription prices of the connected app store. Additionally, the app store application should be connected with the Zapp app, so the correct in-app products can be fetched and the in-app payment flow can be implemented.
 
+
+# [Cleeng] Media setup for monetisation with JWP, Cleeng and Applicaster
+
+- First setup the media assets with a custom parameter that specifies the Cleeng subscription package numbers as a comma separated variable (something like `subscription_package`)
+- Secondly add the `requires_auth` and `free` custom params as per the table below:
+
+|  | `requires_authentication` | `free` | `subscription_package` | 
+| ------ | ------ | ------ | ------- |
+| Free (no login, no subscripton)             | `false` |  `true`  | `empty` |
+| Requires Login (logged in, no subscription) | `true`  |  `true`  | `empty` |
+| Requires Subscription                       | `true`  |  `false` | `comma separated list` |
