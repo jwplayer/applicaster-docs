@@ -47,6 +47,11 @@ Applicaster uses Google Ad Manager SDKs.
 |         | `__item-duration__` | Yes       |
 |         | `__item-tags__`     | Yes       |
 |         | `__item-{custom}__` | Yes       |
+|         | `__item-livestream__`| Yes       |
+| Consent | `__ifa-type__`      | Yes       |
+|         | `__is-lat__`        | Yes       |
+|         | `__us-privacy__`    | Yes       |
+
 
 Please note that Applicaster supports other ad macros then [JW Player player](https://docs.jwplayer.com/platform/docs/ad-tag-targeting-macro-reference) 
 
