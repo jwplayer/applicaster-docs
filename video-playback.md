@@ -40,6 +40,8 @@ This is available in Applicasters platform. See for more info [applicaster docum
 *Airplay is enabled by default on iOS apps with no further setup. Chromecast, requires clients to provide a Chromecast app ID created here:
 https://cast.google.com/publish/
 
+Information!!{: .label .label-yellow } When using Broadcast live Chromecast does not work out of the box. It is neccessary to use the ?format=chromecast appendix when requesting the live manifests. Applicaster can enable this in their middleware, please reach out to your Applicaster CSM.
+
 ## How to enable “Play Next”?
 JW config: when a new JW endpoint is created, pipes2 enables play next feed by default.
 
