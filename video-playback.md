@@ -41,7 +41,7 @@ This is available in Applicasters platform. See for more info [applicaster docum
 https://cast.google.com/publish/
 
 {: .important }
-> Important
+> **Important**
 >
 > When using Broadcast live Chromecast does not work out of the box. It is neccessary to use the ?format=chromecast appendix when requesting the live manifests. Applicaster can enable this in their middleware, please reach out to your Applicaster CSM.
 

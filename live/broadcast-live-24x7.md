@@ -20,7 +20,7 @@ Broadcast Live will automatically add and update the media items with custom fie
 </div>
 
 {: .important }
-> Important
+> **Important**
 >
 > When using Broadcast live Chromecast does not work out of the box. It is neccessary to use the ?format=chromecast appendix when requesting the live manifests. Applicaster can enable this in their middleware, please reach out to your Applicaster CSM.
 
