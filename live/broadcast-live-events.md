@@ -27,7 +27,10 @@ And takes into account transitioning feeds from upcoming to live to vod
   <img src="../img/live-bl-events.png" width="600"> 
 </div>
 
-Information!!{: .label .label-yellow } When using Broadcast live Chromecast does not work out of the box. It is neccessary to use the ?format=chromecast appendix when requesting the live manifests. Applicaster can enable this in their middleware, please reach out to your Applicaster CSM.
+{: .important }
+> Important
+>
+> When using Broadcast live Chromecast does not work out of the box. It is neccessary to use the ?format=chromecast appendix when requesting the live manifests. Applicaster can enable this in their middleware, please reach out to your Applicaster CSM.
 
 ## Events as media in JW Player
 Broadcast Live Events are available as media items in the JW Dashboard. Those media items can be grouped into JW Player playlists, and these playlists can be registered as feeds in Applicaster. 
