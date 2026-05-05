@@ -20,7 +20,7 @@ nav_exclude: false
 | --- | --- |
 | Applicaster Zapp environment | Contact your Applicater representative |
 | JWP Analytics token | Contact your JWP representative<br /><br />See: [Analytics](https://jwplayer.github.io/applicaster-docs/analytics.html) |
-| JWP API Credentials | 1. From your [API Credentials page](https://dashboard.jwplayer.com/account/api-credentials), scroll down to the **v1 API Credentials** section.<br />2. Click **Show Credentials** in the row of the relevant **PROPERTY NAME**.<br />3. Copy both the **Key** and **Secret**.<br /><br />If you are connecting multiple properties for your OTT apps, be sure to copy the API credentials for each property. |
+| JWP API Credentials | 1. From your [Delivery API Credentials Page](https://dashboard.jwplayer.com/account/developer-tools/delivery-api), Find the relevant property for your content.<br />2. Click **Show URL Signing Secret** in the row of the relevant **PROPERTY NAME**.<br />3. Copy the **URL Signing Secret**.<br />4. Copy the same property ID from the [Properties Settings Page](https://dashboard.jwplayer.com/account/users-properties/properties)<br /><br />If you are connecting multiple properties for your OTT apps, be sure to copy the API credentials for each property. |
 | OTT App entitlement for a JWP account | Contact your JWP representative |
 
 <br />
